@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="DataPageType_TrendAnalysis" xml:space="preserve"><value>Trend Analysis</value></data>
+  <data name="DataPageType_IncidentDataAutomatic" xml:space="preserve"><value>Incident Data</value></data>
+  <data name="DataPageType_DisplayScreen" xml:space="preserve"><value>Display Screen</value></data>
+  <data name="DataPageType_IncidentHardBreakHeader" xml:space="preserve"><value>Hard Brake Header</value></data>
+  <data name="DataPageRequest_Extraction" xml:space="preserve"><value>Reading DataPages</value></data>
+  <data name="DataPageType_BundledTrip" xml:space="preserve"><value>Bundled Trip</value></data>
+  <data name="DataPageType_AuditTrail" xml:space="preserve"><value>Audit Trail</value></data>
+  <data name="DataPageType_Alert" xml:space="preserve"><value>Alert</value></data>
+  <data name="DataPageType_StateLineCrossing" xml:space="preserve"><value>State Line Crossing</value></data>
+  <data name="DataPageType_TripTables" xml:space="preserve"><value>Trip Tables</value></data>
+  <data name="DataPageType_ServiceInterval" xml:space="preserve"><value>Service Interval</value></data>
+  <data name="DataPageType_Configuration" xml:space="preserve"><value>Configuration</value></data>
+  <data name="DataPageType_VirtualPage" xml:space="preserve"><value>Virtual Page</value></data>
+  <data name="DataPageType_SupportRequestPage0" xml:space="preserve"><value>Support Details</value></data>
+  <data name="DataPageType_StateActivity" xml:space="preserve"><value>State Activity</value></data>
+  <data name="DataPageType_DriverTripMonthly" xml:space="preserve"><value>Monthly Driver Trip</value></data>
+  <data name="DataPageType_Header" xml:space="preserve"><value>Header</value></data>
+  <data name="DataPageType_RequestTypes" xml:space="preserve"><value>Request Types</value></data>
+  <data name="DataPageRequest_Clear" xml:space="preserve"><value>Clearing DataPages</value></data>
+  <data name="DataPageType_DetailedAlert" xml:space="preserve"><value>Detailed Alert</value></data>
+  <data name="DataPageRequest_Password" xml:space="preserve"><value>Unlocking DataPages</value></data>
+  <data name="ChangeDataPagesPassword_PasswordMustContains" xml:space="preserve"><value>Password must only contains numbers, capital and lowercase.</value></data>
+  <data name="DataPageType_Permanent" xml:space="preserve"><value>Permanent</value></data>
+  <data name="DataPageType_EngineUsageHeader" xml:space="preserve"><value>Engine Usage Header</value></data>
+  <data name="DataPageType_TripTablesMonthly" xml:space="preserve"><value>Monthly Trip Tables</value></data>
+  <data name="DataPageType_TotalSupportedPages" xml:space="preserve"><value>Total Supported Pages</value></data>
+  <data name="DataPageType_TripMonthly" xml:space="preserve"><value>Monthly Trip</value></data>
+  <data name="DataPageRequest_ChangePassword" xml:space="preserve"><value>Changing DataPages Password</value></data>
+  <data name="DataPageType_SnapshotBuffer" xml:space="preserve"><value>Snapshot Buffer</value></data>
+  <data name="DataPageType_Trip" xml:space="preserve"><value>Trip</value></data>
+  <data name="DataPageType_DriverTripTablesMonthly" xml:space="preserve"><value>Monthly Driver Trip Tables</value></data>
+  <data name="DataPageType_IncidentDataDriver" xml:space="preserve"><value>Incident Driver Data</value></data>
+  <data name="ChangeDataPagesPassword_PasswordNotSame" xml:space="preserve"><value>The new and confirmed passwords do not match, please type them again.</value></data>
+  <data name="DataPageType_EngineUsage" xml:space="preserve"><value>Engine Usage</value></data>
+  <data name="DataPageType_DriverTables" xml:space="preserve"><value>Driver Tables</value></data>
+  <data name="DataPageType_Profile" xml:space="preserve"><value>Profile</value></data>
+  <data name="DataPageType_SelfDiagnostic" xml:space="preserve"><value>Self Diagnostic</value></data>
+  <data name="DataPageType_Supported" xml:space="preserve"><value>Supported</value></data>
+  <data name="DataPageType_IncidentHardBreak" xml:space="preserve"><value>Hard Brake</value></data>
+  <data name="DataPageType_IncidentAutomaticHeader" xml:space="preserve"><value>Incident Header</value></data>
+  </root>
