@@ -1,0 +1,185 @@
+<Window x:Class="TunerSolution.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TunerSolution"
+        xmlns:rp1210="clr-namespace:rp1210"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        Loaded="Window_Loaded" Initialized="Window_Initialized" Title="The Tuner" Height="841.722"
+        Width="988.2">
+  <Control.Background>
+    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+      <GradientStop Color="#FF361AE6" Offset="1"/>
+      <GradientStop Color="White" Offset="0.01"/>
+    </LinearGradientBrush>
+  </Control.Background>
+  <Grid Loaded="Grid_Loaded" Margin="0,0,0.4,6">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="60"/>
+      <RowDefinition Height="40"/>
+      <RowDefinition/>
+      <RowDefinition Height="152.8"/>
+      <RowDefinition Height="96.8"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition/>
+      <ColumnDefinition Width="173.6"/>
+    </Grid.ColumnDefinitions>
+    <Label Content="Magic Tuner" Margin="10,10,9.8,0" VerticalAlignment="Top"
+           RenderTransformOrigin="-0.793,0.83" Cursor="Hand" HorizontalContentAlignment="Center" FontSize="24"
+           VerticalContentAlignment="Center" Grid.ColumnSpan="2" Height="42" FontWeight="Bold"/>
+    <Button Click="btnQuery_Click" x:Name="btnQuery" Content="Query Connect" Margin="15.8,52,14.8,0"
+            FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="30" Grid.Column="1"
+            Grid.Row="2">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <ComboBox SelectionChanged="comboBox1_SelectionChanged" x:Name="cmbDriverList" HorizontalAlignment="Left"
+              Margin="10,0,0,0" VerticalAlignment="Top" Height="30" Width="125" SelectedIndex="0"
+              VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="1"
+              ItemsSource="{Binding SelectedIndex, ElementName=cmbDriverList}">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+      <Control.Background>
+        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+          <GradientStop Color="#FFF3F3F3" Offset="0"/>
+          <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+          <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+          <GradientStop Color="#FFCF7373" Offset="1"/>
+        </LinearGradientBrush>
+      </Control.Background>
+    </ComboBox>
+    <ComboBox SelectionChanged="CmbDeviceList_SelectionChanged" x:Name="cmbDeviceList" Margin="140,0,14.2,0"
+              VerticalAlignment="Top" Height="30" SelectedIndex="0" HorizontalContentAlignment="Center"
+              MinWidth="125" VerticalContentAlignment="Center" Grid.Row="1">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </ComboBox>
+    <TextBox x:Name="txtStatus" Margin="10,3,13.2,46.8" TextWrapping="Wrap" Grid.Row="2"
+             ScrollViewer.CanContentScroll="true" VerticalScrollBarVisibility="Auto">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </TextBox>
+    <ProgressBar x:Name="prgBar1" Height="35" Margin="10,0,13.2,1.8" Grid.Row="2" VerticalAlignment="Bottom"
+                 RenderTransformOrigin="-1.65,-6">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </ProgressBar>
+    <ComboBox SelectionChanged="CmbSpecificVehicle_SelectionChanged" x:Name="cmbSpecificVehicle"
+              Margin="15.8,7,14.8,0" VerticalAlignment="Top" Height="30" SelectedIndex="0"
+              HorizontalContentAlignment="Center" MinWidth="125" Grid.Row="2" VerticalContentAlignment="Center"
+              Grid.Column="1" IsEnabled="false">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </ComboBox>
+    <ComboBox SelectionChanged="cmbTruckList_SelectionChanged" x:Name="cmbTruckList" Margin="15.8,1,14.8,0"
+              VerticalAlignment="Top" Height="30" SelectedIndex="0" HorizontalContentAlignment="Center"
+              MinWidth="125" Grid.Row="1" VerticalContentAlignment="Center" Grid.Column="1">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+      <System:String>DetroitMCM</System:String>
+      <System:String>DetroitACM</System:String>
+      <System:String>Paccar</System:String>
+      <System:String>Maxxforce</System:String>
+      <System:String>CaterpillarAG</System:String>
+    </ComboBox>
+    <TextBox x:Name="txtBoxFileName" Margin="10,10.2,13.2,0" Grid.Row="3" VerticalAlignment="Top" Height="28"
+             VerticalContentAlignment="Center">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </TextBox>
+    <Button Click="btnFlashFile_Click" x:Name="btnFlashFile" Content="Flash File" Margin="347,48.2,345.2,0"
+            FontSize="18" VerticalContentAlignment="Center" Grid.Row="3" IsEnabled="false"
+            RenderTransformOrigin="0.491,0.133" HorizontalAlignment="Center" Width="115"
+            VerticalAlignment="Top" Height="28">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <Button Click="btnLoadFile_Click_1" x:Name="btnLoadFile" Content="Load File" Margin="12.8,9.2,16.8,0"
+            FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top" Height="30" Grid.Row="3"
+            Grid.Column="1" RenderTransformOrigin="0.488,-0.507">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <Button Click="btSniff_Click" x:Name="btSniff" Content="Sniffer" Margin="15.8,137,14.8,0" FontSize="18"
+            VerticalContentAlignment="Center" VerticalAlignment="Top" Height="30" Grid.Column="1" Grid.Row="2">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <TextBox x:Name="txtBoxRestore" Height="28" Margin="11,13.4,12.2,0" Grid.Row="4" VerticalAlignment="Top"
+             VerticalContentAlignment="Center">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </TextBox>
+    <Button Click="btnWriteRestore_Click" x:Name="btnWriteRestore" Content="Write Restore"
+            Margin="490,52.4,177.2,0" FontSize="18" VerticalContentAlignment="Center" Grid.Row="4"
+            IsEnabled="false" RenderTransformOrigin="0.491,0.133" HorizontalAlignment="Center" Width="140"
+            VerticalAlignment="Top" Height="27">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <Button Click="btnReadRestore_Click" x:Name="btnReadRestore" Content="Read Restore"
+            Margin="205,52.4,462.2,0" FontSize="18" VerticalContentAlignment="Center" Grid.Row="4"
+            IsEnabled="false" RenderTransformOrigin="0.491,0.133" HorizontalAlignment="Center" Width="140"
+            VerticalAlignment="Top" Height="27">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <Button Click="btnLoadParamFile_Click" x:Name="btnLoadParamFile" Content="Load File"
+            Margin="12.8,12.4,16.8,0" FontSize="18" VerticalContentAlignment="Center" VerticalAlignment="Top"
+            Height="30" Grid.Row="4" Grid.Column="1" RenderTransformOrigin="0.488,-0.507">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <RadioButton x:Name="RadioFullFlash" Content="Full Flash" HorizontalAlignment="Left" Margin="485,54.2,0,0"
+                 VerticalAlignment="Top" RenderTransformOrigin="-0.911,0.667" Grid.Row="3" Width="80" Height="15"
+                 GroupName="FlashType"/>
+    <RadioButton x:Name="RadioCalibration" Content="Calibration" HorizontalAlignment="Left" Margin="580,54.2,0,0"
+                 VerticalAlignment="Top" IsChecked="True" RenderTransformOrigin="-0.911,0.667" Grid.Row="3"
+                 Width="80" Height="15" GroupName="FlashType"/>
+    <CheckBox x:Name="CheckBoxJ1708" Content="J1708" Grid.Column="1" HorizontalAlignment="Left"
+              Margin="16.8,180,0,0" Grid.Row="2" VerticalAlignment="Top" Height="15" Width="50"/>
+    <CheckBox x:Name="CheckBoxJ1939" Content="J1939" Grid.Column="1" HorizontalAlignment="Left"
+              Margin="87.8,180,0,0" Grid.Row="2" VerticalAlignment="Top" Height="15" Width="50"/>
+    <Button Click="btSave_Click" x:Name="btSave" Content="Save" Margin="13.8,200,16.8,0" FontSize="18"
+            VerticalContentAlignment="Center" VerticalAlignment="Top" Height="30" Grid.Column="1" Grid.Row="2"
+            RenderTransformOrigin="0.499,4.007">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <Button Click="BtnReadFile_Click" x:Name="btnReadFile" Content="Read File" Margin="171,95.2,521.2,0"
+            FontSize="18" VerticalContentAlignment="Center" Grid.Row="3" IsEnabled="false"
+            RenderTransformOrigin="0.491,0.133" HorizontalAlignment="Center" Width="115"
+            VerticalAlignment="Top" Height="28">
+      <UIElement.Effect>
+        <DropShadowEffect/>
+      </UIElement.Effect>
+    </Button>
+    <TextBox x:Name="txtBoxStartAddr" HorizontalAlignment="Left" Height="23" Margin="306,100.2,0,0" Grid.Row="3"
+             TextWrapping="Wrap" Text="StartAddr" VerticalAlignment="Top" Width="96" FontWeight="Bold"/>
+    <TextBox x:Name="txtBoxLength" HorizontalAlignment="Left" Height="23" Margin="421,100.2,0,0" Grid.Row="3"
+             TextWrapping="Wrap" Text="Length" VerticalAlignment="Top" Width="96" FontWeight="Bold"/>
+    <RadioButton x:Name="radio250k" Content="250K Can" Grid.Column="1" HorizontalAlignment="Left"
+                 Margin="16.8,87,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.409,-0.586"
+                 IsChecked="True"/>
+    <RadioButton x:Name="radio500k" Content="500K Can" Grid.Column="1" HorizontalAlignment="Left"
+                 Margin="16.8,107,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.409,-0.586"/>
+  </Grid>
+</Window>

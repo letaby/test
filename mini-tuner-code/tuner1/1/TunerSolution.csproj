@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\TunerSolution\TunerSolution.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C093C17E-4581-4956-8712-DF6B6B35F11C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>TunerSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.142</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="rp1210\RP1210_Commands.cs" />
+    <Compile Include="rp1210\RP1210_Returns.cs" />
+    <Compile Include="rp1210\J1939Message.cs" />
+    <Compile Include="rp1210\J1587Message.cs" />
+    <Compile Include="rp1210\ProtocolInfo.cs" />
+    <Compile Include="rp1210\BaudRate.cs" />
+    <Compile Include="rp1210\DeviceInfo.cs" />
+    <Compile Include="rp1210\RP1210BDriverInfo.cs" />
+    <Compile Include="rp1210\RP121032.cs" />
+    <Compile Include="rp1210\dgdFileReplay.cs" />
+    <Compile Include="rp1210\rp1210driver.cs" />
+    <Compile Include="rp1210\IniParser.cs" />
+    <Compile Include="TunerSolution\App.cs" />
+    <Compile Include="TunerSolution\MainWindow.cs" />
+    <Compile Include="TunerSolution\Properties\Resources.cs" />
+    <Compile Include="TunerSolution\Properties\Settings.cs" />
+    <Compile Include="Vehicle_Applications\CRC32.cs" />
+    <Compile Include="Vehicle_Applications\SnifferArgs.cs" />
+    <Compile Include="Vehicle_Applications\DetroitMCMModuleType.cs" />
+    <Compile Include="Vehicle_Applications\DetroitMCMAsyncArgs.cs" />
+    <Compile Include="Vehicle_Applications\Flasher.cs" />
+    <Compile Include="Vehicle_Applications\MaxxModuleType.cs" />
+    <Compile Include="Vehicle_Applications\ProtocolType.cs" />
+    <Compile Include="Vehicle_Applications\MaxxModule.cs" />
+    <Compile Include="Vehicle_Applications\MaxxFlashSpace.cs" />
+    <Compile Include="Vehicle_Applications\FlashAddress.cs" />
+    <Compile Include="Vehicle_Applications\MaxxAsyncArgs.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TunerSolution\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="mainwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
