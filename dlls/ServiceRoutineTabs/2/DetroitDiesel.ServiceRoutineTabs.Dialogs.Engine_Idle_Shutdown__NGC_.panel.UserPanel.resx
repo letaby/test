@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="&gt;&gt;tableLayoutPanelCannotCloseMessage.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="allowButton.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAADQEAAAs=</value></data><data name="labelPreventEngineIdleShutdownInstructions.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>39</value></data>
+  <data name="StringTable.Message_DeviceWasNotUnlockedByUser" xml:space="preserve"><value>Device was not unlocked by user</value></data>
+  <data name="labelPanelStatus.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value></data><data name="&gt;&gt;tableLayoutPanelCannotCloseMessage.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgBAABDAQAACw==</value></data><data name="tableMainLayout.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="preventButton.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAFAAAABAAAAAQAAAAFAAAACw==</value></data><data name="StringTable.Message_AcquiringDeviceLockStatus" xml:space="preserve"><value>Acquiring device lock status.</value></data>
+  <data name="labelPanelStatus.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="labelPanelStatus.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMgBAAArAAAACw==</value></data><data name="buttonClose.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value></data><data name="buttonClose.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHgAAAAxAAAACw==</value></data><data name="buttonClose.Text" xml:space="preserve"><value>&amp;Close</value></data>
+  <data name="tableMainLayout.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="tableMainLayout.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgBAABDAQAACw==</value></data><data name="buttonClose.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB8AQAADQEAAAs=</value></data><data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAMAAAACQAAAAkAAAAMAAAACw==</value></data><data name="tableLayoutPanelCannotCloseMessage.RowCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="labelEngineIdleShutdownParameterStatus.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;labelEngineIdleShutdownParameterStatus.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.ScalingLabel, Instruments, Version=8.18.5550.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="&gt;&gt;labelEngineIdleShutdownParameterStatus.Name" xml:space="preserve"><value>labelEngineIdleShutdownParameterStatus</value></data>
+  <data name="&gt;&gt;allowButton.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Use this panel to diagnose problems with Optimized Idle or PTO Shutdown features.</value></data>
+  <data name="label1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgBAAA3AAAACw==</value></data><data name="label1.Font" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3
+aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAA
+ABRNaWNyb3NvZnQgU2FucyBTZXJpZgAAHEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUB
+AAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAA
+AAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value></data><data name="label1.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;pictureBoxStatus.Name" xml:space="preserve"><value>pictureBoxStatus</value></data>
+  <data name="&gt;&gt;pictureBoxStatus.Type" xml:space="preserve"><value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;allowButton.Name" xml:space="preserve"><value>allowButton</value></data>
+  <data name="&gt;&gt;allowButton.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;labelPanelStatus.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;labelPreventEngineIdleShutdownInstructions.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;allowButton.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="pictureBoxStatus.Visible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>False</value></data>
+  <data name="&gt;&gt;labelPanelStatus.Parent" xml:space="preserve"><value>tableLayoutPanelCannotCloseMessage</value></data>
+  <data name="buttonClose.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAFAAAABAAAAAQAAAAFAAAACw==</value></data><data name="labelPanelStatus.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAoAAAAAAAAAAs=</value></data><data name="&gt;&gt;labelPreventEngineIdleShutdownInstructions.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="labelPreventEngineIdleShutdownInstructions.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value></data><data name="StringTable.Message_DeviceWasUnlocked" xml:space="preserve"><value>Device was unlocked</value></data>
+  <data name="&gt;&gt;tableMainLayout.Name" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="&gt;&gt;tableMainLayout.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5550.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="Panel.Category" xml:space="preserve"><value /></data>
+  <data name="allowButton.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="allowButton.Text" xml:space="preserve"><value>&amp;Allow shutdown</value></data>
+  <data name="allowButton.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJ8AAAAxAAAACw==</value></data><data name="tableLayoutPanelCannotCloseMessage.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>40</value></data>
+  <data name="StringTable.Message_ErrorWhileUnlockingDevice" xml:space="preserve"><value>Error while unlocking device.</value></data>
+  <data name="label1.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0
+ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value></data><data name="&gt;&gt;preventButton.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;preventButton.Name" xml:space="preserve"><value>preventButton</value></data>
+  <data name="StringTable.Message_StatusOffline" xml:space="preserve"><value>The CPC is offline.</value></data>
+  <data name="pictureBoxStatus.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAEGAAAABgAAAAYAAAAGAAAACw==</value></data><data name="tableMainLayout.RowCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="&gt;&gt;pictureBoxStatus.Parent" xml:space="preserve"><value>tableLayoutPanelCannotCloseMessage</value></data>
+  <data name="StringTable.Message_ErrorWritingParameter" xml:space="preserve"><value>There was an error writing the engine idle shutdown parameter. </value></data>
+  <data name="&gt;&gt;tableMainLayout.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="pictureBoxStatus.Image" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAApwIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArpAAAK6QH9
+dc7TAAAAB3RJTUUH0wMFDAw4pa1ANQAAAjZJREFUOE/FkFtIk2EYx58tEmMJJlIk5ZTC0UYXKdkI
+qQUt6a4bJepCvApBCio6CRHWWl003Ca2ooEd0TApylriAWkaSWq2opzOpTvKNrfv033L0/590ptd
+dLyJfvC/eZ/n93/gpX9Gn5kU9qvyQfs11bhdT8Xs+e9xWNO6+KANwsQjdN9Q+t1GWslGf2a0nko8
+L4+A990CP2ZC4N1JtOtIx8a/x9VKqf31crfgt8LxcAsGHigw6zuE17c3C70XKYet/Zr3FqoKOqrB
+DWghTVmF9EwVfK82IOouQZtO2sjWfo6nkbIcTQVTMU8thLdqpGfkIk+hhrM/B/HgLgw2y5OdOipi
+6z/yxkI3Q0N6hEeqgGAxdmzfiK2FO4G59eJ/qCBM5uK+blkviCRM+c7QdSr82LJ3IeoWC5yVELz7
+YbiUhaPHNUjyeZiaWIPPvAzOHinunKIypi0h6auT9XBjtaJ8AuHhcsQ+7UPInw/XyB4kwqvF6ymY
+iRMAwmM9eZvPkIy5RB3n6aDrRQVio5dF+TAiIwcw7dmNp+Y02KwZmI+nYmaakJz/WjDpJdSVUTXT
+idprsoemAncRGT4rFlQgMlqCBU8+NNuyoS7SitIKzM+JBaK8WLCYFgNxTCfqshQEE6F74MYugBuv
+BOcphRDSYJZbi0RCKQqSJfFbms5RgOlEDceotM20yddZp+Q7anP4dvM6vs2UKSaNbzUujz43UtRW
+Q9FnBoo8uULhhtP0wVJOWqb/V4i+ABIbV9TP1voNAAAAAElFTkSuQmCCCw==</value></data><data name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="label1.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value></data><data name="StringTable.Message_ReadingParameter" xml:space="preserve"><value>Reading eingine idle shutdown parameter. Please wait.</value></data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve"><value>buttonClose</value></data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_StatusOther" xml:space="preserve"><value>Not available</value></data>
+  <data name="StringTable.Message_ErrorReadingParameter" xml:space="preserve"><value>There was an error reading the engine idle shutdown parameter. </value></data>
+  <data name="&gt;&gt;pictureBoxStatus.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="Panel.DisplayName" xml:space="preserve"><value>Engine Idle Shutdown</value></data>
+  <data name="labelPanelStatus.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="tableLayoutPanelCannotCloseMessage.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVk
+U3RyaW5nAQIAAAAGAwAAANICPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+
+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImxhYmVsUGFuZWxT
+dGF0dXMiIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIxIiBDb2x1bW5TcGFuPSIxIiAvPjxD
+b250cm9sIE5hbWU9InBpY3R1cmVCb3hTdGF0dXMiIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1u
+PSIwIiBDb2x1bW5TcGFuPSIxIiAvPjwvQ29udHJvbHM+PENvbHVtbnMgU3R5bGVzPSJBYnNvbHV0
+ZSwzNixQZXJjZW50LDEwMCIgLz48Um93cyBTdHlsZXM9IlBlcmNlbnQsMTAwIiAvPjwvVGFibGVM
+YXlvdXRTZXR0aW5ncz4L</value></data><data name="tableMainLayout.ColumnCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>3</value></data>
+  <data name="label1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="StringTable.Message_StatusActive" xml:space="preserve"><value>Active</value></data>
+  <data name="tableLayoutPanelCannotCloseMessage.ColumnCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="&gt;&gt;tableMainLayout.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="&gt;&gt;tableLayoutPanelCannotCloseMessage.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5550.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="&gt;&gt;tableLayoutPanelCannotCloseMessage.Name" xml:space="preserve"><value>tableLayoutPanelCannotCloseMessage</value></data>
+  <data name="tableMainLayout.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAFAAAABAAAAAQAAAAFAAAACw==</value></data><data name="labelEngineIdleShutdownParameterStatus.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgBAAB9AAAACw==</value></data><data name="labelEngineIdleShutdownParameterStatus.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;buttonClose.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="&gt;&gt;labelPreventEngineIdleShutdownInstructions.Name" xml:space="preserve"><value>labelPreventEngineIdleShutdownInstructions</value></data>
+  <data name="&gt;&gt;labelPreventEngineIdleShutdownInstructions.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.Label, Instruments, Version=8.18.5550.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="StringTable.Message_WritingParameter" xml:space="preserve"><value>Writing engine idle shutdown parameter. Please wait.</value></data>
+  <data name="&gt;&gt;labelEngineIdleShutdownParameterStatus.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="preventButton.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>8</value></data>
+  <data name="&gt;&gt;labelEngineIdleShutdownParameterStatus.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="labelPreventEngineIdleShutdownInstructions.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAANwAAAAs=</value></data><data name="&gt;&gt;label1.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve"><value>UserPanel</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.18.5550.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO8BAABDAQAACw==</value></data><data name="&gt;&gt;label1.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="StringTable.Message_DeviceIsUnlocked" xml:space="preserve"><value>Device is unlocked</value></data>
+  <data name="StringTable.Message_DeviceIsLocked" xml:space="preserve"><value>Device is locked.</value></data>
+  <data name="labelPreventEngineIdleShutdownInstructions.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="labelPreventEngineIdleShutdownInstructions.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgBAAAfAAAACw==</value></data><data name="labelPreventEngineIdleShutdownInstructions.Text" xml:space="preserve"><value>Prevent Engine Idle Shutdown Status</value></data>
+  <data name="tableMainLayout.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVk
+U3RyaW5nAQIAAAAGAwAAANkGPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+
+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImxhYmVsUHJldmVu
+dEVuZ2luZUlkbGVTaHV0ZG93bkluc3RydWN0aW9ucyIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1
+bW49IjAiIENvbHVtblNwYW49IjMiIC8+PENvbnRyb2wgTmFtZT0iYnV0dG9uQ2xvc2UiIFJvdz0i
+NCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIyIiBDb2x1bW5TcGFuPSIxIiAvPjxDb250cm9sIE5hbWU9
+ImxhYmVsMSIgUm93PSIwIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49IjMiIC8+
+PENvbnRyb2wgTmFtZT0ibGFiZWxFbmdpbmVJZGxlU2h1dGRvd25QYXJhbWV0ZXJTdGF0dXMiIFJv
+dz0iMiIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIzIiAvPjxDb250cm9sIE5h
+bWU9InByZXZlbnRCdXR0b24iIFJvdz0iNCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIxIiBDb2x1bW5T
+cGFuPSIxIiAvPjxDb250cm9sIE5hbWU9ImFsbG93QnV0dG9uIiBSb3c9IjQiIFJvd1NwYW49IjEi
+IENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJ0YWJsZUxheW91dFBh
+bmVsQ2Fubm90Q2xvc2VNZXNzYWdlIiBSb3c9IjMiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29s
+dW1uU3Bhbj0iMyIgLz48L0NvbnRyb2xzPjxDb2x1bW5zIFN0eWxlcz0iUGVyY2VudCwzMy4zMzMz
+MyxQZXJjZW50LDMzLjMzMzM0LFBlcmNlbnQsMzMuMzMzMzQiIC8+PFJvd3MgU3R5bGVzPSJBdXRv
+U2l6ZSwwLEF1dG9TaXplLDAsUGVyY2VudCwxMDAsQXV0b1NpemUsMCxBdXRvU2l6ZSwwIiAvPjwv
+VGFibGVMYXlvdXRTZXR0aW5ncz4L</value></data><data name="&gt;&gt;label1.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve"><value>label1</value></data>
+  <data name="tableLayoutPanelCannotCloseMessage.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAA2AAAAAs=</value></data><data name="labelEngineIdleShutdownParameterStatus.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>34</value></data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>38</value></data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>36</value></data>
+  <data name="preventButton.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACrAAAADQEAAAs=</value></data><data name="preventButton.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKAAAAAxAAAACw==</value></data><data name="preventButton.Text" xml:space="preserve"><value>&amp;Prevent shutdown</value></data>
+  <data name="preventButton.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="tableLayoutPanelCannotCloseMessage.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAFAAAABAAAAAQAAAAFAAAACw==</value></data><data name="labelPanelStatus.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAAAAAABAAAAAAAAAAAAAAACw==</value></data><data name="&gt;&gt;labelPanelStatus.Name" xml:space="preserve"><value>labelPanelStatus</value></data>
+  <data name="&gt;&gt;labelPanelStatus.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_StatusNotActive" xml:space="preserve"><value>Not active</value></data>
+  <data name="&gt;&gt;preventButton.Parent" xml:space="preserve"><value>tableMainLayout</value></data>
+  <data name="&gt;&gt;preventButton.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="pictureBoxStatus.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>1</value></data>
+  <data name="tableMainLayout.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="allowButton.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>9</value></data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAABBBAACgQQs=</value></data><data name="labelEngineIdleShutdownParameterStatus.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAVgAAAAs=</value></data><data name="pictureBoxStatus.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAABgAAAAs=</value></data><data name="StringTable.Message_CannotClose" xml:space="preserve"><value>This dialog cannot be closed until the Engine Idle Shutdown is Active. Click the Prevent Shutdown button to activate.</value></data>
+  <data name="pictureBoxStatus.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="pictureBoxStatus.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAfAAAACw==</value></data><data name="allowButton.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAAFAAAABAAAAAQAAAAFAAAACw==</value></data><data name="tableLayoutPanelCannotCloseMessage.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPABAAArAAAACw==</value></data><data name="tableLayoutPanelCannotCloseMessage.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data></root>

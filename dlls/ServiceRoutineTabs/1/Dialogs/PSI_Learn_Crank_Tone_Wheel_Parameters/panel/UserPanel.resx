@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tableLayoutPanelClose.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAKcDPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImxhYmVsSW5zdHJ1Y3Rpb25zIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJidXR0b25DbG9zZSIgUm93PSIwIiBSb3dTcGFuPSIxIiBDb2x1bW49IjIiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0iY2hlY2ttYXJrU3RhdGUiIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIxIiAvPjwvQ29udHJvbHM+PENvbHVtbnMgU3R5bGVzPSJBdXRvU2l6ZSwwLFBlcmNlbnQsMTAwLEF1dG9TaXplLDAiIC8+PFJvd3MgU3R5bGVzPSJQZXJjZW50LDEwMCIgLz48L1RhYmxlTGF5b3V0U2V0dGluZ3M+Cw==</value>
+  </data>
+  <data name="&gt;&gt;labelInstructionsBig.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonStartRoutine.Parent" xml:space="preserve">
+    <value>tableLayoutPanelButtons</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;labelInstructionsBig.Name" xml:space="preserve">
+    <value>labelInstructionsBig</value>
+  </data>
+  <data name="&gt;&gt;labelInstructionsBig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.CustomTitle" xml:space="preserve">
+    <value>Accelerator Pedal Position</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="digitalReadoutInstrumentParkingBreak.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelInstructionsBig.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="&gt;&gt;buttonStopRoutine.Parent" xml:space="preserve">
+    <value>tableLayoutPanelButtons</value>
+  </data>
+  <data name="tableLayoutPanelMain.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanelButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;checkmarkState.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StringTable.Message_BatteryVoltageMustBeBetween1116Volts" xml:space="preserve">
+    <value>Battery Voltage must be between 11-16 volts.</value>
+  </data>
+  <data name="StringTable.Message_AcceleratorReleasedBeforeProcedureHadCompleted" xml:space="preserve">
+    <value>Accelerator Released Before Procedure Complete.
+Results Unknown.</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Name" xml:space="preserve">
+    <value>labelInstructions</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAABgEAAAs=</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMCAADKAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonStartRoutine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelButtons.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="StringTable.Message_PSIMisfireDetection" xml:space="preserve">
+    <value>PSI Misfire Detection</value>
+  </data>
+  <data name="&gt;&gt;checkmarkState.Parent" xml:space="preserve">
+    <value>tableLayoutPanelClose</value>
+  </data>
+  <data name="seekTimeListView.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonClose.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAaAAAACw==</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineSpeed.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineSpeed.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="StringTable.Message_TheProcedureCanStart" xml:space="preserve">
+    <value>The procedure can start</value>
+  </data>
+  <data name="StringTable.Message_TransmissionMustBeInParkOrNeutral" xml:space="preserve">
+    <value>Transmission must be in Park or Neutral</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelClose.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="StringTable.Message_KeyRequestFailed" xml:space="preserve">
+    <value>Key request failed</value>
+  </data>
+  <data name="labelInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="buttonClose.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB/AgAAAwAAAAs=</value>
+  </data>
+  <data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEFAAAABQAAAAUAAAAFAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_EngineSpeedMustBeAbove200RPM" xml:space="preserve">
+    <value>Engine Speed must be above 200 RPM.</value>
+  </data>
+  <data name="labelInstructions.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="StringTable.MessageFormat_KeepTheIgnitionOffFor0Seconds" xml:space="preserve">
+    <value>Keep the ignition off for {0} seconds</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StringTable.Message_StoppingProcedure" xml:space="preserve">
+    <value>Stopping procedure</value>
+  </data>
+  <data name="&gt;&gt;buttonStopRoutine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStopRoutine.Name" xml:space="preserve">
+    <value>buttonStopRoutine</value>
+  </data>
+  <data name="&gt;&gt;timerControlEngineShutoff.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TimerControl, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;timerControlEngineShutoff.Name" xml:space="preserve">
+    <value>timerControlEngineShutoff</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelClose.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="StringTable.Message_TheProcedureCanNotStart" xml:space="preserve">
+    <value>The procedure cannot start</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView.Parent" xml:space="preserve">
+    <value>tableLayoutPanelButtons</value>
+  </data>
+  <data name="digitalReadoutInstrumentTransmissionGear.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tableLayoutPanelMain.RowCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkmarkState.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAYAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineCoolant.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentEngineCoolant</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineCoolant.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="tableLayoutPanelClose.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonClose.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="seekTimeListView.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC1AAAASAEAAAs=</value>
+  </data>
+  <data name="Panel.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanelButtons.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.CustomTitle" xml:space="preserve">
+    <value>Battery Potential</value>
+  </data>
+  <data name="&gt;&gt;checkmarkState.Name" xml:space="preserve">
+    <value>checkmarkState</value>
+  </data>
+  <data name="&gt;&gt;checkmarkState.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.Checkmark, CommonCS, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentParkingBreak.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentAccelerator.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentAccelerator</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentAccelerator.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="timerControlEngineShutoff.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADkAAAAaAAAACw==</value>
+  </data>
+  <data name="buttonStopRoutine.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="digitalReadoutInstrumentTransmissionGear.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tableLayoutPanelMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentParkingBreak.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineSpeed.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC1AAAAxAAAAAs=</value>
+  </data>
+  <data name="StringTable.Message_IgnitionTurnedOnBeforeLearnComplete" xml:space="preserve">
+    <value>Ignition turned on before learn complete.</value>
+  </data>
+  <data name="labelInstructions.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="labelInstructions.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAAQEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="labelInstructions.Text" xml:space="preserve">
+    <value>labelInstructions
+
+</value>
+  </data>
+  <data name="labelInstructions.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFYCAAA7AAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelButtons.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABoAQAAwwAAAAs=</value>
+  </data>
+  <data name="StringTable.Message_EngineCoolantTemperatureIsLow" xml:space="preserve">
+    <value>Engine Coolant Temperature is low.</value>
+  </data>
+  <data name="digitalReadoutInstrumentParkingBreak.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentParkingBreak.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_PressAndHoldAccelerator" xml:space="preserve">
+    <value>Fully Press and HOLD Accelerator</value>
+  </data>
+  <data name="tableLayoutPanelMain.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMCAADKAQAACw==</value>
+  </data>
+  <data name="tableLayoutPanelMain.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="buttonStartRoutine.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAE8AAAAaAAAACw==</value>
+  </data>
+  <data name="buttonStartRoutine.Text" xml:space="preserve">
+    <value>Start Routine</value>
+  </data>
+  <data name="tableLayoutPanelClose.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelClose.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM0CAAA7AAAACw==</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkmarkState.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEEAAAABAAAAAQAAAAEAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_RoutineCompletedAutomaticallyReleaseAcceleratorTurnTheIgnitionOffFor15SecondsToFinalizeValues" xml:space="preserve">
+    <value>Routine completed automatically.
+Release accelerator.
+Turn the ignition off for 15 seconds.</value>
+  </data>
+  <data name="labelInstructionsBig.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAAAAAAAgAAAAIAAAAAAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_RoutineComplete" xml:space="preserve">
+    <value>Routine complete</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentAccelerator.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel.DisplayName" xml:space="preserve">
+    <value>PSI Learn Crank Tone Wheel Parameters</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineSpeed.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="timerControlEngineShutoff.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelInstructionsBig.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="StringTable.MessageFormat_RoutineTerminatedManuallyTurnTheIgnitionOffFor15SecondsToFinalizeValues" xml:space="preserve">
+    <value>Routine terminated manually.
+Turn the ignition off for 15 seconds.</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;timerControlEngineShutoff.Parent" xml:space="preserve">
+    <value>tableLayoutPanelButtons</value>
+  </data>
+  <data name="StringTable.Message_PSILearnCrankToneWheelParameters" xml:space="preserve">
+    <value>PSI Learn Crank Tone Wheel Parameters</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineCoolant.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineSpeed.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineSpeed.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentEngineSpeed</value>
+  </data>
+  <data name="buttonStartRoutine.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="digitalReadoutInstrumentTransmissionGear.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALIAAABAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentTransmissionGear.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineCoolant.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelInstructionsBig.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAIAAAAAs=</value>
+  </data>
+  <data name="StringTable.MessageFormat_RoutineTimeoutProcessExceeded0Seconds" xml:space="preserve">
+    <value>Routine timeout.  Process exceeded {0} seconds.</value>
+  </data>
+  <data name="buttonStopRoutine.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAASAQAAqQAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentBatteryVoltage.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentBatteryVoltage.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentBatteryVoltage</value>
+  </data>
+  <data name="tableLayoutPanelClose.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="StringTable.Message_ContinueToHoldAccelerator" xml:space="preserve">
+    <value>Continue to HOLD Accelerator</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelButtons.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;timerControlEngineShutoff.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentAccelerator.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineSpeed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineSpeed.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelButtons.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="checkmarkState.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAABAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>tableLayoutPanelClose</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Parent" xml:space="preserve">
+    <value>tableLayoutPanelClose</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.CustomTitle" xml:space="preserve">
+    <value>Coolant Temperature</value>
+  </data>
+  <data name="StringTable.Message_StartingProcedure" xml:space="preserve">
+    <value>Starting procedure</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentBatteryVoltage.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="resource.DisplayText" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="buttonStopRoutine.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFMAAAAaAAAACw==</value>
+  </data>
+  <data name="buttonStopRoutine.Text" xml:space="preserve">
+    <value>Stop Routine</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UserPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrumentTransmissionGear.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAASAEAAAs=</value>
+  </data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMCAADKAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView.Name" xml:space="preserve">
+    <value>seekTimeListView</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView.Type" xml:space="preserve">
+    <value>DetroitDiesel.Common.SeekTimeListView, CommonCS, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="StringTable.Message_SetShortTermAdjustRequestFailed" xml:space="preserve">
+    <value>Error: Could Tooth Learn Procedure failed to start</value>
+  </data>
+  <data name="StringTable.Message_ErrorCouldNotDisableShortTermAdjustment" xml:space="preserve">
+    <value>Error. Could Not Disable Short Term Adjustment</value>
+  </data>
+  <data name="tableLayoutPanelButtons.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGsBAADGAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelButtons.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_ParkingBrakeMustBeOn" xml:space="preserve">
+    <value>Parking Brake must be on.</value>
+  </data>
+  <data name="$this.MaximumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMCAADKAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentBatteryVoltage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelInstructions.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAjAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="digitalReadoutInstrumentParkingBreak.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC1AAAABgEAAAs=</value>
+  </data>
+  <data name="StringTable.Message_SeedRequestFailed" xml:space="preserve">
+    <value>Seed request failed</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelButtons.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelButtons.Name" xml:space="preserve">
+    <value>tableLayoutPanelButtons</value>
+  </data>
+  <data name="timerControlEngineShutoff.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAqQAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelMain.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelMain.Name" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentParkingBreak.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentParkingBreak</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentParkingBreak.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="labelInstructionsBig.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentTransmissionGear.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="digitalReadoutInstrumentBatteryVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="seekTimeListView.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="seekTimeListView.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGUBAACgAAAACw==</value>
+  </data>
+  <data name="buttonStartRoutine.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAC4AAAAqQAAAAs=</value>
+  </data>
+  <data name="labelInstructionsBig.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZpqZ4UEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="labelInstructionsBig.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="labelInstructionsBig.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM8CAADDAAAACw==</value>
+  </data>
+  <data name="labelInstructionsBig.Text" xml:space="preserve">
+    <value>labelInstructionsBig</value>
+  </data>
+  <data name="labelInstructionsBig.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAAAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanelMain.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAPIIPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImRpZ2l0YWxSZWFkb3V0SW5zdHJ1bWVudEVuZ2luZUNvb2xhbnQiIFJvdz0iMSIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIxIiAvPjxDb250cm9sIE5hbWU9ImRpZ2l0YWxSZWFkb3V0SW5zdHJ1bWVudEVuZ2luZVNwZWVkIiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRBY2NlbGVyYXRvciIgUm93PSIzIiBSb3dTcGFuPSIxIiBDb2x1bW49IjEiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0idGFibGVMYXlvdXRQYW5lbENsb3NlIiBSb3c9IjQiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iNCIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRCYXR0ZXJ5Vm9sdGFnZSIgUm93PSIyIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0iZGlnaXRhbFJlYWRvdXRJbnN0cnVtZW50UGFya2luZ0JyZWFrIiBSb3c9IjIiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRUcmFuc21pc3Npb25HZWFyIiBSb3c9IjMiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJ0YWJsZUxheW91dFBhbmVsQnV0dG9ucyIgUm93PSIxIiBSb3dTcGFuPSIzIiBDb2x1bW49IjIiIENvbHVtblNwYW49IjIiIC8+PENvbnRyb2wgTmFtZT0ibGFiZWxJbnN0cnVjdGlvbnNCaWciIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSI0IiAvPjwvQ29udHJvbHM+PENvbHVtbnMgU3R5bGVzPSJQZXJjZW50LDI1LjAwMDYyLFBlcmNlbnQsMjUuMDAwNjMsUGVyY2VudCwyNS4wMDA2MyxQZXJjZW50LDI0Ljk5ODEyIiAvPjxSb3dzIFN0eWxlcz0iUGVyY2VudCwxMDAsQWJzb2x1dGUsNjYsQWJzb2x1dGUsNjYsQWJzb2x1dGUsNjYsQWJzb2x1dGUsNjUiIC8+PC9UYWJsZUxheW91dFNldHRpbmdzPgs=</value>
+  </data>
+  <data name="digitalReadoutInstrumentParkingBreak.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelClose.Name" xml:space="preserve">
+    <value>tableLayoutPanelClose</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelClose.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrumentAccelerator.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="timerControlEngineShutoff.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="StringTable.Message_AcceleratorReleasedTerminatingProcedure" xml:space="preserve">
+    <value>Accelerator released.  Terminating procedure.</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentTransmissionGear.Parent" xml:space="preserve">
+    <value>tableLayoutPanelMain</value>
+  </data>
+  <data name="tableLayoutPanelButtons.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentTransmissionGear.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.12.4439.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentTransmissionGear.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentTransmissionGear</value>
+  </data>
+  <data name="resource.DisplayText6" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.DisplayText7" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.DisplayText4" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.DisplayText5" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.DisplayText2" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.DisplayText3" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.DisplayText1" xml:space="preserve">
+    <value>Neutral</value>
+  </data>
+  <data name="resource.DisplayText8" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="resource.DisplayText9" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="&gt;&gt;buttonStopRoutine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="resource.DisplayText12" xml:space="preserve">
+    <value>Park</value>
+  </data>
+  <data name="resource.DisplayText11" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="resource.DisplayText10" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanelClose.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tableLayoutPanelButtons.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAJQEPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImJ1dHRvblN0b3BSb3V0aW5lIiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMiIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJidXR0b25TdGFydFJvdXRpbmUiIFJvdz0iMSIgUm93U3Bhbj0iMSIgQ29sdW1uPSIxIiBDb2x1bW5TcGFuPSIxIiAvPjxDb250cm9sIE5hbWU9InNlZWtUaW1lTGlzdFZpZXciIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIzIiAvPjxDb250cm9sIE5hbWU9InRpbWVyQ29udHJvbEVuZ2luZVNodXRvZmYiIFJvdz0iMSIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIxIiAvPjwvQ29udHJvbHM+PENvbHVtbnMgU3R5bGVzPSJQZXJjZW50LDUwLFBlcmNlbnQsMjUsUGVyY2VudCwyNSIgLz48Um93cyBTdHlsZXM9IlBlcmNlbnQsMTAwLEF1dG9TaXplLDAiIC8+PC9UYWJsZUxheW91dFNldHRpbmdzPgs=</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineCoolant.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAAxAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonStartRoutine.Name" xml:space="preserve">
+    <value>buttonStartRoutine</value>
+  </data>
+  <data name="&gt;&gt;buttonStartRoutine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanelClose.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAjAEAAAs=</value>
+  </data>
+</root>

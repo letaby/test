@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;dialInstrumentCurrentStep.Name" xml:space="preserve">
+    <value>dialInstrumentCurrentStep</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentCurrentStep.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DialInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAPgGPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImRpYWxJbnN0cnVtZW50UmlnaHRFbmRzdG9wIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMiIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWFsSW5zdHJ1bWVudDIiIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIxIiBDb2x1bW5TcGFuPSIxIiAvPjxDb250cm9sIE5hbWU9ImRpYWxJbnN0cnVtZW50U3RlZXJpbmdXaGVlbEFuZ2xlIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRMZWZ0RW5kc3RvcENhbGlicmF0aW9uIiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnQzIiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRSaWdodEVuZHN0b3BDYWxpYnJhdGlvbiIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1bW49IjIiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0iZGlhbEluc3RydW1lbnRUb3JzaW9uQmFyVG9ycXVlT2Zmc2V0IiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMyIgQ29sdW1uU3Bhbj0iMSIgLz48L0NvbnRyb2xzPjxDb2x1bW5zIFN0eWxlcz0iUGVyY2VudCwyNSxQZXJjZW50LDI1LFBlcmNlbnQsMjUsUGVyY2VudCwyNSIgLz48Um93cyBTdHlsZXM9IlBlcmNlbnQsNjgsUGVyY2VudCwzMiIgLz48L1RhYmxlTGF5b3V0U2V0dGluZ3M+Cw==</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentRightEndstopCalibration.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentRightEndstopCalibration</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentRightEndstopCalibration.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="StringTable.Message_VerifyingTorsionBarTorqueOffset" xml:space="preserve">
+    <value>Verifying torsion bar torque offset</value>
+  </data>
+  <data name="StringTable.Message_StartEngine" xml:space="preserve">
+    <value>Start engine</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrument3.Name" xml:space="preserve">
+    <value>digitalReadoutInstrument3</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrument3.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="StringTable.Message_TurnSteeringWheelToLEFTEndstop" xml:space="preserve">
+    <value>Turn steering wheel to LEFT endstop</value>
+  </data>
+  <data name="StringTable.Message_RemoveHandsFromWheelPressNextToBeginTorsionBarCalibration" xml:space="preserve">
+    <value>Remove hands from wheel, press Next to begin torsion bar calibration</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelInstruments.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAB0AAAACw==</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_UnableToResetCalibrationValues" xml:space="preserve">
+    <value>Unable to reset calibration values</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listViewFaultCodes.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tableLayoutPanelLabels.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="dialInstrumentCurrentStep.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAAswAAAAs=</value>
+  </data>
+  <data name="columnHeaderChannel.Text" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="scalingLabelCurrentStepSubText.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGACAAAfAAAACw==</value>
+  </data>
+  <data name="scalingLabelCurrentStepSubText.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedDuringEcuReset" xml:space="preserve">
+    <value>Calibration failed during ecu reset.</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALwCAAD0AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderMode.Name" xml:space="preserve">
+    <value>columnHeaderMode</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedDuringTorsionBarCalibration" xml:space="preserve">
+    <value>Calibration failed during Torsion Bar Calibration.</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentCurrentStep.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonReset.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderStatus.Name" xml:space="preserve">
+    <value>columnHeaderStatus</value>
+  </data>
+  <data name="StringTable.MessageFormat_Connect01ToBeginTheCalibration" xml:space="preserve">
+    <value>Connect {0} and {1} to begin the Calibration.</value>
+  </data>
+  <data name="StringTable.Message_CenterSteeringWheel" xml:space="preserve">
+    <value>Center steering wheel.</value>
+  </data>
+  <data name="StringTable.Message_CalibratingDoNotTouchSteeringWheel" xml:space="preserve">
+    <value>Calibrating, Do not touch steering wheel</value>
+  </data>
+  <data name="&gt;&gt;dialInstrument2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonNext.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonReset.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dialInstrument2.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="digitalReadoutInstrument3.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Name" xml:space="preserve">
+    <value>buttonNext</value>
+  </data>
+  <data name="buttonNext.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelInstruments.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.CustomTitle" xml:space="preserve">
+    <value>Torsion Bar Torque Offset</value>
+  </data>
+  <data name="StringTable.MessageFormat_Connect012ToBeginTheCalibration" xml:space="preserve">
+    <value>Connect {0}, {1} and {2} to begin the Calibration.</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAgAAAQAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StringTable.Message_ResettingCalibrationData" xml:space="preserve">
+    <value>Resetting calibration data</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.Name" xml:space="preserve">
+    <value>buttonReset</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAAAQAAAAs=</value>
+  </data>
+  <data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedCouldNotFindTorsionBarOffsetParameter" xml:space="preserve">
+    <value>Calibration failed, could not find torsion bar offset parameter.</value>
+  </data>
+  <data name="StringTable.Message_PerformingHardReset" xml:space="preserve">
+    <value>Performing Hard Reset</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="columnHeaderMode.Text" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAMUCPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImJ1dHRvblJlc2V0IiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJidXR0b25OZXh0IiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48L0NvbnRyb2xzPjxDb2x1bW5zIFN0eWxlcz0iUGVyY2VudCwxMDAiIC8+PFJvd3MgU3R5bGVzPSJQZXJjZW50LDcwLFBlcmNlbnQsMzAiIC8+PC9UYWJsZUxheW91dFNldHRpbmdzPgs=</value>
+  </data>
+  <data name="listViewFaultCodes.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEBAAAAAQAAAAEAAAABAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineState.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentEngineState</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineState.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrument3.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrument3.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAA2AAAACw==</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderChannel.Name" xml:space="preserve">
+    <value>columnHeaderChannel</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderChannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAB0AAAACw==</value>
+  </data>
+  <data name="seekTimeListView1.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentRightEndstop.Name" xml:space="preserve">
+    <value>dialInstrumentRightEndstop</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentRightEndstop.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DialInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="seekTimeListView1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAgQEAAAs=</value>
+  </data>
+  <data name="buttonNext.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAABMAAAACw==</value>
+  </data>
+  <data name="buttonNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStepSubText.Parent" xml:space="preserve">
+    <value>tableLayoutPanelLabels</value>
+  </data>
+  <data name="buttonNext.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentRightEndstopCalibration.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStep.Name" xml:space="preserve">
+    <value>scalingLabelCurrentStep</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStep.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.ScalingLabel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.CustomTitle" xml:space="preserve">
+    <value>Right Endpoint Calibration Status</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="StringTable.MessageFormat_Connect01234ToBeginTheCalibration" xml:space="preserve">
+    <value>Connect {0}, {1}, {2}, {3} and {4} to begin the Calibration.</value>
+  </data>
+  <data name="tableLayoutPanelLabels.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelLabels.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGQCAABzAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStepSubText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAB0AAAACw==</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="columnHeaderNumber.Width" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="StringTable.Message_VerifyingCalibration" xml:space="preserve">
+    <value>Verifying calibration</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStep.Parent" xml:space="preserve">
+    <value>tableLayoutPanelLabels</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABdAQAAAQAAAAs=</value>
+  </data>
+  <data name="listViewFaultCodes.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFwBAABYAAAACw==</value>
+  </data>
+  <data name="listViewFaultCodes.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="scalingLabelCurrentStep.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="scalingLabelCurrentStep.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="scalingLabelCurrentStep.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGACAABOAAAACw==</value>
+  </data>
+  <data name="scalingLabelCurrentStep.Text" xml:space="preserve">
+    <value>Ecu is disconnected</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentRightEndstopCalibration.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="scalingLabelCurrentStepSubText.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StringTable.Message_ClickNextToContinue" xml:space="preserve">
+    <value>Click Next to Continue.</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentSteeringWheelAngle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="digitalReadoutInstrument3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineState.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="StringTable.Message_PressNextToBeginCalibrationProcess" xml:space="preserve">
+    <value>Press Next to begin calibration process</value>
+  </data>
+  <data name="Panel.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelInstruments.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelInstruments.Name" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAA2AAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAA2AAAACw==</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAOgGPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9InRhYmxlTGF5b3V0UGFuZWxJbnN0cnVtZW50cyIgUm93PSIwIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49IjQiIC8+PENvbnRyb2wgTmFtZT0iZGlhbEluc3RydW1lbnRDdXJyZW50U3RlcCIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0ic2Vla1RpbWVMaXN0VmlldzEiIFJvdz0iMyIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIzIiAvPjxDb250cm9sIE5hbWU9InRhYmxlTGF5b3V0UGFuZWwzIiBSb3c9IjIiIFJvd1NwYW49IjEiIENvbHVtbj0iMyIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJkaWdpdGFsUmVhZG91dEluc3RydW1lbnRFbmdpbmVTdGF0ZSIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1bW49IjIiIENvbHVtblNwYW49IjIiIC8+PENvbnRyb2wgTmFtZT0idGFibGVMYXlvdXRQYW5lbExhYmVscyIgUm93PSIyIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49IjMiIC8+PENvbnRyb2wgTmFtZT0ibGlzdFZpZXdGYXVsdENvZGVzIiBSb3c9IjEiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48L0NvbnRyb2xzPjxDb2x1bW5zIFN0eWxlcz0iUGVyY2VudCwyNSxQZXJjZW50LDUwLFBlcmNlbnQsMTIuNSxQZXJjZW50LDEyLjUiIC8+PFJvd3MgU3R5bGVzPSJQZXJjZW50LDM1LjY2Nzk2LFBlcmNlbnQsMTguMDkzMzksUGVyY2VudCwyMy4xMTkzMyxQZXJjZW50LDIzLjExOTMzIiAvPjwvVGFibGVMYXlvdXRTZXR0aW5ncz4L</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="StringTable.Message_ClickNextToContinueToSteeringTorsionBarTorqueOffset" xml:space="preserve">
+    <value>Click next to continue to Steering Torsion Bar Torque Offset measurement</value>
+  </data>
+  <data name="dialInstrument2.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanelLabels.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StringTable.Message_CalibrateRightEndstop" xml:space="preserve">
+    <value>Calibrate right endstop</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentEngineState.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentSteeringWheelAngle.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanelLabels.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="scalingLabelCurrentStepSubText.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAUgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StringTable.MessageFormat_TorsionBarOffsetValues012" xml:space="preserve">
+    <value>Torsion Bar Offset Values:{0},{1},{2}</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentTorsionBarTorqueOffset.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="StringTable.Message_TurnSteeringWheelToRightSlightly" xml:space="preserve">
+    <value>Turn steering wheel back to RIGHT slightly</value>
+  </data>
+  <data name="dialInstrument2.CustomTitle" xml:space="preserve">
+    <value>Left Endstop</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentTorsionBarTorqueOffset.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="seekTimeListView1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGACAABxAAAACw==</value>
+  </data>
+  <data name="seekTimeListView1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_EndstopCalibrationFailed" xml:space="preserve">
+    <value>Endstop calibration service failed</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACvAAAAdwAAAAs=</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedTorsionBarOffsetFailedToReadOrOutOfRange" xml:space="preserve">
+    <value>Calibration failed, torsion bar offset failed to read or out of range.</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelLabels.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView1.Type" xml:space="preserve">
+    <value>DetroitDiesel.Common.SeekTimeListView, CommonCS, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderNumber.Name" xml:space="preserve">
+    <value>columnHeaderNumber</value>
+  </data>
+  <data name="&gt;&gt;columnHeaderNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView1.Name" xml:space="preserve">
+    <value>seekTimeListView1</value>
+  </data>
+  <data name="StringTable.Message_TurnTheSteeringWheelToTheRightUntilItReachesTheEndstopAndHold" xml:space="preserve">
+    <value>Turn the Steering Wheel to the RIGHT until it reaches the endstop and hold, then click Next.</value>
+  </data>
+  <data name="Panel.DisplayName" xml:space="preserve">
+    <value>Active Powersteering Alignment</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelLabels.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrument3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StringTable.Message_ResolveTheActiveFaultsBeforeBeginning" xml:space="preserve">
+    <value>Resolve the active faults before beginning.</value>
+  </data>
+  <data name="buttonNext.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentSteeringWheelAngle.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DialInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentSteeringWheelAngle.Name" xml:space="preserve">
+    <value>dialInstrumentSteeringWheelAngle</value>
+  </data>
+  <data name="&gt;&gt;buttonReset.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;dialInstrument2.Name" xml:space="preserve">
+    <value>dialInstrument2</value>
+  </data>
+  <data name="&gt;&gt;dialInstrument2.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DialInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.CustomTitle" xml:space="preserve">
+    <value>Left Endpoint Calibration Status</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailed" xml:space="preserve">
+    <value>Calibration failed.</value>
+  </data>
+  <data name="StringTable.Message_CalibrateLeftEndstop" xml:space="preserve">
+    <value>Calibrate left endstop</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrument3.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="columnHeaderMode.Width" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="buttonReset.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAUgAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StringTable.Message_CalibratingCenter" xml:space="preserve">
+    <value>Calibrating center</value>
+  </data>
+  <data name="StringTable.Message_TurnSteeringWheelToRIGHTEndstop" xml:space="preserve">
+    <value>Turn steering wheel to RIGHT endstop</value>
+  </data>
+  <data name="&gt;&gt;listViewFaultCodes.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="digitalReadoutInstrumentLeftEndstopCalibration.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentLeftEndstopCalibration.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="digitalReadoutInstrument3.CustomTitle" xml:space="preserve">
+    <value>Steering Angle Calibration Status</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_EcuIsDisconnected" xml:space="preserve">
+    <value>Ecu is disconnected</value>
+  </data>
+  <data name="columnHeaderNumber.Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFgAAABzAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAgAAAAs=</value>
+  </data>
+  <data name="StringTable.MessageFormat_Connect0ToBeginTheCalibration" xml:space="preserve">
+    <value>Connect {0} to begin the Calibration.</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALgCAACuAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALwCAAD0AQAACw==</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABkAgAADAEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;seekTimeListView1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="buttonReset.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="dialInstrument2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonNext.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;listViewFaultCodes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABdAQAAdwAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanelLabels.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAADAEAAAs=</value>
+  </data>
+  <data name="StringTable.Message_EnsureVehicleIsInPtReadyState" xml:space="preserve">
+    <value>Ensure the vehicle is in PT Ready state.</value>
+  </data>
+  <data name="tableLayoutPanelInstruments.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedCouldNotStartTorsionBarCalibration" xml:space="preserve">
+    <value>Calibration failed; could not start torsion bar calibration.</value>
+  </data>
+  <data name="StringTable.Message_CalibrationWasSuccessful" xml:space="preserve">
+    <value>Calibration was successful</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelLabels.Name" xml:space="preserve">
+    <value>tableLayoutPanelLabels</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelLabels.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="digitalReadoutInstrument3.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAAdwAAAAs=</value>
+  </data>
+  <data name="resource.DisplayText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UserPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentLeftEndstopCalibration.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMIBAAAsAQAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAK0AAABYAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonNext.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStepSubText.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.ScalingLabel, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;scalingLabelCurrentStepSubText.Name" xml:space="preserve">
+    <value>scalingLabelCurrentStepSubText</value>
+  </data>
+  <data name="dialInstrumentCurrentStep.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.CustomTitle" xml:space="preserve">
+    <value>PT Ready</value>
+  </data>
+  <data name="dialInstrumentCurrentStep.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAK0AAABYAAAACw==</value>
+  </data>
+  <data name="StringTable.MessageFormat_Connect0123ToBeginTheCalibration" xml:space="preserve">
+    <value>Connect {0}, {1}, {2} and {3} to begin the Calibration.</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.CustomTitle" xml:space="preserve">
+    <value>Steering Wheel Centered</value>
+  </data>
+  <data name="StringTable.MessageFormat_PleaseWait0" xml:space="preserve">
+    <value>Please wait: {0}</value>
+  </data>
+  <data name="columnHeaderStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StringTable.Message_CenterCalibrationServiceFailed" xml:space="preserve">
+    <value>Center calibration service failed</value>
+  </data>
+  <data name="tableLayoutPanelLabels.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonReset.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="buttonReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="buttonReset.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFQAAAAfAAAACw==</value>
+  </data>
+  <data name="StringTable.MessageFormat_TorsionBarOffsetInvalid0" xml:space="preserve">
+    <value>Torsion Bar Offset Invalid:{0}</value>
+  </data>
+  <data name="scalingLabelCurrentStepSubText.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="dialInstrument2.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="dialInstrument2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKwAAAB0AAAACw==</value>
+  </data>
+  <data name="columnHeaderChannel.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="dialInstrumentCurrentStep.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentRightEndstop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dialInstrument2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACvAAAAAQAAAAs=</value>
+  </data>
+  <data name="dialInstrumentCurrentStep.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_TurnSteeringWheelToLeftSlightly" xml:space="preserve">
+    <value>Turn steering wheel back to LEFT slightly</value>
+  </data>
+  <data name="StringTable.Message_SlowlyTurnTheSteeringWheelToTheRightUntilItReachesTheEndstopAndHold" xml:space="preserve">
+    <value>Slowly turn the Steering Wheel to the RIGHT until it reaches the endstop and hold, then press Next button.</value>
+  </data>
+  <data name="StringTable.Message_SlowlyTurnTheSteeringWheelToTheLeftUntilItReachesTheEndstopAndHold" xml:space="preserve">
+    <value>Slowly turn the Steering Wheel to the LEFT until it reaches the endstop and hold, then press Next button.</value>
+  </data>
+  <data name="dialInstrumentTorsionBarTorqueOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="StringTable.Message_TurnTheSteeringWheelToTheLeftUntilItReachesTheEndstopAndHold" xml:space="preserve">
+    <value>Turn the Steering Wheel to the LEFT until it reaches the endstop and hold, then click Next.</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedReachedEndOfRoutineWithEndstopsNotLearned" xml:space="preserve">
+    <value>Calibration failed, reached end of routine with endstops not learned.</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentRightEndstop.Parent" xml:space="preserve">
+    <value>tableLayoutPanelInstruments</value>
+  </data>
+  <data name="scalingLabelCurrentStep.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAACAAAAAgAAAAIAAAAAAAAACw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentRightEndstopCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="StringTable.Message_ClickNextToContinueToCalibration" xml:space="preserve">
+    <value>Click next to continue to calibration</value>
+  </data>
+  <data name="StringTable.Message_YouMayCloseThisCalibration" xml:space="preserve">
+    <value>You may close this calibration</value>
+  </data>
+  <data name="dialInstrumentSteeringWheelAngle.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="tableLayoutPanelLabels.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAAPECPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9InNjYWxpbmdMYWJlbEN1cnJlbnRTdGVwIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMiIgLz48Q29udHJvbCBOYW1lPSJzY2FsaW5nTGFiZWxDdXJyZW50U3RlcFN1YlRleHQiIFJvdz0iMSIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIyIiAvPjwvQ29udHJvbHM+PENvbHVtbnMgU3R5bGVzPSJQZXJjZW50LDEwMCxBYnNvbHV0ZSwyMCIgLz48Um93cyBTdHlsZXM9IlBlcmNlbnQsNzAsUGVyY2VudCwzMCIgLz48L1RhYmxlTGF5b3V0U2V0dGluZ3M+Cw==</value>
+  </data>
+  <data name="digitalReadoutInstrumentEngineState.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAOAgAAswAAAAs=</value>
+  </data>
+  <data name="dialInstrumentRightEndstop.CustomTitle" xml:space="preserve">
+    <value>Right Endstop</value>
+  </data>
+  <data name="resource.DisplayText4" xml:space="preserve">
+    <value>Not available</value>
+  </data>
+  <data name="resource.DisplayText2" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="resource.DisplayText3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resource.DisplayText1" xml:space="preserve">
+    <value>Not ready</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentTorsionBarTorqueOffset.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DialInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentTorsionBarTorqueOffset.Name" xml:space="preserve">
+    <value>dialInstrumentTorsionBarTorqueOffset</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="seekTimeListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="StringTable.Message_UnableToPerformCalibrationMissingService" xml:space="preserve">
+    <value>Unable to perform calibration, missing service</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentLeftEndstopCalibration.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.DigitalReadoutInstrument, Instruments, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;digitalReadoutInstrumentLeftEndstopCalibration.Name" xml:space="preserve">
+    <value>digitalReadoutInstrumentLeftEndstopCalibration</value>
+  </data>
+  <data name="StringTable.Message_CalibratingTorsionBarTorqueOffset" xml:space="preserve">
+    <value>Calibrating torsion bar torque offset</value>
+  </data>
+  <data name="&gt;&gt;listViewFaultCodes.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.ListViewEx, CommonCS, Version=8.18.5555.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;listViewFaultCodes.Name" xml:space="preserve">
+    <value>listViewFaultCodes</value>
+  </data>
+  <data name="StringTable.Message_CalibrationFailedForUnknownReason" xml:space="preserve">
+    <value>Calibration failed for unknown reason.</value>
+  </data>
+  <data name="StringTable.MessageFormat_CalibrationFailed0" xml:space="preserve">
+    <value>Calibration Failed:{0} {1}</value>
+  </data>
+  <data name="listViewFaultCodes.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACwAAAAswAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;dialInstrumentCurrentStep.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="scalingLabelCurrentStep.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAgAAAAs=</value>
+  </data>
+  <data name="columnHeaderStatus.Width" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="buttonNext.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAgAAAAs=</value>
+  </data>
+</root>

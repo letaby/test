@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="StringTable.Message_ExhaustGasSensor" xml:space="preserve"><value>Exhaust Gas Sensor</value></data>
+  <data name="StringTable.Message_NoOBDRelevantFaultCodesCurrentlyReportedForThisDevice" xml:space="preserve"><value>No OBD-relevant fault codes currently reported for this device.</value></data>
+  <data name="StringTable.Message_TestNotComplete" xml:space="preserve"><value>test not complete</value></data>
+  <data name="StringTable.Message_DistanceTravelledWhileMILIsActivated" xml:space="preserve"><value>Distance Travelled While MIL is Activated</value></data>
+  <data name="StringTable.Message_DM28Permanent" xml:space="preserve"><value>DM28 Permanent</value></data>
+  <data name="StringTable.Message_TestNotSupported" xml:space="preserve"><value>test not supported</value></data>
+  <data name="StringTable.Message_ExhaustGasSensorHeater" xml:space="preserve"><value>Exhaust Gas Sensor Heater</value></data>
+  <data name="StringTable.Message_NumberOfWarmupCyclesSinceMemoryLastCleared" xml:space="preserve"><value>Number of Warm-up Cycles Since Memory Last Cleared</value></data>
+  <data name="StringTable.Message_NMHCCatalyst" xml:space="preserve"><value>NMHC Catalyst</value></data>
+  <data name="StringTable.Message_CalibrationVerificationNumber" xml:space="preserve"><value>Calibration Verification Number</value></data>
+  <data name="StringTable.Message_NOXEngineCalibrationIDACM21T" xml:space="preserve"><value>NOX Engine Calibration ID (ACM21T)</value></data>
+  <data name="StringTable.Message_DM19CalibrationInformation" xml:space="preserve"><value>DM19 Calibration Information</value></data>
+  <data name="StringTable.Message_EngineTotals" xml:space="preserve"><value>Engine Totals</value></data>
+  <data name="StringTable.Message_PMSensorCalibrationIDACM21T" xml:space="preserve"><value>PM Sensor Calibration ID (ACM21T)</value></data>
+  <data name="StringTable.Message_PreviouslyActiveFaultCodes" xml:space="preserve"><value>Previously Active Fault Codes</value></data>
+  <data name="StringTable.Message_OBDCompliance" xml:space="preserve"><value>OBD Compliance</value></data>
+  <data name="StringTable.Message_ComprehensiveComponent" xml:space="preserve"><value>Comprehensive Component</value></data>
+  <data name="StringTable.Message_Misfire" xml:space="preserve"><value>Misfire</value></data>
+  <data name="StringTable.Message_SourceAddress" xml:space="preserve"><value>Source Address</value></data>
+  <data name="StringTable.Message_MILStatus" xml:space="preserve"><value>MIL Status</value></data>
+  <data name="StringTable.Message_StatusOfEachReadinessIndicator" xml:space="preserve"><value>Status of Each Readiness Indicator</value></data>
+  <data name="StringTable.Message_CalibrationIDMCM21T1" xml:space="preserve"><value>Calibration ID (MCM21T)</value></data>
+  <data name="Panel.Category" xml:space="preserve"><value>OBD</value></data>
+  <data name="StringTable.Message_DistanceTraveledSinceMemoryLastCleared" xml:space="preserve"><value>Distance Traveled Since Memory Last Cleared</value></data>
+  <data name="StringTable.Message_CalibrationIDCPC04T" xml:space="preserve"><value>Calibration ID (CPC04T)</value></data>
+  <data name="StringTable.Message_PermanentFaultCodes" xml:space="preserve"><value>Permanent Fault Codes</value></data>
+  <data name="StringTable.Message_PMSensorCVNACM21T" xml:space="preserve"><value>PM Sensor CVN (ACM21T)</value></data>
+  <data name="StringTable.Message_CVNCPC04T1" xml:space="preserve"><value>CVN (CPC04T)</value></data>
+  <data name="StringTable.Message_TimeSinceDiagnosticTroubleCodesCleared" xml:space="preserve"><value>Time Since Diagnostic Trouble Codes Cleared</value></data>
+  <data name="StringTable.Message_CalibrationIDACM21T" xml:space="preserve"><value>Calibration ID (ACM21T)</value></data>
+  <data name="StringTable.Message_DM12MILON" xml:space="preserve"><value>DM12 MIL-ON</value></data>
+  <data name="StringTable.Message_DieselParticulateFilter" xml:space="preserve"><value>Diesel Particulate Filter (DPF)</value></data>
+  <data name="Panel.DisplayName" xml:space="preserve"><value>Periodic CARB Smoke Inspection Program OBD Data Report</value></data>
+  <data name="StringTable.Message_DM23PreviouslyMILON" xml:space="preserve"><value>DM23 Previously MIL-ON</value></data>
+  <data name="StringTable.Message_CalibrationIDMCM21T" xml:space="preserve"><value>Calibration ID (MCM21T)</value></data>
+  <data name="StringTable.Message_EngineFuelSystem" xml:space="preserve"><value>Engine Fuel System</value></data>
+  <data name="StringTable.Message_NOXEngineCVNACM21T" xml:space="preserve"><value>NOX Engine CVN (ACM21T)</value></data>
+  <data name="StringTable.Message_ActiveFaultCodes" xml:space="preserve"><value>Active Fault Codes</value></data>
+  <data name="StringTable.Message_PendingFaultCodes" xml:space="preserve"><value>Pending Fault Codes</value></data>
+  <data name="StringTable.Message_ReportName" xml:space="preserve"><value>Periodic CARB Smoke Inspection Program OBD Data Report</value></data>
+  <data name="StringTable.Message_EGR" xml:space="preserve"><value>EGR/VVT System</value></data>
+  <data name="StringTable.Message_NOXTailPipeCalibrationIDACM21T" xml:space="preserve"><value>NOX Tail Pipe Calibration ID (ACM21T)</value></data>
+  <data name="StringTable.Message_MinutesRunByEngineWhileMILActivated" xml:space="preserve"><value>Minutes Run by Engine While MIL Activated</value></data>
+  <data name="StringTable.Message_NOxConvertingCatalyst" xml:space="preserve"><value>NOx Converting Catalyst and/or NOx Adsorber</value></data>
+  <data name="StringTable.Message_EngineRunTimeWithMILActivated" xml:space="preserve"><value>Engine Run Time with MIL Activated</value></data>
+  <data name="StringTable.Message_DM6Pending" xml:space="preserve"><value>DM6 Pending</value></data>
+  <data name="StringTable.Message_EngineSerialNumber" xml:space="preserve"><value>Engine Serial Number</value></data>
+  <data name="StringTable.Message_DM26NumberWarmupCyclesSinceDTCClearSPN3302" xml:space="preserve"><value>DM26 Number of Warm-up Cycles since DTC clear SPN 3302</value></data>
+  <data name="StringTable.Message_CalibrationIdentificationNumber" xml:space="preserve"><value>Calibration Identification Number</value></data>
+  <data name="StringTable.Message_CVNMCM21T" xml:space="preserve"><value>CVN (MCM21T)</value></data>
+  <data name="StringTable.Message_CalibrationIDACM21T1" xml:space="preserve"><value>Calibration ID (ACM21T)</value></data>
+  <data name="StringTable.Message_DM1MILStatusSPN1213" xml:space="preserve"><value>DM1 MIL Status SPN 1213</value></data>
+  <data name="StringTable.CSVFileFilter" xml:space="preserve"><value>Comma-separated Value Files (*.csv)|*.csv</value></data>
+  <data name="StringTable.Message_OBDRequirementsToWhichEngineIsCertified" xml:space="preserve"><value>OBD Requirements to which engine is certified</value></data>
+  <data name="StringTable.Message_NOXTailPipeCVNACM21T" xml:space="preserve"><value>NOX Tail Pipe CVN (ACM21T)</value></data>
+  <data name="StringTable.Message_TestComplete" xml:space="preserve"><value>test complete</value></data>
+  <data name="StringTable.Message_DistanceTraveledWithMILActivated" xml:space="preserve"><value>Distance Traveled with MIL Activated</value></data>
+  <data name="StringTable.Message_CVNACM21T" xml:space="preserve"><value>CVN (ACM21T)</value></data>
+  <data name="StringTable.DialogTitleSelectExportDestination" xml:space="preserve"><value>Select Export Destination</value></data>
+  <data name="StringTable.Message_CalibrationIDCPC04T1" xml:space="preserve"><value>Calibration ID (CPC04T)</value></data>
+  <data name="StringTable.Message_EngineRunTimeSinceMemoryLastCleared" xml:space="preserve"><value>Engine Run Time Since Memory Last Cleared</value></data>
+  <data name="StringTable.Message_BoostPressureControlSystem" xml:space="preserve"><value>Boost Pressure Control System</value></data>
+  <data name="StringTable.Message_CVNCPC04T" xml:space="preserve"><value>CVN (CPC04T)</value></data>
+  <data name="StringTable.Message_DistanceSinceDiagnosticTroubleCodesCleared" xml:space="preserve"><value>Distance Since Diagnostic Trouble Codes Cleared</value></data>
+  <data name="StringTable.Message_VehicleIdentificationNumber" xml:space="preserve"><value>Vehicle Identification Number</value></data>
+  </root>

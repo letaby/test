@@ -1,0 +1,454 @@
+
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+	<!-- Styles -->
+	<style type="text/css">
+
+		html, body, table, button {
+			font-size: 13px;
+			font-family: Segoe UI Historic, Segoe UI; 
+		}
+
+		table {
+			border-collapse: collapse;
+			border-width: 0px;
+		}
+
+		td { padding-right: 15px }
+
+		.ecu {
+			font-weight: bold;
+			font-size: 125%;
+			width: 100%;
+		}
+
+		.group {
+			font-weight: bold;
+		}
+
+		.standard { }
+
+		.failure { color: red; font-style: italic; }
+
+		.info::before { content: '\1f6c8'; color: blue; font-weight: normal; margin-right: 5px; }
+		.info { }
+		.warning::before { content: '\26a0'; color: red; font-weight: normal; margin-right: 5px; }
+		.warning { }
+		.parameter { color: Teal; }
+
+		.spacer { width: 25px }
+
+		.determinateProgress {
+			background: #fff;
+			font-size: .6em;
+			height: 1.5em;
+			line-height: 1.5em;
+			text-indent: .5em;
+			width: 20em;
+		}
+
+		.determinateProgressHidden {
+			display: none;
+		}
+
+		.determinateProgressPass {
+			background: #fff;
+			font-size: .6em;
+			height: 1.5em;
+			line-height: 1.5em;
+			text-indent: .5em;
+			width: 20em;
+		}
+
+		.determinateProgressPass::-ms-fill {
+			background-color: green;
+		}
+
+		.determinateProgressFail {
+			background: #fff;
+			font-size: .6em;
+			height: 1.5em;
+			line-height: 1.5em;
+			text-indent: .5em;
+			width: 20em;
+		}
+
+		.determinateProgressFail::-ms-fill {
+			background-color: red;
+		}
+
+		div.content_expanded {
+			display: block;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			padding-left: 0.2in;
+		}
+
+		div.content_collapsed {
+			display: none;
+		}
+
+		div.statusDiv { padding: 10px 0px 3px 0px; }
+		div.ecuItemDiv { padding: 3px 0px; }
+		div.ecuItemDivHighlight { padding: 3px 0px; }
+
+		a.link_collapse { text-decoration: none; }
+
+		.warninginline::before { content: '\26a0'; color: red; font-size: 150%; font-weight: normal; margin-right: 8px; }
+
+		/* preconditions displayed in the fixed bottom area should have a white background with a minimal transparent component to view that there is text behind */
+		.litetransparency { background-color:rgba(255, 255, 255, 0.85) }
+
+		/* inline buttons to replace the troubleshooting controls*/
+		.button {
+			border: none;
+			color: white;
+			padding: 10px 25px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 4px;
+			cursor: pointer;
+		}
+
+		/* colours for our buttons */
+		.blue {background-color: #008CBA;} /* Blue */ 
+		.midblue {background-color: #60afaf;   } /* Mid-Blue */ 
+		.gray {background-color: #e7e7e7; color: black; cursor: not-allowed; } /* Gray */ 
+		.black {background-color: #555555;} /* Black */
+
+		/* allow buttons to be shown or hidden */
+		button.hide { display: none; }
+		button.show { display: inline-block; }
+
+		/* Radio Button list */
+		div.radioList 
+		{
+			border-bottom: 1px solid #d0d0d0; border-top: 1px solid #d0d0d0; 
+            max-height: 40vh;
+            overflow:auto;
+		}
+
+		.radioList input[type="radio"]
+        {
+        	float: left;
+            margin-right: 5px;            
+        }
+
+		.radioList label {
+            display: inline-block;
+            border: 1px solid transparent;
+			width: 90vw;
+        }
+        
+		.radioList label:hover 
+        { 
+        	background-color:#c7e0ed;  
+        }          
+
+        /* active has to be set and cleared via script */
+        .radioList label.active
+        { 
+        	background-color:#a7cde1; 
+            border: 1px solid;
+        }   
+
+
+		/* wizard button should be fixed at bottom so they are always visible and don't move on scroll. IDEALLY these would be 'sticky', but not supported by IE */
+		div.fixedbottom { position:fixed; bottom:2px;}
+
+		/* loading spinning wheel */
+		.loader {
+			border: 8px solid #E0E0E0; /* Light grey */
+			border-top: 8px solid #3498db; /* Blue */
+			border-radius: 50%;
+			width: 25px;
+			height: 25px;
+ 
+			position:absolute; /*it can be fixed too*/
+			left:0; right:0;
+			top:0; bottom:0;
+			margin:auto;
+
+			/*this to solve "the content will not be cut when the window is smaller than the content": */
+			max-width:100%;
+			max-height:100%;
+			overflow:auto;
+			animation: spin 1.25s linear infinite;
+		}
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+
+		/* div styles to show, hide and indent */
+		div.hide { display: none; }
+		div.show { display: block; }
+		div.indent { padding-left: 20px;}
+
+		/* user input (textboxes, radio) */
+		label.disabled { color: #8e8e8e; }
+		input.valid { background-color: palegreen; }
+		input.invalid { background-color: lightpink; }
+		::-ms-clear { display: none; } /*to remove the useless 'clear field' X button in textboxes*/
+		input[type="text"] { margin-left:10px; margin-top:5px; }
+
+		/* general table style for gather server data page etc */
+		table.grey, table.grey tr, table.grey td, table.grey th 
+		{ 
+			background: none; border: 1px none; padding: 0px; border-collapse: collapse; text-align: left; padding-right: 10px;
+		}
+		table.grey tr {  border-bottom: 1px solid #d0d0d0; border-top: 1px solid #d0d0d0; }
+
+		/* status icons */
+		.statusWarning::before { content: '\26a0 '; color: orange; font-size: 200%; font-weight: bold; }        
+		.statusError::before { content: '\24e7 '; color: red; font-size: 200%; font-weight: bold; }               
+		.statusOk::before { content: '\2714 '; color: green; font-size: 200%; font-weight: bold; }     
+		.statusOkRemoteNeeded::before { content: '\2b73 ';  padding-left: 3px; display:inline-block; transform:scale(1.5,1); color: lightslategrey; font-size: 200%; font-weight: bold; }     
+		.statusUpload::before { content: '\26E8 '; color: lightslategrey; font-size: 200%; font-weight: bold; }        
+		.statusOkRemoteDownloading {
+			display: block;
+            border: 5px solid #E0E0E0; /* Light grey */
+            border-top: 5px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 14px;
+            height: 14px;
+            animation: spin 1.25s linear infinite;
+        }
+
+		/* unitButton allows a button to simulate a list item, kind of */
+		button.unitButton { 
+			background-color: white;
+			border: none;
+			cursor: pointer;
+			transition: 0.1s;
+			text-align:left; 
+			width:100%;
+			display:block;
+			padding:0px;
+			margin:0px;
+		}
+				
+		button.unitButton table {position: relative; }
+		button.unitButton tr, button.unitButton table, button.unitButton td { border: 1px none; }   /* don't show borders for tables contained within unitButton*/
+		button.unitButton:hover { background-color:#c7e0ed; }          
+        button.unitButton.active { background-color:#a7cde1; }   
+
+		button.unitButton tr td:first-child, button.unitButton tr th:first-child {
+			width: 22px;
+			max-width: 22px;
+			white-space: nowrap;
+			text-align: left;
+		}
+		button.unitButton tr td:last-child, button.unitButton tr th:last-child {
+			width: 1%;
+			white-space: nowrap;
+			text-align: right;
+		}
+        button.unitButton tr td:nth-child(3), button.unitButton tr th:nth-child(3) {
+			width: 1%;
+			white-space: nowrap;
+			text-align: right;
+		}
+		button.unitButton tr td:nth-child(2) { max-width: 350px; }
+
+		/* headers in unit list shouldn't be bold but should have padding */
+		button.unitButton th div.identity { font-weight: normal; padding: 10px 0px; }
+
+		/* buttons within unit list are hidden until parent is active */
+		button.unitButton button { display: none; }
+        button.unitButton.active button { display: block;   }
+			
+		/* content that is hidden until its parent unit button is made active */
+		.unitButton .help {
+			display: none;
+		}
+
+		/* make help content visible when parent unit button is active */
+		.unitButton.active .help {
+			display: block;
+		}
+  
+		/* content within unit buttons */
+  		.unitButton div.identity { font-size: 150%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+		.unitButton .nowrap { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+		/* Tab control  */
+		.tab {
+			overflow: hidden;
+			background-color: #f1f1f1;
+			width: 100%;
+			position: fixed;
+            z-index: 10000;
+			top: 0; 
+			left: 0;
+		}
+
+		/* Style the buttons inside the tab */
+		.tab button {
+			background-color: inherit;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+			font-size: 17px;
+		}
+
+        .tab button.exit { float:right; background-color: #42cCfA; color: white; }
+        .tab button.exitdisabled { float:right; color:#999; cursor: not-allowed;  }
+				
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+			background-color: #ddd;
+		}
+		.tab button.exit:hover {  background-color: #32bCeA; }
+
+		/* Create an active/current tablink class */
+		.tab button.active {
+			background-color: #ccc;
+		}
+        .tab button.exit.active {  background-color: #22aCdA; }
+
+	</style>
+
+	<script type="text/javascript">
+
+		function ExpandCollapse(link) {
+			var parentEcuItemDiv = findParentElementByClass(link, 'ecuItemDiv');
+			var contentDiv = getElementByClass(parentEcuItemDiv, 'collapsable_content');
+			if (contentDiv.className.indexOf('content_expanded') !== -1) {
+				_changeContentDiv(link, contentDiv, 'Collapse');
+			} else {
+				_changeContentDiv(link, contentDiv, 'Expand');
+			}
+		}
+
+		// traverse up the DOM tree and returns the first element with a matching class if one is found. If a match is not found, it returns null. 
+		function findParentElementByClass(element, parentClass) {			
+			var parentElement = element.parentElement;
+
+			if (parentElement.className.indexOf(parentClass) > -1) {
+				return parentElement;
+			} else {
+				return findParentElementByClass(parentElement, parentClass);
+			}
+		}
+
+		// traverse down the DOM tree and returns the first element with a matching class if one if found. If a match is not found, it returns null. 
+		function getElementByClass(element, elementClass) {
+			var ele = null;
+			if (element != null) {
+				if (element.className.indexOf(elementClass) > -1) {
+					ele = element;
+				} else {
+					if (element.children.length != 0) {
+						for (var x = 0; x < element.children.length; x++) {
+							ele = getElementByClass(element.children.item(x), elementClass);
+							if (ele != null) {
+								break;
+							}
+						}
+					}
+				}
+			}
+			return ele;
+		}
+
+		// Swaps the classes on the content div and text in anchor based on the desiredState. 
+		function _changeContentDiv(anchor, contentDiv, desiredState) {
+			var oldClass;
+			var newClass;
+			var innerHtmlText;
+			switch (desiredState) {
+			case 'Expand':
+				oldClass = 'content_collapsed';
+				newClass = 'content_expanded';
+				innerHtmlText = '&ndash;';
+				break;
+			case 'Collapse':
+				oldClass = 'content_expanded';
+				newClass = 'content_collapsed';
+				innerHtmlText = '+';
+				break;
+			}
+			contentDiv.className = contentDiv.className.replace(oldClass, newClass);
+			anchor.innerHTML = innerHtmlText;
+		}
+
+		//When a button is clicked, navigate to the supplied anchor ID. 
+		function clickButton(id)
+		{
+			window.location.href = '#button_'+id;
+		}
+
+		function enableButton(id, enable)
+		{
+			var el = document.getElementById(id);
+			el.disabled = !enable;
+		}
+
+		/* clicking a tab applies the 'active' class to the clicked tab, and removes it from all others in the parent tab control*/
+		function clickTab(evt, id, dontAdjustActive)
+		{
+			if (!dontAdjustActive)
+			{
+				//only touch the tabs within our "tab control"
+				var tablinks = evt.currentTarget.parentElement.childNodes;
+				for (i = 0; i < tablinks.length; i++) 
+				{
+                	if (tablinks[i].nodeName == "BUTTON")
+					{
+                    	tablinks[i].className = tablinks[i].className.replace(" active", "");
+					}
+				}
+				evt.currentTarget.className += " active";
+			}
+			window.location.href = '#tab_'+id;
+		}
+			
+		/* move tab container relative position to the current height of the tab control */
+		function alignTabContainers()
+		{
+			var tabs = document.getElementsByClassName("tab");
+			for (var i = 0; i < tabs.length; i++) 
+			{
+				var srcRect = tabs[i].getBoundingClientRect();
+				var pane = tabs[i].parentElement;
+				pane.style.position = "relative";
+				pane.style.top = srcRect.bottom.toString()+"px";    
+			}
+		}
+
+		/* function called whenever the window is resized */
+		function onResizeHandler()
+		{
+			alignTabContainers();
+		}
+
+		/* function called upon load of the page */
+		function loadFunction() 
+		{
+			/* initial size of the parent element of each tab control */
+			alignTabContainers();
+			window.onresize = function() {onResizeHandler()};          				
+		}
+
+		/* show or hide the loader animation */
+		function showLoaderAnimation(show)
+		{
+			var el = document.getElementById("loaderDiv");
+			el.className = show ? "loader show" : "loader hide";
+		}
+
+	</script>
+</head>
+<body onload="loadFunction()">
+	<DIV id="inputpane" name="inputpane" class="inputpane"><br /></DIV>
+	<div id='loaderDiv' class='loader hide'/>
+</body>
+</html>

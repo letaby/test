@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="StringTable.Message_HasNotBeenChangedAndHasAValueOf" xml:space="preserve"><value> has not been changed and has a value of </value></data>
+  <data name="textBoxESN.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANAAAAAUAAAACw==</value></data><data name="textBoxESN.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="StringTable.Message_ConnectToServer" xml:space="preserve"><value>Connecting to Server to upload parameters. </value></data>
+  <data name="labelESN.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAHAAAAAs=</value></data><data name="StringTable.Message_ErrorReadingParameters" xml:space="preserve"><value>There was an error reading parameters. </value></data>
+  <data name="buttonClose.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.Message_ParametersReadSuccessfully" xml:space="preserve"><value>Successfully read parameters</value></data>
+  <data name="labelESN.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.Message_ReadParametersAndUpload" xml:space="preserve"><value>Would you like to Read out the parameters and upload them to the server?</value></data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>0</value></data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF8CAAD0AAAACw==</value></data><data name="textBoxESN.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD9AAAAHwAAAAs=</value></data><data name="labelVIN.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAAAAAAs=</value></data><data name="StringTable.Message_UnlockingParameterWriteService1" xml:space="preserve"><value>Unlocking parameter write service…</value></data>
+  <data name="textBoxVIN.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD9AAAAAwAAAAs=</value></data><data name="StringTable.Message_WritingChangesToPermanentMemory" xml:space="preserve"><value>Writing changes to permanent memory…</value></data>
+  <data name="buttonSynchronize.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADTAQAAAwAAAAs=</value></data><data name="seekTimeListView.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAOQAAAAs=</value></data><data name="StringTable.Message_ExecutingServices" xml:space="preserve"><value>Executing services…</value></data>
+  <data name="buttonClose.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value></data><data name="buttonClose.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEIAAAAYAAAACw==</value></data><data name="buttonClose.Text" xml:space="preserve"><value>&amp;Close</value></data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="buttonClose.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAaAgAA2QAAAAs=</value></data><data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0
+B19ib3R0b20AAAAAAAEICAgIAgAAAAEFAAAABQAAAAUAAAAFAAAACw==</value></data><data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="StringTable.Message_Executing" xml:space="preserve"><value>Executing </value></data>
+  <data name="&gt;&gt;labelESN.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_UnlockingParameterWriteService" xml:space="preserve"><value>Unlocking parameter write service…</value></data>
+  <data name="labelVIN.AutoSize" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.Message_FailedToReadECUInfoThe" xml:space="preserve"><value>Failed to read ECU Info. The </value></data>
+  <data name="labelVIN.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0
+ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value></data><data name="&gt;&gt;seekTimeListView.ZOrder" xml:space="preserve"><value>6</value></data>
+  <data name="&gt;&gt;seekTimeListView.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_SkippingMCM21TSetVINProcessAsTheMCM21TIsNotConnected" xml:space="preserve"><value>Skipping MCM21T SetVIN process as the MCM21T is not connected.</value></data>
+  <data name="&gt;&gt;labelVIN.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;labelVIN.Name" xml:space="preserve"><value>labelVIN</value></data>
+  <data name="labelESN.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="&gt;&gt;labelESN.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="seekTimeListView.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>16</value></data>
+  <data name="&gt;&gt;textBoxVIN.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_TheMCM21TWasDisconnected" xml:space="preserve"><value>    The MCM21T was disconnected.</value></data>
+  <data name="Panel.Category" xml:space="preserve"><value /></data>
+  <data name="&gt;&gt;labelVIN.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="StringTable.Message_WaitingForTheCPC04TToComeBackOnline" xml:space="preserve"><value>Waiting for the CPC04T to come back online...</value></data>
+  <data name="StringTable.Message_SkippingMCM21TCommitProcessAsTheServiceCouldNotBeFound" xml:space="preserve"><value>Skipping MCM21T commit process as the service could not be found.</value></data>
+  <data name="labelVIN.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="&gt;&gt;labelVIN.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="tableLayoutPanel1.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVk
+U3RyaW5nAQIAAAAGAwAAAIoGPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+
+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImxhYmVsVklOIiBS
+b3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBO
+YW1lPSJsYWJlbEVTTiIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1bW49IjAiIENvbHVtblNwYW49
+IjEiIC8+PENvbnRyb2wgTmFtZT0idGV4dEJveEVTTiIgUm93PSIxIiBSb3dTcGFuPSIxIiBDb2x1
+bW49IjEiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0idGV4dEJveFZJTiIgUm93PSIw
+IiBSb3dTcGFuPSIxIiBDb2x1bW49IjEiIENvbHVtblNwYW49IjEiIC8+PENvbnRyb2wgTmFtZT0i
+YnV0dG9uU3luY2hyb25pemUiIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIyIiBDb2x1bW5T
+cGFuPSIyIiAvPjxDb250cm9sIE5hbWU9ImJ1dHRvbkNsb3NlIiBSb3c9IjMiIFJvd1NwYW49IjEi
+IENvbHVtbj0iMyIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJzZWVrVGltZUxpc3RW
+aWV3IiBSb3c9IjIiIFJvd1NwYW49IjEiIENvbHVtbj0iMCIgQ29sdW1uU3Bhbj0iNCIgLz48L0Nv
+bnRyb2xzPjxDb2x1bW5zIFN0eWxlcz0iQWJzb2x1dGUsMjUwLFBlcmNlbnQsNjAsUGVyY2VudCwy
+MCxQZXJjZW50LDIwIiAvPjxSb3dzIFN0eWxlcz0iQXV0b1NpemUsMCxBdXRvU2l6ZSwwLFBlcmNl
+bnQsMTAwLEF1dG9TaXplLDAsQWJzb2x1dGUsMjAiIC8+PC9UYWJsZUxheW91dFNldHRpbmdzPgs=</value></data><data name="&gt;&gt;buttonSynchronize.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_SkippingMCM21TParameterWriteUnlockingAsTheServiceCouldNotBeFound" xml:space="preserve"><value>Skipping MCM21T parameter write unlocking as the service could not be found.</value></data>
+  <data name="StringTable.Message_FailedToObtainService" xml:space="preserve"><value>    Failed to obtain service.</value></data>
+  <data name="StringTable.Message_HasSuccessfullyBeenSetTo" xml:space="preserve"><value> has successfully been set to </value></data>
+  <data name="&gt;&gt;textBoxVIN.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="labelESN.Text" xml:space="preserve"><value>Engine Serial Number (ESN):</value></data>
+  <data name="labelESN.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPQAAAAaAAAACw==</value></data><data name="labelESN.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;buttonSynchronize.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;textBoxVIN.Type" xml:space="preserve"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;textBoxVIN.Name" xml:space="preserve"><value>textBoxVIN</value></data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.Message_SkippingACM21TSetVINProcessAsTheACM21TIsNotConnected" xml:space="preserve"><value>Skipping ACM21T SetVIN process as the ACM21T is not connected.</value></data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve"><value>buttonClose</value></data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="Panel.DisplayName" xml:space="preserve"><value>Set Engine Serial Number/Vehicle Identification Number for Non-Captive OEM</value></data>
+  <data name="&gt;&gt;textBoxESN.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="StringTable.Message_SynchronizingESNToCPC04TViaKeyOffOnReset" xml:space="preserve"><value>Synchronizing ESN to CPC04T via key off/on reset...</value></data>
+  <data name="StringTable.Message_TheProcedureFailedToComplete" xml:space="preserve"><value>The procedure failed to complete:</value></data>
+  <data name="StringTable.Message_SettingVINTo1" xml:space="preserve"><value>Setting VIN to </value></data>
+  <data name="StringTable.Message_SettingVINTo2" xml:space="preserve"><value>Setting VIN to </value></data>
+  <data name="tableLayoutPanel1.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value></data><data name="StringTable.Message_The1" xml:space="preserve"><value>The </value></data>
+  <data name="StringTable.Message_The2" xml:space="preserve"><value>The </value></data>
+  <data name="StringTable.Message_SkippingSettingOfACM21TVINAsTheServiceCannotBeFound" xml:space="preserve"><value>Skipping setting of ACM21T VIN  as the service cannot be found.</value></data>
+  <data name="StringTable.Message_FailedToExecuteService" xml:space="preserve"><value>    Failed to execute service.</value></data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="StringTable.Message_CannotBeVerified" xml:space="preserve"><value> cannot be verified.</value></data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.19.5791.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="StringTable.Message_SettingESNTo" xml:space="preserve"><value>Setting ESN to </value></data>
+  <data name="StringTable.Message_SettingVINTo" xml:space="preserve"><value>Setting VIN to </value></data>
+  <data name="labelVIN.Text" xml:space="preserve"><value>Vehicle Identifier Number (VIN):</value></data>
+  <data name="labelVIN.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPQAAAAcAAAACw==</value></data><data name="labelVIN.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="StringTable.Message_ReadingParameters" xml:space="preserve"><value>Reading Parameters</value></data>
+  <data name="&gt;&gt;buttonSynchronize.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;buttonSynchronize.Name" xml:space="preserve"><value>buttonSynchronize</value></data>
+  <data name="StringTable.Message_The" xml:space="preserve"><value>The </value></data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="tableLayoutPanel1.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="tableLayoutPanel1.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF8CAAD0AAAACw==</value></data><data name="&gt;&gt;textBoxESN.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_SkippingCPC04TResetAsTheServiceCannotBeFound" xml:space="preserve"><value>Skipping CPC04T reset as the service cannot be found.</value></data>
+  <data name="buttonSynchronize.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIkAAAAWAAAACw==</value></data><data name="buttonSynchronize.Text" xml:space="preserve"><value>Synchronize Data</value></data>
+  <data name="buttonSynchronize.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="&gt;&gt;buttonClose.Parent" xml:space="preserve"><value>tableLayoutPanel1</value></data>
+  <data name="StringTable.Message_IsUnavailableError" xml:space="preserve"><value> is unavailable. Error: </value></data>
+  <data name="textBoxVIN.MaxLength" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>17</value></data>
+  <data name="StringTable.Message_ReadParameters" xml:space="preserve"><value>Read Parameters</value></data>
+  <data name="textBoxESN.MaxLength" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>14</value></data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve"><value>UserPanel</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.19.5791.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAE4BAAD0AAAACw==</value></data><data name="labelESN.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0
+ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value></data><data name="&gt;&gt;seekTimeListView.Name" xml:space="preserve"><value>seekTimeListView</value></data>
+  <data name="&gt;&gt;seekTimeListView.Type" xml:space="preserve"><value>DetroitDiesel.Common.SeekTimeListView, CommonCS, Version=8.19.5791.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="StringTable.Message_SkippingSettingOfMCM21TVINAsTheServiceCannotBeFound" xml:space="preserve"><value>Skipping setting of MCM21T VIN as the service cannot be found.</value></data>
+  <data name="StringTable.Message_SkippingSettingOfCPC04TVINAsTheServiceCannotBeFound" xml:space="preserve"><value>Skipping setting of CPC04T VIN  as the service cannot be found.</value></data>
+  <data name="$this.MaximumSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGcCAAD0AAAACw==</value></data><data name="StringTable.Message_Error" xml:space="preserve"><value>. Error: </value></data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>15</value></data>
+  <data name="&gt;&gt;labelESN.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;labelESN.Name" xml:space="preserve"><value>labelESN</value></data>
+  <data name="StringTable.Message_FailedToReadECUInfoCannotVerifyThe" xml:space="preserve"><value>Failed to read ECU Info. Cannot verify the </value></data>
+  <data name="StringTable.Message_UseESNAsVIN" xml:space="preserve"><value>Current VIN is invalid. Would you like to use ESN as the VIN?</value></data>
+  <data name="seekTimeListView.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="seekTimeListView.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFkCAACaAAAACw==</value></data><data name="textBoxVIN.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANAAAAAUAAAACw==</value></data><data name="textBoxVIN.Dock" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+AB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value></data><data name="StringTable.Message_SkippingACM21TParameterWriteUnlockingAsTheServiceCouldNotBeFound" xml:space="preserve"><value>Skipping ACM21T parameter write unlocking as the service could not be found.</value></data>
+  <data name="&gt;&gt;textBoxESN.Type" xml:space="preserve"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;textBoxESN.Name" xml:space="preserve"><value>textBoxESN</value></data>
+  <data name="buttonSynchronize.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>6</value></data>
+  <data name="StringTable.Message_SkippingCPC04TCommitProcessAsTheCPC04TIsNotConnected" xml:space="preserve"><value>Skipping CPC04T commit process as the CPC04T is not connected.</value></data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value></data><data name="textBoxESN.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="textBoxVIN.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>10</value></data>
+  <data name="StringTable.Message_SkippingCPC04TSetVINProcessAsTheCPC04TIsNotConnected" xml:space="preserve"><value>Skipping CPC04T SetVIN process as the CPC04T is not connected.</value></data>
+  </root>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Архив (2)\McdAbstraction.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B17D9576-2FB8-4D8C-ACDE-7DE977D8D33A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>McdAbstraction</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.29.837.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>McdAbstraction</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Softing.Dts">
+      <HintPath>lib\Softing.Dts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IMcdDataItem.cs" />
+    <Compile Include="McdDBDataObjectProp.cs" />
+    <Compile Include="McdDBFlashSegment.cs" />
+    <Compile Include="McdDBJob.cs" />
+    <Compile Include="McdDBService.cs" />
+    <Compile Include="McdResponseParameter.cs" />
+    <Compile Include="McdRequestParameter.cs" />
+    <Compile Include="McdDebugInfoEventArgs.cs" />
+    <Compile Include="McdByteMessageEventArgs.cs" />
+    <Compile Include="McdConfigurationRecord.cs" />
+    <Compile Include="McdDBConfigurationData.cs" />
+    <Compile Include="McdDBConfigurationRecord.cs" />
+    <Compile Include="McdDBControlPrimitive.cs" />
+    <Compile Include="McdDBDataRecord.cs" />
+    <Compile Include="McdDBEcuMem.cs" />
+    <Compile Include="McdDBFlashDataBlock.cs" />
+    <Compile Include="McdObjectType.cs" />
+    <Compile Include="McdDBDiagComPrimitive.cs" />
+    <Compile Include="McdDBDiagTroubleCode.cs" />
+    <Compile Include="McdDBFlashSecurity.cs" />
+    <Compile Include="McdDBFlashSession.cs" />
+    <Compile Include="McdDBItemValue.cs" />
+    <Compile Include="McdDBMatchingParameter.cs" />
+    <Compile Include="McdDBMatchingPattern.cs" />
+    <Compile Include="McdDBOptionItem.cs" />
+    <Compile Include="McdDiagComPrimitive.cs" />
+    <Compile Include="McdDBEcuBaseVariant.cs" />
+    <Compile Include="McdDBEnvDataDesc.cs" />
+    <Compile Include="McdException.cs" />
+    <Compile Include="McdDBLocation.cs" />
+    <Compile Include="McdFlashJob.cs" />
+    <Compile Include="McdInterface.cs" />
+    <Compile Include="McdInterfaceResource.cs" />
+    <Compile Include="McdLogicalLinkState.cs" />
+    <Compile Include="McdActivityState.cs" />
+    <Compile Include="McdLogicalLink.cs" />
+    <Compile Include="McdDBLogicalLink.cs" />
+    <Compile Include="McdDBRequestParameter.cs" />
+    <Compile Include="McdDBResponseParameter.cs" />
+    <Compile Include="McdMonitoringLink.cs" />
+    <Compile Include="McdOptionItem.cs" />
+    <Compile Include="McdRoot.cs" />
+    <Compile Include="McdDBCompuScale.cs" />
+    <Compile Include="McdTextTableElement.cs" />
+    <Compile Include="McdValue.cs" />
+    <Compile Include="McdDBEcuVariant.cs" />
+    <Compile Include="E_PDU_ERR_EVT.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Архив (2)\Reprogramming.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9AC295D0-4510-42FA-A54D-C7C1EF7DA379}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Reprogramming</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>8.19.5842.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Reprogramming</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SAPI">
+      <HintPath>lib\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mshtml\IHTMLInputElement.cs" />
+    <Compile Include="mshtml\IHTMLInputTextElement.cs" />
+    <Compile Include="mshtml\IHTMLSelectElement.cs" />
+    <Compile Include="ChargeDialog.cs" />
+    <Compile Include="AddUnitEcuHardwarePartNumber.cs" />
+    <Compile Include="CycleIgnition.cs" />
+    <Compile Include="ConnectedUnitPage.cs" />
+    <Compile Include="GatherServerDataPage.cs" />
+    <Compile Include="IProvideProgrammingData.cs" />
+    <Compile Include="MenuProxy.cs" />
+    <Compile Include="UnitPartNumberViewDialog.cs" />
+    <Compile Include="PartNumberErrorDialog.cs" />
+    <Compile Include="ProgrammingStep.cs" />
+    <Compile Include="ProgramDeviceManager.cs" />
+    <Compile Include="ProgramDevicePage.cs" />
+    <Compile Include="ProgrammingOperation.cs" />
+    <Compile Include="ProgrammingData.cs" />
+    <Compile Include="ReprogrammingImage.cs" />
+    <Compile Include="ReprogrammingView.cs" />
+    <Compile Include="SelectDataSetSubPanel.cs" />
+    <Compile Include="SelectFirmwareSubPanel.cs" />
+    <Compile Include="SelectOperationPage.cs" />
+    <Compile Include="SelectUnitSubPanel.cs" />
+    <Compile Include="WizardPage.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="DetroitDiesel\Net\AddUnitDialog.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BlankProgramDeviceList.html" />
+    <EmbeddedResource Include="ChargeDialog.resx" />
+    <EmbeddedResource Include="DetroitDiesel\Net\AddUnitDialog.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="ReprogrammingView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

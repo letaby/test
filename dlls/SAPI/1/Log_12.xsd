@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="SapiFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CBFVersions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CBF" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="ecu" type="xs:string" />
+                  <xs:attribute name="version" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="S">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="I" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType >
+                  <xs:attribute name="N" type="xs:string" />
+                  <xs:attribute name="V" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="C" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="E" type="xs:string" />
+                    <xs:element name="V" type="xs:string" />
+                    <xs:element name="D" type="xs:string" />
+                    <xs:element name="R" type="xs:string" />
+                    <xs:element name="EIs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="EI" nillable="true" minOccurs="0" maxOccurs="unbounded">
+							  <xs:complexType mixed="true">
+								  <xs:sequence>
+									  <xs:element name="V" nillable="true" minOccurs="0" maxOccurs="unbounded">
+										  <xs:complexType>
+											  <xs:simpleContent>
+												  <xs:extension base="xs:string">
+													  <xs:attribute name="T" form="unqualified" type="xs:string" />
+												  </xs:extension>
+											  </xs:simpleContent>
+										  </xs:complexType>
+									  </xs:element>
+								  </xs:sequence>
+								  <xs:attribute name="Q" form="unqualified" type="xs:string" />
+							  </xs:complexType>
+						  </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Is" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="I" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="V" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="T" form="unqualified" type="xs:string" />
+                                        <xs:attribute name="LST" use="optional" form="unqualified" type="xs:string" />
+                                        <xs:attribute name="SC" use="optional" form="unqualified" type="xs:string" />
+                                        <xs:attribute name="CSS" use="optional" form="unqualified" type="xs:string" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Q" form="unqualified" type="xs:string" />
+                              <xs:attribute name="T" use="optional" form="unqualified" type="xs:string" />
+                              <xs:attribute name="P" use="optional" form="unqualified" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="FCs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FC" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="M" minOccurs="0" type="xs:string" />
+                                <xs:element name="S" minOccurs="0" type="xs:string" />
+                                <xs:element name="A" minOccurs="0" type="xs:string" />
+                                <xs:element name="P" minOccurs="0" type="xs:string" />
+                                <xs:element name="TNC" minOccurs="0" type="xs:string" />
+                                <xs:element name="TFS" minOccurs="0" type="xs:string" />
+                                <xs:element name="IM" minOccurs="0" type="xs:string" />
+                                <xs:element name="EDs">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="ED" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Q" form="unqualified" type="xs:string" />
+                                              <xs:attribute name="RI" use="optional" form="unqualified" type="xs:string" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="C" form="unqualified" type="xs:string" />
+                              <xs:attribute name="ST" form="unqualified" type="xs:string" />
+                              <xs:attribute name="ET" form="unqualified" type="xs:string" />
+                              <xs:attribute name="RFN" use="optional" form="unqualified" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                    <xs:element name="CSs" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CS" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="T" form="unqualified" type="xs:string" />
+                                  <xs:attribute name="A" form="unqualified" type="xs:string" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:sequence>
+                  <xs:attribute name="ST" form="unqualified" type="xs:string" />
+                  <xs:attribute name="ET" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ls">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="L" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="T" form="unqualified" type="xs:string" />
+                      <xs:attribute name="E" form="unqualified" type="xs:string" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Time" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

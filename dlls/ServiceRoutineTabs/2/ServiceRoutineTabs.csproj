@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ServiceRoutineTabs</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Instruments" />
+    <Reference Include="Interfaces" />
+    <Reference Include="SAPI">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonCS" />
+    <Reference Include="UnitConversion" />
+    <Reference Include="Extensions" />
+    <Reference Include="DataHub">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\DataHub.dll</HintPath>
+    </Reference>
+    <Reference Include="Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+    <Reference Include="Help" />
+  </ItemGroup>
+</Project>

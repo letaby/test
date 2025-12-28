@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ColumnHeaderTime" xml:space="preserve"><value>Time</value></data>
+  <data name="ColumnHeaderSeed" xml:space="preserve"><value>Seed</value></data>
+  <data name="Message_ParameterValueFromParentEngineeringCorrectionFactor" xml:space="preserve"><value>(from parent ECF)</value></data>
+  <data name="ParametersWritten" xml:space="preserve"><value>Parameters were successfully written to the device.</value></data>
+  <data name="readwrite" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAbQMAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wIaESYs8fgGOgAAAvxJREFUOE+tkV1o02cUxl8tziaYTFiZyNCKispAZA7Z
+jW7WalG8cIMVOqUi7bQNK5op6nQdCkZi4ybqFLVaFWNtBdMk/RjVNkmb2prYfNW2E2era5tkjUlb
+mimriezn3xBo8FYPPPC+F7/nPOcc8V4qfZdPI761x49cd/DwYS++7j8Tcnm7cNx30dZ+jyZrKxaL
+hZ/PmBF59rjsmzpNEhdi2ra7MbHkd36rsPKmhvwBPF4fXl8Xbo+XTpebB909jI+E+FV/m4xNOpRf
+m2NJXIgPCtoRn5Wjq7AlDOLxOKOjo4yNjREKhfD7/QmNPAtSdrWBOWo7ivU3SeJCTC/oQHxxGd2l
+5oTB475+Wlrt2NvuJvTm7XJ7CP/jp6yijsz9bpRrr08apG+/h1h5jaMX70h4jPHxcSKRCOFwmOHh
+4UT3gYEBQoFBjl2sZd4BN4q1lZMGsu0O0rKr0Vxo5NXL5zzo6aXZYsVqa8HW0irJjvN+J8Ghp1IT
+M/NLvZLBWwlkG29RdqmBeDTIvyN+XowGeT4SZCw0QCTQj/9JL8G+LnTlBhYd8qFcl2IgK3aQkWvi
+c5WZNT8a+UpdQ9YeI6v3SP99JrL215J9sJ6cX+rJOmxhqaYLZc6NSQN5kZNP8huYlf8HH25pJD3v
+DvJ8K8oCOzOL2vlI5eDjnU4W/uThU6n78rJuKUHKDuQqJ5mFjcwuaCb3kAmLrZXqWyaOnzqP5oR0
+3nN6rlTVkJl3kgVFVaw5+xeKdSkJZqg6WVDcxOwdNnaerGdbaR1ig5Gt2gbcHTYG/36SOG/m95VS
+/B5KTH5kqUtUFDtZom5hbkkbP2ir2Fxag0wao6S8g8DTR0xMTEj4BHMK9SzV9qIyBpDnpIwwLbf9
+yqxCK4ul+6q1l/lOexuF2sNBY58E/k8sFuPZ4CMWqg2sONPPXmsEeXblf0lcKt3uqenZtafFqurg
+l3naiMFwM2qob452dLqiPrc7ajabX1Rfu8CUZYfDaSv1wZmr9UNpy8+pk/S7lBCvAaUOHle9buCQ
+AAAAAElFTkSuQmCCCw==</value></data><data name="GroupNameIdentification" xml:space="preserve"><value> Identification</value></data>
+  <data name="Export" xml:space="preserve"><value>&amp;Export</value></data>
+  <data name="ColumnHeaderSettings" xml:space="preserve"><value>Settings</value></data>
+  <data name="PanelDescription" xml:space="preserve"><value>View and edit device parameters</value></data>
+  <data name="MessageFormatGatherPasswordOtherError" xml:space="preserve"><value>An error occurred while gathering password information: 
+{0}</value></data>
+  <data name="group_edit" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA0AIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wgbESE4Vm87RAAAAl9JREFUOE+9kF1I01EYh49Z0IVQd3UjmEQwyEE46EJE
+WOWFeBGIo4IuAjGLvmbFaqTlzClOyY9CmdSczVxzgqu1D1eyD5M5sdwk2eaWc00i7e+0WtZc+3VG
+Awct6KYeODfnd97nfd9D/hsz8lyLd6AK41wWNJw9eCUXupLR3+F/WRedl0oAARfukjwo9+5CMkqP
+p5cU2NtJ7Xh7hs5nFSwMWlvioEQ6rsFXmAM1Ozu9wNFJPFP9BzAzXILgVD2+RwJQh1vQFCuHwiKF
+zjSFdj4fzsfn0gvMrYT2+YSNdTu+MGZYliRo+nocXajAGS8XRY35WAh5oJfkbgpsd7Zs2O7ujPvH
+avGimSDC2MAEWjHLyFDPlKEHVRD4juLgg1wYvd20QRAqAdkUjEoyVqMRBw3WYGpKTPAWTHQEdaEy
+3MdZ3FgoR6GCBaVTiPfuRpo7MXAlRfC8eatjyTdIg0UYxQnBHLRzt9CNSog/nkDxEBsd9kr6g1K8
+myiluQr91SmCkUYinXx0KAr4ob9NBT9m4DZ3gveUg8Pa/agxldFv6QI+HEM8xAPjrUDfxRSBoYHw
+jKJMZiOig7aOCqIOXOefRF/bZUzPihFfFtG1jwABeoLFWH1dhN7zKYIEBvH24XFZAZ7cpII1Gcae
+VcCq4eGbn44c4NDCfKxM58GvyYFOnAX5BRJKlv6CFp42NO+ODddQQbgNn9+wwbj2YXkiGy7FDugb
+tsXVArKi5BN9suR3Ru+xY0NCgnVPKVwPs+g6mTH1VbKoqiYas4iwks/+zGQ35xTdLazgk3nFJdKT
+vP6XEPITQXiTE31QO3UAAAAASUVORK5CYIIL</value></data><data name="group_open" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAnQIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/
+ZF+RAAAAB3RJTUUH0wMEEic1A2go/gAAAixJREFUOE+9kV1oUnEYxt9aQReDuuiim6DbXRRFu2oX
+BVEXtasuRhd9EDWCPjcrJCljlq5cH7YMog+2lWvhjDRK3SqxDFu60XK7cZtZzk2S9GhN3fTk06ud
+4EAJ3dQDD4dznvf3nP/Ln/6bBtupv09HcJwjPNUQehR0R4r+Tq42yuazCfySTU2Qoj8r2El1A1dJ
+7TWQ/aWeBt2GpaLEllWxwHeNgkPdazBi3YLI0FlkhWGI4jQjaXbp+YH9DY9OVShwXyIe+IpCbgDp
+WC+mR1sQfnMQYW8jxl/t5myEHYPlpKzAc2V+wWNcUgy9VuOFnpBJeBAfV0GY1GI21Q7kbwOzRsQC
+jZibMXPBGMxKWYGrbV4qn/FxkMaz86UTTLC7gAKDc0YgdxHIaoGMGmH/Ts7eo+e4rOC5foEvPtHL
+wRRKV1UawPfL/OcLDGqAGRWvfQxIHcLk23rOzehWyAr6W+mm//7GPBAq3zNEN0NKPlATIBwAvuwF
+4juAz9tRjDYgMbYPd4/KCpxaaujTVCUKGTuetHBBzsrQrjKA2DYguhWIbAI+siObkXq3Hp2HZQUl
+OXWLrN6OOjw+wwXpjvIgPm1gaB27lt/XIjm8EiHbCth11eg6QlEJ/SkG9zv1y0TraS4QDAytZqgG
+Sf9yBEyL4dAuLFqUlHzQTA4J+V2u66vEhypCLliPwL1qXqdKtJygKbOCbG4N1UhjleW/UbuHdxNM
+zRQ2NdEt6fO/FNEPhOasoVBl+JYAAAAASUVORK5CYIIL</value></data><data name="MessageFormat_MissingLastServicedData" xml:space="preserve"><value>Parameters for {0} cannot be edited because it was not possible to verify their Last Serviced data. Click here to open the Program Device view to download data for this vehicle before attempting to make parameter changes.</value></data>
+  <data name="Import" xml:space="preserve"><value>&amp;Import</value></data>
+  <data name="FormatDeviceDoesNotExist" xml:space="preserve"><value>The selected file referenced a device that does not exist ({0}). Please select another file or check your installation</value></data>
+  <data name="FileImport" xml:space="preserve"><value>&amp;File Import...</value></data>
+  <data name="MessageFormat_MismatchLastServicedData" xml:space="preserve"><value>Parameters for {0} cannot be edited because the device does not match the software or hardware part number contained in the Last Serviced data. Click here to open the Program Device view to reprogram these devices before attempting to make parameter changes.</value></data>
+  <data name="collapseall" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAWgIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH1wMPFDIELR53dQAAAelJREFUOE+Nk91PE1EQxe8fbAgWaGurSEgDdrvdtrS1
+m/igETWBRAQVjSSiNgqiTR8U0ba0sSYrKtAQQwr9YI85s7TXD9J4knnYkzm/2Z17Vy3m3yNoL/9T
+9NX/iM2ue/JHdbsdgZy2DBYbj4+b/Wo2D9HY/SqA5Mo+rEffYd53YCzUcWW+iqk7JURufsBQYL7Q
+B8zO3uC0fmVmTAEMUrHc8CBs3PvhYMepwflSQb22hdLmhgCKO8DWLlDeB6oNoH6gq9VqYfzqBgSw
+WczjTf4hXj9fwvqzRayt3hMAwww6P4Fvh8BeUxcBl9JrGHgKnGTbNnK5HLLZLDKZDI46kGq32wgn
+8nrRXBilwnWZzDCn/h5Op9PSQ3W7XVyIrWoAt02p0Gd5bYYPjrxpZ8l1XQSmVzSAR0WpYA0qUPXK
+vw01VhE/lUohmUwikUggHo+LNxZ5rAE8Z6o3ncHOiVgiBi3LkrBpmuKNTDzQgOm5bTH57dyyGi3L
+8yANhxc0IHLro5h9wEgJyvcJ6rznc3IsFoNhGPJMDfnnNGDy+jsxe4C/l9cLR6PRUwc457utARPX
+igVeT14QFs+ZR8Vtn6WX6xUCvP+hp8v22wKv58WZVwhZLxA0nsI/9QSjk8vwjS9hOHRXXpuTvbBS
+vwDwp8yY5BrfaAAAAABJRU5ErkJgggs=</value></data><data name="UserWarningTitle" xml:space="preserve"><value>Warning: user must acknowledge condition before continuing.</value></data>
+  <data name="UserWarningIntro" xml:space="preserve"><value>
+Setting the parameter "{0}" to the value "{1}" requires that you acknowledge the following warning:
+{2}
+
+Do you want to continue?
+    </value></data>
+  <data name="SuffixFormat_HasPresets" xml:space="preserve"><value>{0}+presets</value></data>
+  <data name="VariantMethodSuffix_Assumed" xml:space="preserve"><value> (assumed)</value></data>
+  <data name="ColumnHeaderVIN" xml:space="preserve"><value>VIN</value></data>
+  <data name="UserWarningLogLabel" xml:space="preserve"><value>User acknowledged warning and set {0} to {1}.</value></data>
+  <data name="OpenHistoryForm_EntryNameFormat" xml:space="preserve"><value>{0} for {1} (ESN:{2} VIN:{3})</value></data>
+  <data name="ImportingParameters" xml:space="preserve"><value>Importing parameters...</value></data>
+  <data name="MessageFormatErrorsOccurredDuringRetrieval" xml:space="preserve"><value>While trying to retrieve backdoor seed, the following error occurred: {0}</value></data>
+  <data name="VariantMethodSuffix_Preset" xml:space="preserve"><value> (preset)</value></data>
+  <data name="MessageFormat_ChannelLockedForEditing" xml:space="preserve"><value>Cannot import parameters for {0} because it is locked for editing at this time.</value></data>
+  <data name="MessageFormat_AccumulatorServiceImportOnlineChannel" xml:space="preserve"><value>Accumulator services can only be imported to an online channel. The referenced device {0} is not online.</value></data>
+  <data name="ParameterView_Format_DeviceReportedTheFollowingErrors" xml:space="preserve"><value>The device {0} reported the following errors:
+
+</value></data>
+  <data name="Parameters" xml:space="preserve"><value>&amp;Parameters</value></data>
+  <data name="ReportSuccess_ParametersSuccessfullyImported" xml:space="preserve"><value>Parameters were successfully imported from {0}.</value></data>
+  <data name="ProvidePassword" xml:space="preserve"><value>Need to provide password to write password-protected parameter.</value></data>
+  <data name="Identification_EcuModel" xml:space="preserve"><value>ECU Model</value></data>
+  <data name="Identification_HardwareRevision" xml:space="preserve"><value>Hardware Revision</value></data>
+  <data name="ColumnHeaderEquipmentSerialNumber" xml:space="preserve"><value>Engine Serial Number</value></data>
+  <data name="MessageFormat_ShutdownRequestedWithUnsavedChanges" xml:space="preserve"><value>There are parameter changes that have not been sent or exported.  Do you want to continue shutting down?  Changes will be lost if you continue.</value></data>
+  <data name="UserWarningStatusLabel" xml:space="preserve"><value>User acknowledged warning {0}</value></data>
+  <data name="MessageFormat_CannotImportParametersToBaseVariant" xml:space="preserve"><value>Cannot import parameters because {0} is connected in the base variant.</value></data>
+  <data name="J2286OpenFilesFilter" xml:space="preserve"><value>SAE J2286 Files (*.par;*.ver)|*.par;*.ver|All files (*.*)|*.*</value></data>
+  <data name="ReadingParameters" xml:space="preserve"><value>Reading parameters...</value></data>
+  <data name="WarningPasswordServicesMissingTitle" xml:space="preserve"><value>Password Protection - services unavailable</value></data>
+  <data name="outofrange" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAApwIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wMFDAw4pa1ANQAAAjZJREFUOE/FkFtIk2EYx58tEmMJJlIk5ZTC0UYXKdkI
+qQUt6a4bJepCvApBCio6CRHWWl003Ca2ooEd0TApylriAWkaSWq2opzOpTvKNrfv033L0/590ptd
+dLyJfvC/eZ/n93/gpX9Gn5kU9qvyQfs11bhdT8Xs+e9xWNO6+KANwsQjdN9Q+t1GWslGf2a0nko8
+L4+A990CP2ZC4N1JtOtIx8a/x9VKqf31crfgt8LxcAsGHigw6zuE17c3C70XKYet/Zr3FqoKOqrB
+DWghTVmF9EwVfK82IOouQZtO2sjWfo6nkbIcTQVTMU8thLdqpGfkIk+hhrM/B/HgLgw2y5OdOipi
+6z/yxkI3Q0N6hEeqgGAxdmzfiK2FO4G59eJ/qCBM5uK+blkviCRM+c7QdSr82LJ3IeoWC5yVELz7
+YbiUhaPHNUjyeZiaWIPPvAzOHinunKIypi0h6auT9XBjtaJ8AuHhcsQ+7UPInw/XyB4kwqvF6ymY
+iRMAwmM9eZvPkIy5RB3n6aDrRQVio5dF+TAiIwcw7dmNp+Y02KwZmI+nYmaakJz/WjDpJdSVUTXT
+idprsoemAncRGT4rFlQgMlqCBU8+NNuyoS7SitIKzM+JBaK8WLCYFgNxTCfqshQEE6F74MYugBuv
+BOcphRDSYJZbi0RCKQqSJfFbms5RgOlEDceotM20yddZp+Q7anP4dvM6vs2UKSaNbzUujz43UtRW
+Q9FnBoo8uULhhtP0wVJOWqb/V4i+ABIbV9TP1voNAAAAAElFTkSuQmCCCw==</value></data><data name="FormatWarningPasswordServicesMissing" xml:space="preserve"><value>Password protection services are necessary for the device {0}, but not all services are defined in the description file, version {1}. Contact product support for a revised description file that implements these services correctly.</value></data>
+  <data name="FormatCanNotImport" xml:space="preserve"><value>Cannot import data for the offline {0} while other devices are connected.</value></data>
+  <data name="GroupNameInvalidData" xml:space="preserve"><value>Invalid data</value></data>
+  <data name="WritingParameters" xml:space="preserve"><value>Writing parameters...</value></data>
+  <data name="ParameterView_OneOrMoreErrorsAndWarningsDuringWrite" xml:space="preserve"><value>One or more errors and warnings occurred while writing parameters</value></data>
+  <data name="ParameterView_ErrorMessageFormat_UnknownParameter" xml:space="preserve"><value>{0}: unknown parameter
+</value></data>
+  <data name="ConfigurePasswords" xml:space="preserve"><value>&amp;Configure Passwords</value></data>
+  <data name="ParameterView_Format_StatusLabel" xml:space="preserve"><value>{0} ...</value></data>
+  <data name="J2286SaveFilesFilter" xml:space="preserve"><value>SAE J2286 Parameter Files (*.par)|*.par|SAE J2286 Verification Files (*.ver)|*.ver</value></data>
+  <data name="VariantMethodSuffix_PreviousSource" xml:space="preserve"><value> (previous source)</value></data>
+  <data name="VariantDoesNotMatchFormat" xml:space="preserve"><value>The diagnosis variant of the parameter file ({0}) does not match that of the connected channel ({1}).</value></data>
+  <data name="NotAvailable" xml:space="preserve"><value>Not available</value></data>
+  <data name="OpenServerDataForm_SourceUpload" xml:space="preserve"><value>Upload</value></data>
+  <data name="ReportError_NotAValidFile" xml:space="preserve"><value>Not a valid parameter file.</value></data>
+  <data name="Identification_HardwarePartNumber" xml:space="preserve"><value>Hardware Part Number</value></data>
+  <data name="ParameterView_Format_WarningOrError" xml:space="preserve"><value>{0}:  {1}
+</value></data>
+  <data name="error" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9wIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wQYEBs3Nf7QdAAAAoZJREFUOE+tkVtIk2EYx/8a07VD1PJQkaXraGZGpiSp
+JCVFakUHCAoqMAlzJEkRCt10kXXjlY6gi1DChMJD5EWRehGaJ6TQ0imWq7npnIc+nW5z+/c6vyCl
+ruoHL9/F9/6e5/8+D/47Dj3UtggUWHcGNI0eCLEMJ+gsA1Fo7NmAm590UMnX/gx34OjUwRCbuziH
+rComS3LJwpOkIZXOzEj26RXD5nVIl68vhdtxTDoV4+bLMrL0Bt05SWSuOJfj6DsTRSYryUMa9kcG
+uL6sXVaEEdCMp4aNst5I161M9uZd4ND1s+TVePJSLOfTw+n+0EIWZJIJAWwOxUgXoJZ1wLwJRe6H
+18iyfM6ej+Zgw2tapRnOHg6lN20VPWNWLuAT/5gAmqLAWg3uyDrwLUbZyvJ7ZF6KOMkcMZzmiIeU
+GuvoMnX7ZZYYyHiQ+0DzFrBGhWZZByxJ4ZN8kC3i7iGz4zmfFETHgImSy0NRh76mF4tyYiDde0WC
+SLBaDYesA0OJYVO8nUGe09OXpuVk4UXaHROUnM7FAqZO8ng453eB0m6wfT34fOVvBT5vDW5nbgp9
+YtLmCiOHpqY5Kjkp2b5zzp9fMCvRazhCqx5s0IHlCryXdaA1FHfnTmwj94MDnW0cnJjhRFMtmRJE
+97taf4oFvPevsE3IdRrwEVAk60CHCqqP+mDHwoRtVUZOF4uNiGKMBd3i7d7aUnry09ktotdrwScr
+MFYJaGV9kf7VyOrZCA/jQI9465yQf8SA49GgZTP8nV8JuUIBTzWQIWtL6dIiq1GHsV4x5a9iVX3i
+2yG6vl0j1qb2d7bX/E3+xRsRrVKJokoFWp4pYX8aBPvjQLQYgcKy5bH/HeAng/eVa99wfegAAAAA
+SUVORK5CYIIL</value></data><data name="MessageFormatWhileSubmittingOldPassword" xml:space="preserve"><value>While submitting old password: {0}</value></data>
+  <data name="ParameterView_ErrorMessageFormat" xml:space="preserve"><value>{0}/{1}: {2}
+</value></data>
+  <data name="ReportError_OneOrMoreErrorsOccurredImporting" xml:space="preserve"><value>One or more errors occurred while importing parameters from {0}.</value></data>
+  <data name="ValueNoSource" xml:space="preserve"><value>&lt;no source&gt;</value></data>
+  <data name="ReportError_OneOrMoreErrorsOccurredReading" xml:space="preserve"><value>One or more errors occurred while reading parameters.</value></data>
+  <data name="MessageFormatWarningCorruptFile" xml:space="preserve"><value>The file {0} is corrupted or empty.</value></data>
+  <data name="ReportWarning_ParameterBlacklistFailure" xml:space="preserve"><value>Part {0} for parameter {1} is not allowed for this software version and will be reset.</value></data>
+  <data name="ReportSuccess_ParametersSuccessfullyRead" xml:space="preserve"><value>Parameters were successfully read from the device.</value></data>
+  <data name="ParameterView_ConnectOffline" xml:space="preserve"><value>Connect offline...</value></data>
+  <data name="ParameterView_Format_DeviceReportedTheFollowingWarnings" xml:space="preserve"><value>The device {0} reported the following warnings:
+
+</value></data>
+  <data name="ParameterView_FormatPreconditionWithDialog" xml:space="preserve"><value>Parameters cannot be edited: {0}. Click here to open the '{1}' panel.</value></data>
+  <data name="ParameterView_Format_ErrorsOccurred_NoValidation" xml:space="preserve"><value>While writing parameters to the device '{0}' the following error occurred:
+
+"{1}"
+
+Parameters have not been verified and may not have been written.</value></data>
+  <data name="MessageMustEnterNewPassword" xml:space="preserve"><value>You must enter a new password</value></data>
+  <data name="ConfirmParameterSendPrint" xml:space="preserve"><value>Confirm Parameter Send Print</value></data>
+  <data name="MessageFormatWhileConfiguringNewPassword" xml:space="preserve"><value>While configuring new password: {0}</value></data>
+  <data name="ReviewParameters" xml:space="preserve"><value>Applying this parameter set to the connected device may result in an invalid configuration. You should carefully review this parameter set before sending it to the connected device.</value></data>
+  <data name="EcuStatusFormat_Offline" xml:space="preserve"><value>Offline {0}</value></data>
+  <data name="MessageFormat_ChangesToExport" xml:space="preserve"><value>There are changes to the {0} set for the device '{1}' that have not been sent to the device or exported to a file.
+
+Export those changes to a file now?</value></data>
+  <data name="FormatMessageOtherError" xml:space="preserve"><value>The following error occurred:
+
+{0}
+
+Please try again.</value></data>
+  <data name="EcuStatusFormat_Online" xml:space="preserve"><value>Online {0}</value></data>
+  <data name="MessageFormat_ToolDoesntSupportParameterEditing" xml:space="preserve"><value>Parameters for {0} cannot be edited. This tool variant does not support parameter editing.</value></data>
+  <data name="FormatMessageAborted" xml:space="preserve"><value>The following error occurred:
+
+{0}
+
+You must turn ignition off for 10 seconds before turning it back on and retrying this operation.</value></data>
+  <data name="PanelTitle" xml:space="preserve"><value>Parameters</value></data>
+  <data name="ColumnHeaderFormatSourceN" xml:space="preserve"><value>Source {0}</value></data>
+  <data name="edited" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAHQMAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0woFFgohiz0LpAAAAqxJREFUOE+1kV1I01EYh0+JQRdelV4ahELghVAgkXeG
+QUkhbhOyOW255dycTmbORqZmkkqgZXNLM3WztmV+LW2lkEqofVimJirNbWp+pPg1TdN2fv3FP0Tp
+ZT1wLs7h97znvO8h/4Ts7MwjMTH8RoFAUCwUChXM4sbGxgbz+Xw/qVTqxcZI+2HvbLO317KWEIuO
+kIPsMSEKxd3HqakaK4cT1REeHmHnciOdHE5kN4/HfRcVdb4ngstLHK0olk2GB9AV2UlY/X3AFGli
+dUKKirrnrC9eu7MysiATSXBRmIjMzEKoVPlUkXxrISwmdKLr/ecN1510LAuPoyvoEJgXOFmdkIKC
+jlG7bcI9PjGGQYsRlmcW6KsqYah6hKe1NYhs84fuVT76BuxoT0tAk5/PT9O+vaGsTkjODWuvfQ50
+bAOYb6mHfR1wLAP2BUDRE4ZcFw+FNBqSygu4LJdTeVp6Eqtuo1bXd8zMuekKgNWXZswwBeaZTe7H
+OKRPncG9zUuQ9Z+Gf6EP9bxOrrDab5RKs8X+dZMuuJkCz41Y3QQMwzrIvgRDQ+OgHDmLQI0v9md4
+FLDKn8jl+upPI2vU8R34VmuAg7k9peUcNBBC7YzAsTJfeKaRKia6Z9v4C6m0oqRvYInOMDOYrdHD
+xhQwlosRYvJDwP0DOHotCBlXW6LZ+E4kkod5nd3TdIUC7oYKjE0tghMWggSFCrcbm/F2mCI1pU7J
+xncSH1+qftbqoDamhenqB+gdX0fnm0G41gDbLNDjAJKTjLv3v4VYrE2sswxTByNM63UYWgI+OH/A
+NgcsrQJTkxuQyaq3ZrA7YnGpwPSkj2mAwaTFwNAiLA39KNG0upgvbpNKDXkqVfMJNr4TkUh7SqUy
+u3JuWvpFksqy+IRykUSiC+Txmj3YyP+CkF94Ep/Ki4G6cQAAAABJRU5ErkJgggs=</value></data><data name="ColumnHeaderDevice" xml:space="preserve"><value>Device</value></data>
+  <data name="PanelImage" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAvwkAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0woFFgU5H8mPPQAACU5JREFUWEfdV2lUlNcZHkPUc5KoMadEm9R6Eqp1ITFW
+alTcoahsM0EEpMoOZZFlYOI4IAIqLogiAmIUEQFBhLLIjrKoIBjFQRQUFBREEQFhhmFnvqfvN0wS
+PYkN6emPnj7n3HOX7877vNu99x3O/wy4XO4kkUiUtWXLlmZzc3MXKyurQAsLC4GlpeWH1FY7OztP
+Um79Tbg4ZeLq6AkqMZEcTmQch6OtXP45/P39A/h8fu+mTZsyTExM4OjoKDEzMxt0cHDoIwWwefPm
+p0KhsNzW1vaFnZ2diBQ6SWMBjefSHmtXV9fpSlE/okb9E92CP00brFwxC4XzP8HZieMZUiI+hMOZ
+oNzyE0xMjIv09NalGxlxVQ0M9Bl9fb1TXK7BTh6PCx6P52xkZPTM2Ni4i5RLZhW0sbF5bmpqOkSK
+ysljDCnYRsqoKcVx2hy4GpVLPuvpddVCt+MqPOJ9hfLFn+HsexNBSpxWbhtFcPA1Ox+f85LAwBxp
+WNitOh7PFFyeWbNge9hVbW0tWFp+e8TQkFuvp7dBZm5us9LAQA/6+rpHeTzDSENDQ4aUXsnlGj4l
+xc6x8sR37vz+al52S4PuPGCHLuCtizZrTdxZOwc5aqo49Q6HiedwVinIWezZk3Xo3Ll6NDfLR0Aw
+NjaBp0CExtQsLPqrBsLDk3HgQCw0NZcwoaFX5FyuKTZutO5ydw9v1dJaBSen4AQzM8cKbS2t50UF
+JRMKC4uu3qquRkdOIlqN5pMC+pA4r0HtenXkz5mGMxPexXcU9VF2QkBAlm9CQj1aWjASF3cWM2bM
+QKVYjACBO+bOnw+GGSGSf1AouKx+WL16JUJCwnDjxj0sWKCOwsJqbP92L1YvXS/zublpf2FuCaTS
+HgzRXkliBJr156Ddehlq1s1H3qyPEaUyTh7zekL6+mZ4xMTcQ2MjRhIT40FJpSD6cuEiHDx4ECUl
+JVBVVUVRURFcXbdBTU0NTU1PsWzZUujp6eHhw0ZoLNCAwTZtxrJanYnJiUS1+J5CRkdvP+7FnoB4
+uRquf/UpUqdNQpLKuD1K6lH4+WVYnzolRm3tsCIE7e3tYAed2fHoLEhil8jKIvT09OH2bTGSkpLJ
+wl7QKUB5+fcoLiyDFm8FLCq+REC3MUIGLBF2Nhh52QWoq6tHVn4BIsKOIXz9GsTMnpl9hMN5R0k9
+Ch+fNOPjx2+gSjygUABgRrvv84BL50bHI8O0LFcM+3p6FVtkEhlk3X2KT3bXv4bPCwMcHrDAcdgh
+uG8L/KL5CPTdh9CQUHgJBLBzcnrk7OWlqqT9Cd7e/9QJDS1FcVkvU9gK5D8Fcp8BlYWlaIiJwEWa
+X2wE0h8BGQ+BtHogtY7aA1qn3rWMC/dHa0bJ5XYI6bWEf6sJnGr/BrMzOtjqtBUuDs4dbq5u85SU
+b8LXN/3rQ4eKUVbaM2riD2i4A8QFjo7ZL2Q15SPkZDHb2Hlk7Q7YVi3Cof6tiCDyYwNW2P3CFG73
+dLExfwk0oj7HFB+V7vd3j1+opPs5RKKkeYGB+SgulrypQOtjIEIwOma/sAF6rc99kgCTa7MRRO4O
+H7ZB2KA19r7cDP59fZgWLsPSM7Pxkc97A+8HqKxVUv0yvL2zPvX3z2QuFbyS35UAN9uBspdAeX0X
+OvxskENhyaIQZFAI0igEGRSCqLt38E3RTARKzXBsyBoRpMC+DnMI6g1hXrICK+Pn4mPfD0YmB4w3
+U9K8HULhhSk+PqnynJwORjLEMJJBoIcOsaxfDkZkhAHWaJqzDeR6aV83WTgbu9p5RG6FyBE7HHj1
+dwgbeLAoXYW159Ux3W8yM2n3BA8lxb+Hi0vs+B07UgazsshsRk6sRPQD3LVHp6zb2bhTsynRhNdj
+HYSy5BT3oO4t8H5iBOvyNdBJWYAZez7EB7vHBynFjw0+PhndmRdbceeFnFGE4DmdwE7ygv1y0LLC
+/WyLFOdic/l8hI7Y4ITcHsHSrdjZvBH2N7Whm74QM/dPxWTvCfTecMaNSh4jvL0zmlNSmtDcMcR0
+91MIqPWxljssVRg+QmFhvVBS9R0ML81CFJxwRGaJXS2b4HhbBwaZGvg8eCpmCdQlnE2/8Nz+GkSi
+tJrz5xvQ2THAsPfNMMWbJYbdEsWdrlCA1qtzIrA2biY8HqxTJJ3r3Q34Jncx/hyiipm71bFzR/pg
++OGy366AUJh+PS7uPlpa+xQeeCYF6qjvt12OsjagoIlOArWUcD5ulvhjXsRHWJ+hDr2shZgbNg3T
+Rb9DlwzYHXCRcXe/8LPi5FchFKbmRUdX40pNL1NBhFWUB7V04w646KCtYxBSNiySPhz1s0ZO7H7w
+3S3xl21/hKrju1gRpIHmVvoBuezQoTyIRBlfKMWOHQJBSvKJE7fQ2CBhX18M0dljjx+ERhh83oZh
+Ev6gugY8Qz1s3KBJz7MDQqLSUHxvCEV0XyXWAEn3gQNHSyAUpry99nsbtm9PjgoLK8f92u4fFegk
+0r5dtqi7VYtSOgknL9fAiu+PFHE3yslL4hcUJupZ42Xd9BvK2rjYcnh5JZsrxY4dXl4pR44evYa8
+ig6mgB6iXIp3MV0LbYF8PL1SpsgJqZRBcVEFqiofQNo5iD5aY5uEyJ+QMuIWuiETxfDkJ4/tAnod
+np7JAUFBRbhR0cbIKe2H2ASkrB85EYChy5noZ0NCOdHU3IUrtxpQePcV8h4yOM+6nmqPXLqeK+nV
+TMt+AHf38/uUYscOT88kz8C9eSi99pxhX7pBcmcHG4boUDTGn0UeWZdK70BmA11QtT0QPx5Ay0sG
+ki7yAF1YbN9D3qioaKGqKSlKKXbsIAXsqDZEesFTppjinUMhYGuDxoRYdJ48jHayXkYEMnqspORy
+1u1SmrOkvfStm+bV1R2Ii7sBD4/Ei0qxY4eHR4Ip1QXIznnMKNxNZ5rKOfQXZGIoxBs95BUZu8Ye
+Tfre1NRHteIjxMSUw98/jf7IxEhcXOIvu7klBm7fnrlYKXbscHVNXC8UJiM9/SHDHrl+Ih+gnqms
+wLCvDcS1EqSmVlE1nE8xjh92cztX4+aWdJrPT7L38kr9wsLCREUp6j+Ds3OspkCQiAsXHjDPnsmo
+CK1D1OlS7PRPY9w949s9PJOzPT0v+AoEyTr0fE9V/uy/B/LAH+ztI2/b2h5/4uh4utLJKfo4NQs+
+P3Y2/XV5s4r9/wGH8y8uCUYr59BtKAAAAABJRU5ErkJgggs=</value></data><data name="MessageFormat_NoVcp" xml:space="preserve"><value>Parameters for {0} cannot be edited because a Vendor Component Program (VCP) is missing or incomplete.</value></data>
+  <data name="ReportWarning_ParameterNoPartNumberFailure" xml:space="preserve"><value>Value '{0}' for parameter {1} does not map to a part number and will be reset.</value></data>
+  <data name="J2286AccumulatorFilesFilter" xml:space="preserve"><value>SAE J2286 Accumulator Files (*.acc)|*.acc</value></data>
+  <data name="ReportWarningNoParametersChanged" xml:space="preserve"><value>"No parameters were changed for {0} as a result of the import."</value></data>
+  <data name="OpenServerDataForm_SourceDownload" xml:space="preserve"><value>Download</value></data>
+  <data name="Identification_SoftwarePartNumber" xml:space="preserve"><value>Software Part Number</value></data>
+  <data name="MessageFormatSelectVariantForDevice" xml:space="preserve"><value>Please select a diagnosis variant for the device {0}.</value></data>
+  <data name="ParameterView_OneOrMoreWarningsDuringWrite" xml:space="preserve"><value>One or more warnings occurred while writing parameters</value></data>
+  <data name="ParameterView_OneOrMoreErrorsDuringWrite" xml:space="preserve"><value>One or more errors occurred while writing parameters.</value></data>
+  <data name="ListParameterComparePartHeader" xml:space="preserve"><value>Part</value></data>
+  <data name="MessageChangesMayNotHaveTakenEffectAsTheTargetDeviceIsOffline" xml:space="preserve"><value>Changes may not have taken effect as the target device is offline.</value></data>
+  <data name="ColumnHeaderDiagnosticVariant" xml:space="preserve"><value>Diagnostic Variant</value></data>
+  <data name="MessageFormat_ToolDoesntSupportIncompatibilityTableUpdate" xml:space="preserve"><value>Parameters for {0} cannot be edited because a required file is missing. You may need to reinstall the tool. Contact the Daimler Trucks North America Dealer Help Desk for procedural direction.</value></data>
+  <data name="ParameterView_FormatPrecondition" xml:space="preserve"><value>Parameters cannot be edited: {0}.</value></data>
+  <data name="expandall" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAbQIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH1wMPFDIHtBcmzwAAAfxJREFUOE+NUvtP02AU/f5ijbw2x8OFLGBY13Vrx5rw
+gwaIif1B8YEPjBOaOII0+4Gnm4wwtQICCyoOtpUee2+tna/ASU6a3pxz7vfd+wmC8qJujReb0Mzv
+yBa+QJk7gvxkH9JDG2P3arhpVDFyp4zE5DquRAyLTQHU+W/W+t45LotSpf57CHUmPNsC5neAxY+e
+aBfYOAAqR0C1DtSOQzabTQyNL+GnXQg6NkEMfsCyDazs+2Yy2l+BvRPgsBGSAgbVYhhAd+aAgfcQ
+/TWI2A530nUd+XweuVwOmqbhtA1mq9VCf9oMA2hgHOCZqTOZqWunWVVV1hAcx8H1ZCEMoGkTqDMd
+m8zHp363f8F1XURG58IAWhVBRLchIlWffVsQve+4nslkoCgK0uk0UqkU13oTT8MA2jMh6E7GdsdW
+ySjLMpslSeJad/xRGDB619ufB7o7TVn0VPi/EzPmKqL67F+kukhMb7LoV0B3GaLrLcQ1v06dSey6
+50zDMPjrOG2ui+FbKywMAv4cXjKZZOHZWYPpHRqNxgnqB5/8gPhEyaLnSQ+ESHumVdG0A5Bwauo2
+mwNqWckPINzQly16ngPZ14jJC4iOvUTfyHP0DM+ia+gBCw8/29i1vU155tr2BsprS2HARSDhWsnE
+G/Mx4rGrWHw1g2Lh/uUD/r+FVfwAembI1POO+xIAAAAASUVORK5CYIIL</value></data><data name="MessageFormatPasswordForListSuccessfullyChanged" xml:space="preserve"><value>The password for protection list {0} was successfully changed.</value></data>
+  <data name="Accumulators" xml:space="preserve"><value>&amp;Accumulators</value></data>
+  <data name="MessageFormat_ToolDoesntSupportLastServicedData" xml:space="preserve"><value>Parameters for {0} cannot be edited because Last Serviced data must be verified for this type of device, but your ID is not authorized to support the Program Device functionality that will verify this data for these Electronic Control Units. Contact the Daimler Trucks North America Dealer Help Desk for procedural direction.</value></data>
+  <data name="CompareSendForm_Format_TotalChanges" xml:space="preserve"><value>There is a total of {0} parameter changes.</value></data>
+  <data name="MessageFormatPasswordForListSuccessfullyCleared" xml:space="preserve"><value>The password for protection list {0} was successfully cleared.</value></data>
+  <data name="warning" mimetype="application/x-microsoft.net.object.binary.base64"><value>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
+YIIL</value></data><data name="ParameterView_Format_FullStatus" xml:space="preserve"><value>{0}
+
+{1}</value></data>
+  <data name="HistoryImport" xml:space="preserve"><value>&amp;History Import...</value></data>
+  <data name="ColumnHeaderReason" xml:space="preserve"><value>Reason</value></data>
+  <data name="MessageFormat_MissingIncompatibilityTable" xml:space="preserve"><value>Parameters for {0} cannot be edited because a required file provided by the server is missing. Click here to open the Program Device view to download data for this vehicle before attempting to make parameter changes.</value></data>
+  <data name="ContinueImporting" xml:space="preserve"><value>Continue importing this parameter file?</value></data>
+  <data name="MessageMustProvidePreviousPassword" xml:space="preserve"><value>You must provide the previous password</value></data>
+  <data name="Message_ParameterValueFromParent" xml:space="preserve"><value>(from parent)</value></data>
+  <data name="done" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA+QIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wQYECUs/l4C5QAAAohJREFUOE+tkl1Ik2EUx8/euZyYW6YpYfkxTDFDqUBS
+IaRIbxIDRTAoMskitUwhv6YhNdnEdhFaTa0swY+Z1EUFYujCMl3dmBdJuj5oVtqaQWlNi39n+gRh
+eFU/OA8vL8/vnPM8z6H/TwutJj0VSkapb73Jzx7QoJ6UGSQLnaFi/q8Su1bgBiX5N6rtxdZMNL8u
+QdVoFnKHdiPjQRxizcFQGBQfqI6Sxe5lsBzdpvne9rYa+rGDyLFuRfpAJFLuhyHx3kbE3A5AaKca
+ilrJxUlShCXgtv1NKnv75FmUje5FzpMYHBqORcZAFJJ7NUi4uwEhHd7QPS1HeLcvqEw2RSW0RtiM
+jgrzB9NhGMvGYWsMslnOerQFqZZI7OoJhcbsBdunF4ALeO6wQmlUgQqpTNhMLfU1TJRgP0t7ekOQ
++TAKaZYI/tYg4qY3bE6WfwD4CVwcLwXV+YFOyR4Lm2hdg69d++wANrUGQt9vRHiXL5J6ghDZ7Y1X
+M+NsLmEar4B0lUA1QZxA6RQ6kf8F9eS+vkS0D5vhmp7HyJsRbL8VDNsMVxY02Srg6ZYbObRRoJN/
+JKBzkiWtPx6bzaGYfufAV+cs8I2thSW52VYJr2sEqYnleomrx4GO07CwmQoqju0IR1CnEjvvRGP2
+8xzm59yHZvll5WLlRdnEURkGOhEByiWtsBkDqTxrVr0P5KfyuS5DRv8OTH2Z4LbLIb8ixMscurWg
+/ASurnBQDvkJW6CnZA+d5FK2eIBY8mllwX3eSxz1HFXBoLx4ltULVESpwlpGNU+Ye0j0StB5NUjP
+z1UVAiraBirgto95Ouj0SvJvSnnCCnjNkw9SgfIj5Xs56Kh8iI7wTf3V9j9D9Avj/Fv6fEX+GwAA
+AABJRU5ErkJgggs=</value></data><data name="MessageFormatGatherPasswordVehicleMoving" xml:space="preserve"><value>Whilst gathering password information, the {0} responded with an invalid session error. Usually, this occurs because the vehicle is moving. Please stop the vehicle and try again.</value></data>
+  </root>

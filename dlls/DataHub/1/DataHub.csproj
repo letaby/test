@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Архив (2)\DataHub.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7E8310F-3900-4428-BBDB-E8D161E30264}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>DataHub</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>8.19.5842.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>DetroitDiesel.DataHub</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SAPI">
+      <HintPath>lib\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePasswordResult.cs" />
+    <Compile Include="ChangeDataPagePasswordRequestEventArgs.cs" />
+    <Compile Include="DataPageType.cs" />
+    <Compile Include="DataPage.cs" />
+    <Compile Include="DataPageRequestType.cs" />
+    <Compile Include="DataPageRequest.cs" />
+    <Compile Include="DataPageRequestEventArgs.cs" />
+    <Compile Include="ExtractionManager.cs" />
+    <Compile Include="ExtractionProgressEventArgs.cs" />
+    <Compile Include="ExtractionCompleteEventArgs.cs" />
+    <Compile Include="PasswordFleetDataPagesChangePasswordDialog.cs" />
+    <Compile Include="PasswordFleetDataPagesDialog.cs" />
+    <Compile Include="XtrFile.cs" />
+    <Compile Include="Properties\Resource.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PasswordFleetDataPagesChangePasswordDialog.resx" />
+    <EmbeddedResource Include="PasswordFleetDataPagesDialog.resx" />
+    <EmbeddedResource Include="Properties\Resource.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

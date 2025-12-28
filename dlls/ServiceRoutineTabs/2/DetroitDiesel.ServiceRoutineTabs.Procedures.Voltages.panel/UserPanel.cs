@@ -1,0 +1,347 @@
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+using DetroitDiesel.Common;
+using DetroitDiesel.Help;
+using DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments;
+using SapiLayer1;
+
+namespace DetroitDiesel.ServiceRoutineTabs.Procedures.Voltages.panel;
+
+public class UserPanel : CustomPanel
+{
+	private DigitalReadoutInstrument DigitalReadoutInstrument2;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument19;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument16;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument13;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument10;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument7;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument4;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument1;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument43;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument23a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument20a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument17a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument14a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument11a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument8a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument5a;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument2a;
+
+	private TableLayoutPanel tableLayoutPanel1;
+
+	private Button start;
+
+	private Button stop;
+
+	private DigitalReadoutInstrument digitalReadoutInstrument3;
+
+	private DigitalReadoutInstrument DigitalReadoutInstrument53a;
+
+	public UserPanel()
+	{
+		InitializeComponent();
+		start.Click += OnStartButtonClick;
+		stop.Click += OnStopButtonClick;
+	}
+
+	private void OnStopButtonClick(object sender, EventArgs e)
+	{
+		SetMarkedState(set: false);
+	}
+
+	private void OnStartButtonClick(object sender, EventArgs e)
+	{
+		SetMarkedState(set: true);
+	}
+
+	private void SetMarkedState(bool set)
+	{
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value0", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value1", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value4", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value5", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value6", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value7", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value8", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value0", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value2", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value4", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value5", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value6", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value8", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value9", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value10", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_ValueDD15", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value0", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value1", set);
+		SetMarkedState("MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value2", set);
+	}
+
+	private void SetMarkedState(string ecu, string qualifier, bool state)
+	{
+		Instrument instrument = ((CustomPanel)this).GetInstrument(ecu, qualifier);
+		if (instrument != null)
+		{
+			instrument.Marked = state;
+		}
+	}
+
+	private void InitializeComponent()
+	{
+		//IL_0012: Unknown result type (might be due to invalid IL or missing references)
+		//IL_001c: Expected O, but got Unknown
+		//IL_001d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0027: Expected O, but got Unknown
+		//IL_0028: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0032: Expected O, but got Unknown
+		//IL_0033: Unknown result type (might be due to invalid IL or missing references)
+		//IL_003d: Expected O, but got Unknown
+		//IL_0049: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0053: Expected O, but got Unknown
+		//IL_0054: Unknown result type (might be due to invalid IL or missing references)
+		//IL_005e: Expected O, but got Unknown
+		//IL_005f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0069: Expected O, but got Unknown
+		//IL_0075: Unknown result type (might be due to invalid IL or missing references)
+		//IL_007f: Expected O, but got Unknown
+		//IL_0080: Unknown result type (might be due to invalid IL or missing references)
+		//IL_008a: Expected O, but got Unknown
+		//IL_008b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0095: Expected O, but got Unknown
+		//IL_0096: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00a0: Expected O, but got Unknown
+		//IL_00a1: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00ab: Expected O, but got Unknown
+		//IL_00ac: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00b6: Expected O, but got Unknown
+		//IL_00b7: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00c1: Expected O, but got Unknown
+		//IL_00c2: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00cc: Expected O, but got Unknown
+		//IL_00cd: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00d7: Expected O, but got Unknown
+		//IL_00d8: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00e2: Expected O, but got Unknown
+		//IL_00e3: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00ed: Expected O, but got Unknown
+		//IL_00ee: Unknown result type (might be due to invalid IL or missing references)
+		//IL_00f8: Expected O, but got Unknown
+		//IL_00f9: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0103: Expected O, but got Unknown
+		//IL_0153: Unknown result type (might be due to invalid IL or missing references)
+		//IL_03eb: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0451: Unknown result type (might be due to invalid IL or missing references)
+		//IL_04f4: Unknown result type (might be due to invalid IL or missing references)
+		//IL_055a: Unknown result type (might be due to invalid IL or missing references)
+		//IL_05c0: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0663: Unknown result type (might be due to invalid IL or missing references)
+		//IL_06c9: Unknown result type (might be due to invalid IL or missing references)
+		//IL_072f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0795: Unknown result type (might be due to invalid IL or missing references)
+		//IL_07fb: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0861: Unknown result type (might be due to invalid IL or missing references)
+		//IL_08c7: Unknown result type (might be due to invalid IL or missing references)
+		//IL_092d: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0993: Unknown result type (might be due to invalid IL or missing references)
+		//IL_09f9: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0a5f: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0ac5: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0b2b: Unknown result type (might be due to invalid IL or missing references)
+		//IL_0b67: Unknown result type (might be due to invalid IL or missing references)
+		ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof(UserPanel));
+		tableLayoutPanel1 = new TableLayoutPanel();
+		DigitalReadoutInstrument2 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument23a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument19 = new DigitalReadoutInstrument();
+		start = new Button();
+		DigitalReadoutInstrument16 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument20a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument13 = new DigitalReadoutInstrument();
+		stop = new Button();
+		DigitalReadoutInstrument10 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument17a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument7 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument53a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument4 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument14a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument1 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument2a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument43 = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument11a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument5a = new DigitalReadoutInstrument();
+		DigitalReadoutInstrument8a = new DigitalReadoutInstrument();
+		digitalReadoutInstrument3 = new DigitalReadoutInstrument();
+		((Control)(object)tableLayoutPanel1).SuspendLayout();
+		((Control)this).SuspendLayout();
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument2, "DigitalReadoutInstrument2");
+		DigitalReadoutInstrument2.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument2).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument2).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value1");
+		((Control)(object)DigitalReadoutInstrument2).Name = "DigitalReadoutInstrument2";
+		((SingleInstrumentBase)DigitalReadoutInstrument2).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument23a, 0, 8);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument19, 1, 7);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add(start, 0, 9);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument16, 1, 6);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument20a, 0, 7);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument13, 1, 5);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add(stop, 2, 9);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument10, 1, 4);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument17a, 0, 6);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument7, 1, 3);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument53a, 0, 0);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument4, 1, 2);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument14a, 0, 5);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument1, 1, 1);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument2a, 0, 1);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument43, 1, 0);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument11a, 0, 4);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument5a, 0, 2);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument8a, 0, 3);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)digitalReadoutInstrument3, 1, 8);
+		((TableLayoutPanel)(object)tableLayoutPanel1).Controls.Add((Control)(object)DigitalReadoutInstrument2, 2, 0);
+		((Control)(object)tableLayoutPanel1).Name = "tableLayoutPanel1";
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument23a, "DigitalReadoutInstrument23a");
+		DigitalReadoutInstrument23a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument23a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument23a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value10");
+		((Control)(object)DigitalReadoutInstrument23a).Name = "DigitalReadoutInstrument23a";
+		((SingleInstrumentBase)DigitalReadoutInstrument23a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument19, "DigitalReadoutInstrument19");
+		DigitalReadoutInstrument19.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument19).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument19).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value5");
+		((Control)(object)DigitalReadoutInstrument19).Name = "DigitalReadoutInstrument19";
+		((SingleInstrumentBase)DigitalReadoutInstrument19).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(start, "start");
+		start.Name = "start";
+		start.UseCompatibleTextRendering = true;
+		start.UseVisualStyleBackColor = true;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument16, "DigitalReadoutInstrument16");
+		DigitalReadoutInstrument16.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument16).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument16).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value8");
+		((Control)(object)DigitalReadoutInstrument16).Name = "DigitalReadoutInstrument16";
+		((SingleInstrumentBase)DigitalReadoutInstrument16).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument20a, "DigitalReadoutInstrument20a");
+		DigitalReadoutInstrument20a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument20a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument20a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value9");
+		((Control)(object)DigitalReadoutInstrument20a).Name = "DigitalReadoutInstrument20a";
+		((SingleInstrumentBase)DigitalReadoutInstrument20a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument13, "DigitalReadoutInstrument13");
+		DigitalReadoutInstrument13.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument13).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument13).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value2");
+		((Control)(object)DigitalReadoutInstrument13).Name = "DigitalReadoutInstrument13";
+		((SingleInstrumentBase)DigitalReadoutInstrument13).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(stop, "stop");
+		stop.Name = "stop";
+		stop.UseCompatibleTextRendering = true;
+		stop.UseVisualStyleBackColor = true;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument10, "DigitalReadoutInstrument10");
+		DigitalReadoutInstrument10.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument10).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument10).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value0");
+		((Control)(object)DigitalReadoutInstrument10).Name = "DigitalReadoutInstrument10";
+		((SingleInstrumentBase)DigitalReadoutInstrument10).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument17a, "DigitalReadoutInstrument17a");
+		DigitalReadoutInstrument17a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument17a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument17a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value4");
+		((Control)(object)DigitalReadoutInstrument17a).Name = "DigitalReadoutInstrument17a";
+		((SingleInstrumentBase)DigitalReadoutInstrument17a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument7, "DigitalReadoutInstrument7");
+		DigitalReadoutInstrument7.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument7).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument7).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value8");
+		((Control)(object)DigitalReadoutInstrument7).Name = "DigitalReadoutInstrument7";
+		((SingleInstrumentBase)DigitalReadoutInstrument7).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument53a, "DigitalReadoutInstrument53a");
+		DigitalReadoutInstrument53a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument53a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument53a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value0");
+		((Control)(object)DigitalReadoutInstrument53a).Name = "DigitalReadoutInstrument53a";
+		((SingleInstrumentBase)DigitalReadoutInstrument53a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument4, "DigitalReadoutInstrument4");
+		DigitalReadoutInstrument4.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument4).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument4).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value6");
+		((Control)(object)DigitalReadoutInstrument4).Name = "DigitalReadoutInstrument4";
+		((SingleInstrumentBase)DigitalReadoutInstrument4).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument14a, "DigitalReadoutInstrument14a");
+		DigitalReadoutInstrument14a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument14a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument14a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value7");
+		((Control)(object)DigitalReadoutInstrument14a).Name = "DigitalReadoutInstrument14a";
+		((SingleInstrumentBase)DigitalReadoutInstrument14a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument1, "DigitalReadoutInstrument1");
+		DigitalReadoutInstrument1.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument1).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument1).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value5");
+		((Control)(object)DigitalReadoutInstrument1).Name = "DigitalReadoutInstrument1";
+		((SingleInstrumentBase)DigitalReadoutInstrument1).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument2a, "DigitalReadoutInstrument2a");
+		DigitalReadoutInstrument2a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument2a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument2a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_Value6");
+		((Control)(object)DigitalReadoutInstrument2a).Name = "DigitalReadoutInstrument2a";
+		((SingleInstrumentBase)DigitalReadoutInstrument2a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument43, "DigitalReadoutInstrument43");
+		DigitalReadoutInstrument43.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument43).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument43).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_Request_Results_Sensor_Value4");
+		((Control)(object)DigitalReadoutInstrument43).Name = "DigitalReadoutInstrument43";
+		((SingleInstrumentBase)DigitalReadoutInstrument43).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument11a, "DigitalReadoutInstrument11a");
+		DigitalReadoutInstrument11a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument11a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument11a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value1");
+		((Control)(object)DigitalReadoutInstrument11a).Name = "DigitalReadoutInstrument11a";
+		((SingleInstrumentBase)DigitalReadoutInstrument11a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument5a, "DigitalReadoutInstrument5a");
+		DigitalReadoutInstrument5a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument5a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument5a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value2");
+		((Control)(object)DigitalReadoutInstrument5a).Name = "DigitalReadoutInstrument5a";
+		((SingleInstrumentBase)DigitalReadoutInstrument5a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(DigitalReadoutInstrument8a, "DigitalReadoutInstrument8a");
+		DigitalReadoutInstrument8a.FontGroup = null;
+		((SingleInstrumentBase)DigitalReadoutInstrument8a).FreezeValue = false;
+		((SingleInstrumentBase)DigitalReadoutInstrument8a).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_3V_12Bit_Request_Results_Sensor_Value0");
+		((Control)(object)DigitalReadoutInstrument8a).Name = "DigitalReadoutInstrument8a";
+		((SingleInstrumentBase)DigitalReadoutInstrument8a).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(digitalReadoutInstrument3, "digitalReadoutInstrument3");
+		digitalReadoutInstrument3.FontGroup = null;
+		((SingleInstrumentBase)digitalReadoutInstrument3).FreezeValue = false;
+		((SingleInstrumentBase)digitalReadoutInstrument3).Instrument = new Qualifier((QualifierTypes)1, "MCM", "RT_SR001_Sensor_Voltage_5V_Request_Results_Sensor_ValueDD15");
+		((Control)(object)digitalReadoutInstrument3).Name = "digitalReadoutInstrument3";
+		((SingleInstrumentBase)digitalReadoutInstrument3).UnitAlignment = StringAlignment.Near;
+		componentResourceManager.ApplyResources(this, "$this");
+		((CustomPanel)this).ContextLink = new Link("Panel_Voltages");
+		((Control)this).Controls.Add((Control)(object)tableLayoutPanel1);
+		((Control)this).Name = "UserPanel";
+		((Control)(object)tableLayoutPanel1).ResumeLayout(performLayout: false);
+		((Control)(object)tableLayoutPanel1).PerformLayout();
+		((Control)this).ResumeLayout(performLayout: false);
+	}
+}

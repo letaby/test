@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Архив (2)\FaultCodeTabs.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EFD969A-00ED-495A-BD33-09DB4554B03F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>FaultCodeTabs</AssemblyName>
+    <ApplicationVersion>8.19.5842.0</ApplicationVersion>
+    <RootNamespace>DetroitDiesel.FaultCodeTabs.General</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SAPI">
+      <HintPath>lib\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="All_Faults\panel\UserPanel.cs" />
+    <Compile Include="All_Faults\panel\Resources.cs" />
+    <Compile Include="All_Faults\panel\Properties.cs" />
+    <Compile Include="Fault_History\panel\UserPanel.cs" />
+    <Compile Include="Fault_History\panel\Resources.cs" />
+    <Compile Include="Fault_History\panel\Properties.cs" />
+    <Compile Include="Monitor_Performance__EPA10_\panel\UserPanel.cs" />
+    <Compile Include="Monitor_Performance__EPA10_\panel\Resources.cs" />
+    <Compile Include="Monitor_Performance__EPA10_\panel\Properties.cs" />
+    <Compile Include="Test_Results__EPA10_\panel\UserPanel.cs" />
+    <Compile Include="Test_Results__EPA10_\panel\Resources.cs" />
+    <Compile Include="Test_Results__EPA10_\panel\Properties.cs" />
+    <Compile Include="Virtual_Technician_Data\panel\UserPanel.cs" />
+    <Compile Include="Virtual_Technician_Data\panel\Resources.cs" />
+    <Compile Include="Virtual_Technician_Data\panel\Properties.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="All_Faults\panel\UserPanel.resx" />
+    <EmbeddedResource Include="Fault_History\panel\UserPanel.resx" />
+    <EmbeddedResource Include="Monitor_Performance__EPA10_\panel\UserPanel.resx" />
+    <EmbeddedResource Include="Test_Results__EPA10_\panel\UserPanel.resx" />
+    <EmbeddedResource Include="Virtual_Technician_Data\panel\UserPanel.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

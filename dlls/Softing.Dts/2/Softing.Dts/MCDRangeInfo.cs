@@ -1,0 +1,11 @@
+namespace Softing.Dts;
+
+public enum MCDRangeInfo : uint
+{
+	eVALUE_VALID = 1538u,
+	eVALUE_NOT_DEFINED,
+	eVALUE_NOT_AVAILABLE,
+	eVALUE_NOT_VALID,
+	eVALUE_NOT_INITIALIZED,
+	eVALUE_CODED_TO_PHYSICAL_FAILED
+}

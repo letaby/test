@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SAPI</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="SapiLayer1.ConfigurationItems_1.xsd" />
+    <None Remove="SapiLayer1.Ecu_1.xsd" />
+    <None Remove="SapiLayer1.Ecu_10.xsd" />
+    <None Remove="SapiLayer1.Ecu_11.xsd" />
+    <None Remove="SapiLayer1.Ecu_12.xsd" />
+    <None Remove="SapiLayer1.Ecu_14.xsd" />
+    <None Remove="SapiLayer1.Ecu_2.xsd" />
+    <None Remove="SapiLayer1.Ecu_3.xsd" />
+    <None Remove="SapiLayer1.Ecu_4.xsd" />
+    <None Remove="SapiLayer1.Ecu_5.xsd" />
+    <None Remove="SapiLayer1.Ecu_6.xsd" />
+    <None Remove="SapiLayer1.Ecu_7.xsd" />
+    <None Remove="SapiLayer1.Ecu_8.xsd" />
+    <None Remove="SapiLayer1.Ecu_9.xsd" />
+    <None Remove="SapiLayer1.Log_1.xsd" />
+    <None Remove="SapiLayer1.Log_10.xsd" />
+    <None Remove="SapiLayer1.Log_2.xsd" />
+    <None Remove="SapiLayer1.Log_3.xsd" />
+    <None Remove="SapiLayer1.Log_4.xsd" />
+    <None Remove="SapiLayer1.Log_5.xsd" />
+    <None Remove="SapiLayer1.Log_6.xsd" />
+    <None Remove="SapiLayer1.Log_7.xsd" />
+    <None Remove="SapiLayer1.Log_8.xsd" />
+    <None Remove="SapiLayer1.Log_9.xsd" />
+    <None Remove="SapiLayer1.Manifest_1.xsd" />
+    <None Remove="SapiLayer1.Ecu_13.xsd" />
+    <None Remove="SapiLayer1.Ecu_15.xsd" />
+    <None Remove="SapiLayer1.Ecu_16.xsd" />
+    <None Remove="SapiLayer1.Ecu_17.xsd" />
+    <None Remove="SapiLayer1.Log_11.xsd" />
+    <None Remove="SapiLayer1.Ecu_18.xsd" />
+    <None Remove="SapiLayer1.Ecu_19.xsd" />
+    <None Remove="SapiLayer1.Ecu_20.xsd" />
+    <None Remove="SapiLayer1.Log_12.xsd" />
+    <None Remove="SapiLayer1.Log_13.xsd" />
+    <None Remove="SapiLayer1.Ecu_21.xsd" />
+    <None Remove="SapiLayer1.Log_14.xsd" />
+    <None Remove="SapiLayer1.Ecu_22.xsd" />
+    <None Remove="SapiLayer1.Log_15.xsd" />
+    <None Remove="SapiLayer1.Log_16.xsd" />
+    <None Remove="SapiLayer1.Log_17.xsd" />
+    <EmbeddedResource Include="SapiLayer1.ConfigurationItems_1.xsd" LogicalName="SapiLayer1.ConfigurationItems_1.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_1.xsd" LogicalName="SapiLayer1.Ecu_1.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_10.xsd" LogicalName="SapiLayer1.Ecu_10.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_11.xsd" LogicalName="SapiLayer1.Ecu_11.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_12.xsd" LogicalName="SapiLayer1.Ecu_12.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_14.xsd" LogicalName="SapiLayer1.Ecu_14.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_2.xsd" LogicalName="SapiLayer1.Ecu_2.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_3.xsd" LogicalName="SapiLayer1.Ecu_3.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_4.xsd" LogicalName="SapiLayer1.Ecu_4.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_5.xsd" LogicalName="SapiLayer1.Ecu_5.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_6.xsd" LogicalName="SapiLayer1.Ecu_6.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_7.xsd" LogicalName="SapiLayer1.Ecu_7.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_8.xsd" LogicalName="SapiLayer1.Ecu_8.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_9.xsd" LogicalName="SapiLayer1.Ecu_9.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_1.xsd" LogicalName="SapiLayer1.Log_1.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_10.xsd" LogicalName="SapiLayer1.Log_10.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_2.xsd" LogicalName="SapiLayer1.Log_2.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_3.xsd" LogicalName="SapiLayer1.Log_3.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_4.xsd" LogicalName="SapiLayer1.Log_4.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_5.xsd" LogicalName="SapiLayer1.Log_5.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_6.xsd" LogicalName="SapiLayer1.Log_6.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_7.xsd" LogicalName="SapiLayer1.Log_7.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_8.xsd" LogicalName="SapiLayer1.Log_8.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_9.xsd" LogicalName="SapiLayer1.Log_9.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Manifest_1.xsd" LogicalName="SapiLayer1.Manifest_1.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_13.xsd" LogicalName="SapiLayer1.Ecu_13.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_15.xsd" LogicalName="SapiLayer1.Ecu_15.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_16.xsd" LogicalName="SapiLayer1.Ecu_16.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_17.xsd" LogicalName="SapiLayer1.Ecu_17.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_11.xsd" LogicalName="SapiLayer1.Log_11.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_18.xsd" LogicalName="SapiLayer1.Ecu_18.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_19.xsd" LogicalName="SapiLayer1.Ecu_19.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_20.xsd" LogicalName="SapiLayer1.Ecu_20.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_12.xsd" LogicalName="SapiLayer1.Log_12.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_13.xsd" LogicalName="SapiLayer1.Log_13.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_21.xsd" LogicalName="SapiLayer1.Ecu_21.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_14.xsd" LogicalName="SapiLayer1.Log_14.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Ecu_22.xsd" LogicalName="SapiLayer1.Ecu_22.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_15.xsd" LogicalName="SapiLayer1.Log_15.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_16.xsd" LogicalName="SapiLayer1.Log_16.xsd" />
+    <EmbeddedResource Include="SapiLayer1.Log_17.xsd" LogicalName="SapiLayer1.Log_17.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CaesarAbstraction" />
+    <Reference Include="McdAbstraction">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\McdAbstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="J2534Abstraction">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\J2534Abstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>

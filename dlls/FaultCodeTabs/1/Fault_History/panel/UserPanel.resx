@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonBack.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelToolBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonBack.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+  <data name="buttonRefresh.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABbAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Name" xml:space="preserve">
+    <value>buttonRefresh</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonForward.Parent" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="buttonBack.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACYAAAAaAAAACw==</value>
+  </data>
+  <data name="buttonBack.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="webBrowserVT.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAIAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonBack.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonForward.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStatus.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAAAAAACAAAAAgAAAAAAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_NoConnectedVIN1" xml:space="preserve">
+    <value>&lt;no connected VIN&gt;</value>
+  </data>
+  <data name="&gt;&gt;buttonForward.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonRefresh.FlatStyle" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5GbGF0U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="$this.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEFAAAABQAAAAUAAAAFAAAACw==</value>
+  </data>
+  <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.LayoutSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAChTeXN0ZW0uV2luZG93cy5Gb3Jtcy5UYWJsZUxheW91dFNldHRpbmdzAQAAABBTZXJpYWxpemVkU3RyaW5nAQIAAAAGAwAAANAEPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTE2Ij8+PFRhYmxlTGF5b3V0U2V0dGluZ3M+PENvbnRyb2xzPjxDb250cm9sIE5hbWU9ImJ1dHRvbkJhY2siIFJvdz0iMCIgUm93U3Bhbj0iMSIgQ29sdW1uPSIwIiBDb2x1bW5TcGFuPSIxIiAvPjxDb250cm9sIE5hbWU9ImxhYmVsU3RhdHVzIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMyIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJidXR0b25SZWZyZXNoIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMiIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJidXR0b25Gb3J3YXJkIiBSb3c9IjAiIFJvd1NwYW49IjEiIENvbHVtbj0iMSIgQ29sdW1uU3Bhbj0iMSIgLz48Q29udHJvbCBOYW1lPSJwcm9ncmVzc0JhciIgUm93PSIwIiBSb3dTcGFuPSIxIiBDb2x1bW49IjQiIENvbHVtblNwYW49IjEiIC8+PC9Db250cm9scz48Q29sdW1ucyBTdHlsZXM9IkF1dG9TaXplLDAsQXV0b1NpemUsMCxBdXRvU2l6ZSwwLFBlcmNlbnQsMTAwLEFic29sdXRlLDkwIiAvPjxSb3dzIFN0eWxlcz0iQWJzb2x1dGUsMzIiIC8+PC9UYWJsZUxheW91dFNldHRpbmdzPgs=</value>
+  </data>
+  <data name="progressBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
+  </data>
+  <data name="buttonRefresh.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="buttonRefresh.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACYAAAAaAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.AutoSizeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BdXRvU2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;webBrowserVT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.WebBrowser, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webBrowserVT.Name" xml:space="preserve">
+    <value>webBrowserVT</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.Parent" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonForward.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+  <data name="Panel.Category" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StringTable.Message_NoConnectedVIN" xml:space="preserve">
+    <value>&lt;no connected VIN&gt;</value>
+  </data>
+  <data name="buttonRefresh.AutoSizeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BdXRvU2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonRefresh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="webBrowserVT.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelStatus.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonForward.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAvAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelToolBar.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.TableLayoutPanel, Instruments, Version=8.18.5616.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelToolBar.Name" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="buttonBack.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonBack.AutoSizeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BdXRvU2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonBack.Parent" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStatus.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADECAAAgAAAACw==</value>
+  </data>
+  <data name="labelStatus.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="buttonBack.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Panel.DisplayName" xml:space="preserve">
+    <value>Fault History</value>
+  </data>
+  <data name="progressBar.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="webBrowserVT.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB8DAAAbAgAACw==</value>
+  </data>
+  <data name="progressBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEoAAAAQAAAACw==</value>
+  </data>
+  <data name="webBrowserVT.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonBack.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEIAAAACAAAAAgAAAAIAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_YouAreNotConnected" xml:space="preserve">
+    <value>You are not connected to the internet. Please click the Refresh button after connecting to internet."</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Parent" xml:space="preserve">
+    <value>tableLayoutPanelToolBar</value>
+  </data>
+  <data name="buttonRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelStatus.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACMAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonForward.FlatStyle" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5GbGF0U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="labelStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;webBrowserVT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="webBrowserVT.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABsAAAAZAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;progressBar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="webBrowserVT.Margin" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEAAAAAAAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_ConnectedVIN" xml:space="preserve">
+    <value>Connected VIN: </value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonForward.Name" xml:space="preserve">
+    <value>buttonForward</value>
+  </data>
+  <data name="&gt;&gt;buttonForward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>UserPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.18.5616.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value>
+  </data>
+  <data name="buttonForward.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;webBrowserVT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonForward.AutoSizeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BdXRvU2l6ZU1vZGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="buttonForward.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="buttonForward.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACYAAAAaAAAACw==</value>
+  </data>
+  <data name="buttonRefresh.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonForward.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonRefresh.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelToolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonBack.Name" xml:space="preserve">
+    <value>buttonBack</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB8DAAAgAAAACw==</value>
+  </data>
+  <data name="tableLayoutPanelToolBar.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="progressBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADNAgAACAAAAAs=</value>
+  </data>
+  <data name="buttonBack.FlatStyle" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5GbGF0U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="StringTable.Message_ConnectedVIN1" xml:space="preserve">
+    <value>Connected VIN: </value>
+  </data>
+</root>

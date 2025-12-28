@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="columnEcu.Text" xml:space="preserve"><value>ECU</value></data>
+  <data name="&gt;&gt;textBoxOutput.ZOrder" xml:space="preserve"><value>3</value></data>
+  <data name="textBoxOutput.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>3</value></data>
+  <data name="StringTable.Message_WaitingForDevicesToReconnect" xml:space="preserve"><value>Waiting for devices to reconnect...</value></data>
+  <data name="&gt;&gt;textBoxOutput.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;buttonStart.ZOrder" xml:space="preserve"><value>1</value></data>
+  <data name="StringTable.Message_ConnectAtLeastTwoDevicesToDetermineVINSynchronization" xml:space="preserve"><value>Connect at least two devices to determine VIN synchronization.</value></data>
+  <data name="StringTable.Message_ProcessingPleaseWait" xml:space="preserve"><value>Processing, please wait.</value></data>
+  <data name="columnVin.Text" xml:space="preserve"><value>VIN</value></data>
+  <data name="&gt;&gt;buttonStart.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="StringTable.Message_UnknownStage" xml:space="preserve"><value>    Unknown stage.</value></data>
+  <data name="labelFault.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAhAAAAjAAAAAs=</value></data><data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD0BAABcAQAACw==</value></data><data name="StringTable.Message_TheVINsInThisVehicleAreSynchronizedNoActionIsNecessaryIfTheVINIsIncorrectYouWillNeedToReprogramUsingServerData" xml:space="preserve"><value>The VINs in this vehicle are synchronized, no action is necessary. If the VIN is incorrect, you will need to reprogram using server data.</value></data>
+  <data name="buttonClose.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value></data><data name="buttonClose.Text" xml:space="preserve"><value>&amp;Close</value></data>
+  <data name="labelFault.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAA
+Cw==</value></data><data name="checkmarkFaultPresent.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAYAAAACw==</value></data><data name="listViewVins.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>7</value></data>
+  <data name="buttonClose.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAPgEAAAs=</value></data><data name="buttonStart.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>5</value></data>
+  <data name="textBoxOutput.Multiline" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.MessageFormat_FailedToWriteVINFor0" xml:space="preserve"><value>Failed to write VIN for {0}.</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>&amp;Start</value></data>
+  <data name="buttonStart.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value></data><data name="textBoxOutput.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADEBAABNAAAACw==</value></data><data name="labelFault.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABYBAAA/AAAACw==</value></data><data name="labelFault.Text" xml:space="preserve"><value>No VIN could be read.</value></data>
+  <data name="listViewVins.Size" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADEBAAB/AAAACw==</value></data><data name="buttonClose.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAA
+Cw==</value></data><data name="Panel.Category" xml:space="preserve"><value /></data>
+  <data name="&gt;&gt;listViewVins.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="StringTable.Message_PleaseTurnTheIgnitionOffAndWait" xml:space="preserve"><value>Please turn the ignition off, and wait...</value></data>
+  <data name="labelFault.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>2</value></data>
+  <data name="StringTable.Message_WaitingForRemainingDevicesToShutdownPleaseWait" xml:space="preserve"><value>Waiting for remaining devices to shutdown, please wait.</value></data>
+  <data name="buttonStart.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAJAAAA
+Cw==</value></data><data name="StringTable.Message_ItWasNotNecessaryToChangeAnyVINs" xml:space="preserve"><value>    It was not necessary to change any VINs.</value></data>
+  <data name="&gt;&gt;textBoxOutput.Type" xml:space="preserve"><value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;textBoxOutput.Name" xml:space="preserve"><value>textBoxOutput</value></data>
+  <data name="columnVin.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>208</value></data>
+  <data name="columnEcu.Width" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>73</value></data>
+  <data name="StringTable.MessageFormat_TheVINsInThisVehicleAreNotSynchronizedClickStartToCopyTheVINFrom0ToTheOtherDevices" xml:space="preserve"><value>The VINs in this vehicle are not synchronized. Click Start to copy the VIN from {0} to the other devices.</value></data>
+  <data name="&gt;&gt;checkmarkFaultPresent.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.Checkmark, CommonCS, Version=8.4.3161.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="&gt;&gt;checkmarkFaultPresent.Name" xml:space="preserve"><value>checkmarkFaultPresent</value></data>
+  <data name="&gt;&gt;listViewVins.ZOrder" xml:space="preserve"><value>0</value></data>
+  <data name="StringTable.Message_TheOperationWasAborted" xml:space="preserve"><value>    The operation was aborted.</value></data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>True</value></data>
+  <data name="StringTable.Message_WaitingForDevicesToDisconnect" xml:space="preserve"><value>Waiting for devices to disconnect...</value></data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve"><value>buttonClose</value></data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_WaitingForRemainingDevicesToComeOnlinePleaseWait" xml:space="preserve"><value>Waiting for remaining devices to come online, please wait.</value></data>
+  <data name="Panel.DisplayName" xml:space="preserve"><value>Check VIN Synchronization</value></data>
+  <data name="StringTable.MessageFormat_SuccessfullyWroteVINFor0" xml:space="preserve"><value>Successfully wrote VIN for {0}.</value></data>
+  <data name="&gt;&gt;labelFault.Name" xml:space="preserve"><value>labelFault</value></data>
+  <data name="&gt;&gt;labelFault.Type" xml:space="preserve"><value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_TheProcedureFailedToComplete" xml:space="preserve"><value>The procedure failed to complete:</value></data>
+  <data name="StringTable.Message_Complete" xml:space="preserve"><value>Complete</value></data>
+  <data name="StringTable.Message_ThereAreNoDevicesOnline" xml:space="preserve"><value>There are no devices online.</value></data>
+  <data name="&gt;&gt;labelFault.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="checkmarkFaultPresent.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAiwAAAAs=</value></data><data name="&gt;&gt;buttonStart.Type" xml:space="preserve"><value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="&gt;&gt;buttonStart.Name" xml:space="preserve"><value>buttonStart</value></data>
+  <data name="&gt;&gt;columnEcu.Name" xml:space="preserve"><value>columnEcu</value></data>
+  <data name="&gt;&gt;columnEcu.Type" xml:space="preserve"><value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_TheVINsInThisVehicleAreNotSynchronizedButTheOperationCannotProceedBecauseTheVINMasterDeviceDoesNotHaveAVIN" xml:space="preserve"><value>The VINs in this vehicle are not synchronized but the operation cannot proceed because the VIN master device does not have a VIN.</value></data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve"><value>2</value></data>
+  <data name="StringTable.Message_ADeviceWasDisconnected" xml:space="preserve"><value>    A device was disconnected.</value></data>
+  <data name="&gt;&gt;labelFault.ZOrder" xml:space="preserve"><value>4</value></data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="&gt;&gt;checkmarkFaultPresent.ZOrder" xml:space="preserve"><value>5</value></data>
+  <data name="&gt;&gt;columnVin.Name" xml:space="preserve"><value>columnVin</value></data>
+  <data name="&gt;&gt;columnVin.Type" xml:space="preserve"><value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></data>
+  <data name="StringTable.Message_TheVINsInThisVehicleAreNotSynchronizedButTheOperationCannotProceedBecauseMultipleVINMasterDevicesAreDefinedAndConnected" xml:space="preserve"><value>The VINs in this vehicle are not synchronized but the operation cannot proceed because multiple VIN master devices are defined and connected.</value></data>
+  <data name="textBoxOutput.Anchor" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAu
+MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAA
+ACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAPAAAA
+Cw==</value></data><data name="&gt;&gt;$this.Name" xml:space="preserve"><value>UserPanel</value></data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments.CustomPanel, Instruments, Version=8.4.3161.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAD0BAABBAQAACw==</value></data><data name="textBoxOutput.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAA6wAAAAs=</value></data><data name="StringTable.Message_TheVINsInThisVehicleAreNotSynchronizedButTheOperationCannotProceedBecauseNoVINMasterDeviceIsDefinedOrConnected" xml:space="preserve"><value>The VINs in this vehicle are not synchronized but the operation cannot proceed because no VIN master device is defined or connected.</value></data>
+  <data name="&gt;&gt;checkmarkFaultPresent.Parent" xml:space="preserve"><value>$this</value></data>
+  <data name="StringTable.Message_PleaseTurnTheIgnitionOnAndWait" xml:space="preserve"><value>Please turn the ignition on, and wait...</value></data>
+  <data name="StringTable.Message_Start" xml:space="preserve"><value>&amp;Start</value></data>
+  <data name="StringTable.Message_Retry" xml:space="preserve"><value>&amp;Retry</value></data>
+  <data name="$this.MaximumSize" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0
+ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJABAACQAQAACw==</value></data><data name="buttonClose.TabIndex" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><value>4</value></data>
+  <data name="StringTable.MessageFormat_UpdatingVINFor0" xml:space="preserve"><value>Updating VIN for {0}...</value></data>
+  <data name="StringTable.Message_NoVINWasFoundInTheVINMasterDevice" xml:space="preserve"><value>    No VIN was found in the VIN master device.</value></data>
+  <data name="listViewVins.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAABgAAAAs=</value></data><data name="&gt;&gt;listViewVins.Name" xml:space="preserve"><value>listViewVins</value></data>
+  <data name="&gt;&gt;listViewVins.Type" xml:space="preserve"><value>DetroitDiesel.Windows.Forms.ListViewEx, CommonCS, Version=8.4.3161.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe</value></data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value></data><data name="buttonStart.Location" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0
+ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADsAAAAzgAAAAs=</value></data></root>

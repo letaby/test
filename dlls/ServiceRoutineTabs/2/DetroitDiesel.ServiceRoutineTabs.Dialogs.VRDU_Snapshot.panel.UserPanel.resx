@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="StringTable.Message_ExtractingDiagnosticLinkQualifiers" xml:space="preserve"><value>Extracting DiagnosticLink qualifiers</value></data>
+  <data name="StringTable.Message_StartingVRDUExtraction" xml:space="preserve"><value>Starting VRDU extraction</value></data>
+  <data name="StringTable.Message_VRDUNotReady" xml:space="preserve"><value>VRDU not ready</value></data>
+  <data name="StringTable.Message_ProcessingComplete" xml:space="preserve"><value>Processing Complete!</value></data>
+  <data name="StringTable.MessageFormat_WritingExcelCompatableXmlDataFile0" xml:space="preserve"><value>Writing Excel Compatable xml data file: {0}</value></data>
+  <data name="StringTable.Message_CouldNotRefreshEcuInfo" xml:space="preserve"><value>Could not refresh EcuInfo</value></data>
+  <data name="StringTable.MessageFormat_WritingDataFile" xml:space="preserve"><value>Writing data to file: {0}</value></data>
+  <data name="Panel.Category" xml:space="preserve"><value /></data>
+  <data name="Panel.DisplayName" xml:space="preserve"><value>VRDU Snapshot</value></data>
+  <data name="textBoxGrammar.Text" xml:space="preserve"><value>
+&lt;Grammar&gt;
+  &lt;DiagnosticLinkQualifiers&gt;
+    &lt;Qualifier Name='CO_VIN' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Boot_Software_Version_Year' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Boot_Software_Version_Week' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Boot_Software_Version_Patch_Level' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_ECU_Production_Date_Year' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_ECU_Production_Date_Week' /&gt;
+    &lt;Qualifier Name='DT_STO_Configuration_Write_Counter_Counter' /&gt;
+    &lt;Qualifier Name='CO_EcuSerialNumber' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_GVC_update_time_stamp_year' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_GVC_update_time_stamp_month' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_GVC_update_time_stamp_day' /&gt;
+    &lt;Qualifier Name='CO_SoftwareVersion' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Software_Version_Year' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Software_Version_Week' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Software_Version_Patch_Level' /&gt;
+    &lt;Qualifier Name='CO_HardwareVersion' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Hardware_Version_Year' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Hardware_Version_Week' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_Hardware_Version_Patch_Level' /&gt;
+    &lt;Qualifier Name='CO_HardwarePartNumber' /&gt;
+    &lt;Qualifier Name='CO_SoftwarePartNumber' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_VIN_Original_VIN' /&gt;
+    &lt;Qualifier Name='DT_STO_ID_VIN_Current_VIN' /&gt;
+    &lt;Qualifier Name='DT_STO_VIN_Odometer_Value' /&gt;
+  &lt;/DiagnosticLinkQualifiers&gt;
+
+  &lt;VrduGrammar&gt;
+    &lt;Qualifier Name='DT_STO_LS_General_Vehicle_distance_LS_General_Vehicle_distance' Position='4' RequestMessage='22A002' Type='uint' Length='4' ValueCount='1'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_General_Power_on_time_LS_Genral_Power_on_time' Position='4' RequestMessage='22A000' Type='uint' Length='4' Factor='.00028' ValueCount='7'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_General_Ignition_cycle_counter_LS_General_Ignition_Cycle_Counter' Position='4' RequestMessage='22A001' Type='uint' Length='4' ValueCount='1'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_General_Object_Deviation_LS_General_Object_Deviation' Position='4' RequestMessage='22A004' Type='uint' Length='4' ValueCount='30'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_General_Duration_of_turn_indicator_activation_LS_General_Duration_of_turn_indicator_activation' Position='4' RequestMessage='22A005' Type='uint' Length='4' ValueCount='64'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ABA_Off_periods_LS_ABA_Off_periods' Position='4' RequestMessage='22A080' Type='uint' Length='4' Factor='.00028' ValueCount='2'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ABA_Haptic_on_stationary_objects_LS_ABA_Haptic_on_stationary_objects' Position='4' RequestMessage='22A081' Type='uint' Length='1' ValueCount='72'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Time_to_first_deactiavation_in_power_on_cycle_LS_LDW_Time_to_first_deactiavation_in_power_on_cycle' Position='4' RequestMessage='22A02A' Type='uint' Length='4' ValueCount='16'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Lane_marking_crossed_left_while_blinking_right_LS_LDW_Lane_marking_crossed_left_while_blinking_right' Position='4' RequestMessage='22A02C' Type='uint' Length='4' ValueCount='4'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Lane_marking_crossed_right_while_blinking_left_LS_LDW_Lane_marking_crossed_right_while_blinking_left' Position='4' RequestMessage='22A02D' Type='uint' Length='4' ValueCount='4'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_MPC_Error_period_LS_LDW_MPC_Error_period' Position='4' RequestMessage='22A02F' Type='uint' Length='4' ValueCount='6' Device='VRDU02T'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_MPC_Error_events_LS_LDW_MPC_Error_events' Position='4' RequestMessage='22A030' Type='uint' Length='2' ValueCount='6' Device='VRDU02T'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Lane_witdh_LS_LDW_Lane_witdh' Position='4' RequestMessage='22A028' Type='uint' Length='4'  ValueCount='32'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Operation_distance_LDW_LS_LDW_Operation_distance_LDW' Position='4' RequestMessage='22A021' Type='uint' Length='4' ValueCount='4'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Number_of_warnings_left_LS_LDW_Number_of_warnings_left' Position='4' RequestMessage='22A023' Type='uint' Length='4' ValueCount='50'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Number_of_warnings_right_LS_LDW_Number_of_warnings_right' Position='4' RequestMessage='22A024' Type='uint' Length='4' ValueCount='50'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Time_without_lane_marking_LS_LDW_Time_without_lane_marking' Position='4' RequestMessage='22A025' Type='uint' Length='4' ValueCount='12'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Classified_distance_without_lane_marking_LS_LDW_Classified_distance_without_lane_marking' Position='4' RequestMessage='22A026' Type='uint' Length='4' ValueCount='72'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_LDW_Classified_time_without_lane_marking_LS_LDW_Classified_time_without_lane_marking' Position='4' RequestMessage='22A027' Type='uint' Length='4' ValueCount='60'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Time_in_EcoRoll_EcoACC_LS_ACC_Time_in_EcoRoll_EcoACC' Position='4' RequestMessage='22A06D' Type='uint' Length='4' ValueCount='27' Device='VRDU02T'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Time_in_DragRoll_EcoACC_LS_ACC_Time_in_DragRoll_EcoACC' Position='4' RequestMessage='22A06E' Type='uint' Length='4' ValueCount='27' Device='VRDU02T'/&gt;
+    &lt;!--DT_STO_LS_ACC_Number_of_Tail_Gate_Warnings_LS_ACC_Number_of_Tail_Gate_Warnings struct definition does not match the method.  The sturct says that there will be the same number of data points as EcoRoll and DragRoll, even though there are less--&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Number_of_Tail_Gate_Warnings_LS_ACC_Number_of_Tail_Gate_Warnings' Position='4' RequestMessage='22A06F' Type='uint' Length='2' ValueCount='8' Device='VRDU02T'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Error_Events_LS_ACC_Error_Events' Position='4' RequestMessage='22A06A' Type='uint' Length='2' ValueCount='14'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Operation_time_cruise_control_LS_ACC_Operation_time_cruise_control' Position='4' RequestMessage='22A06B' Type='uint' Length='4' ValueCount='16'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Start_Driving_Reasons_DTR_LS_ACC_Start_Driving_Reasons_DTR' Position='4' RequestMessage='22A06C' Type='uint' Length='4' ValueCount='4'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Engine_brake_application_LS_ACC_Engine_brake_application' Position='4' RequestMessage='22A064' Type='uint' Length='4' ValueCount='24'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Service_brake_application_LS_ACC_Service_brake_application' Position='4' RequestMessage='22A065' Type='uint' Length='4' ValueCount='36'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Error_periods_LS_ACC_Error_periods' Position='4' RequestMessage='22A066' Type='uint' Length='4' ValueCount='1'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Desired_distance_LS_ACC_Desired_distance' Position='4' RequestMessage='22A061' Type='uint' Length='4' ValueCount='10'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Set_Speed_LS_ACC_Set_Speed' Position='4' RequestMessage='22A062' Type='uint' Length='4' ValueCount='10'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Retarder_application_LS_ACC_Retarder_application' Position='4' RequestMessage='22A063' Type='uint' Length='4' ValueCount='60'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Stopping_Distances_DTR_LS_ACC_Stopping_Distances_DTR' Position='4' RequestMessage='22A068' Type='uint' Length='4' ValueCount='18'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_ACC_Warning_Hold_Brake_DTR_LS_ACC_Warning_Hold_Brake_DTR' Position='4' RequestMessage='22A069' Type='uint' Length='2' ValueCount='3'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_Time_after_MDAS_Warning_till_MDAS_off_LS_MDAS_Time_after_MDAS_Warning_till_MDAS_off' Position='4' RequestMessage='22A0A7' Type='uint' Length='2' ValueCount='6'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_Time_after_MDAS_Warning_till_Break_LS_MDAS_Time_after_MDAS_Warning_till_Break' Position='4' RequestMessage='22A0A6' Type='uint' Length='2' ValueCount='7'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_MDAS_Activation_State_LS_MDAS_MDAS_Activation_State' Position='4' RequestMessage='22A0A1' Type='uint' Length='4' ValueCount='1'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_MDAS_Function_State_LS_MDAS_MDAS_Function_State' Position='4' RequestMessage='22A0A0' Type='uint' Length='4' ValueCount='6'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_Time_till_1st_Warning_LS_MDAS_Time_till_1st_Warning' Position='4' RequestMessage='22A0A3' Type='uint' Length='2' ValueCount='32'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_Duration_of_Break_LS_MDAS_Duration_of_Break' Position='4' RequestMessage='22A0AC' Type='uint' Length='2' ValueCount='3'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_MDAS_Number_of_MDAS_Warnings_LS_MDAS_Number_of_MDAS_Warnings' Position='4' RequestMessage='22A0A8' Type='uint' Length='2' ValueCount='7'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Error_events_LS_RDF_Error_events' Position='4' RequestMessage='22A0C3' Type='uint' Length='2' ValueCount='5'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Error_periods_LS_RDF_Error_periods' Position='4' RequestMessage='22A0C2' Type='uint' Length='4' ValueCount='5'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Alignment_Elevation_LS_RDF_Alignment_Elevation' Position='4' RequestMessage='22A0C1' Type='uint' Length='2' ValueCount='24'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Alignment_Azimuth_LS_RDF_Alignment_Azimuth' Position='4' RequestMessage='22A0C0' Type='uint' Length='2' ValueCount='130'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_External_Gyro_Quality_LS_RDF_External_Gyro_Quality' Position='4' RequestMessage='22A0C6' Type='uint' Length='4' ValueCount='36' Device='VRDU02T'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Quality_Alignment_Azimuth_LS_RDF_Quality_Alignment_Azimuth' Position='4' RequestMessage='22A0C5' Type='uint' Length='2' ValueCount='15'/&gt;
+    &lt;Qualifier Name='DT_STO_LS_RDF_Speed_Correction_Value_LS_RDF_Speed_Correction_Value' Position='4' RequestMessage='22A0C4' Type='uint' Length='2' ValueCount='80'/&gt;
+  &lt;/VrduGrammar&gt;
+
+  &lt;AbaEvent RequestMessage='22A20'&gt;
+    &lt;Qualifier Name='DT_STO_ABA_Function_Counter_ABA_Function_Counter' RequestMessage='22A200' Type='uint' Length='2' ValueCount='1'/&gt;
+    &lt;AbaEventDataItem Name='AW_v_Ego' Type='uint' Position='22' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_v_MphEgo' Type='uint' Position='22' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ang_steering' Type='sint' Position='24' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ang_DegSteering' Type='sint' Position='24' Length='2' Offset='0' Factor='0.0559529583354'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_val_curv' Type='sint' Position='26' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_v_Obj' Type='uint' Position='28' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_v_MphObj' Type='uint' Position='28' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_a_Ego' Type='sint' Position='30' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_a_Obj' Type='sint' Position='31' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_dx' Type='uint' Position='32' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_Ftdx' Type='uint' Position='32' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_dy' Type='sint' Position='34' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_Ftdy' Type='sint' Position='34' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_d_ObjWidth' Type='sint' Position='35' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_d_LaneMarkerLeft' Type='sint' Position='36' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_d_LaneMarkerRight' Type='sint' Position='37' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ang_LaneMark' Type='sint' Position='38' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_val_curvLaneMark' Type='sint' Position='39' Length='1' Offset='0' Factor='0.125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_Data' Type='uint' Position='40' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ABAAvail' Type='bit' Position='40' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ESPAct' Type='bit' Position='40' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_ABSAct' Type='bit' Position='40' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_Data1' Type='uint' Position='41' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_t' Type='sint' Position='42' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_v_Ego' Type='uint' Position='44' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_v_MphEgo' Type='uint' Position='44' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ang_steering' Type='sint' Position='46' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ang_DegSteering' Type='sint' Position='46' Length='2' Offset='0' Factor='0.0559529583354'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_curv' Type='sint' Position='48' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_v_Obj' Type='uint' Position='50' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_v_MphObj' Type='uint' Position='50' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_a_Ego' Type='sint' Position='52' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_a_Obj' Type='sint' Position='53' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_dx' Type='uint' Position='54' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_Ftdx' Type='uint' Position='54' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_dy' Type='sint' Position='56' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_Ftdy' Type='sint' Position='56' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_d_ObjWidth' Type='sint' Position='57' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_d_LaneMarkerLeft' Type='sint' Position='58' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_d_LaneMarkerRight' Type='sint' Position='59' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ang_LaneMark' Type='sint' Position='60' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_curvLaneMark' Type='sint' Position='61' Length='1' Offset='0' Factor='0.125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_Data' Type='uint' Position='62' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ABAAvail' Type='bit' Position='62' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ESPAct' Type='bit' Position='62' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_ABSAct' Type='bit' Position='62' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_Data1' Type='uint' Position='63' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t' Type='sint' Position='64' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_v_Ego' Type='uint' Position='66' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_v_MphEgo' Type='uint' Position='66' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ang_steering' Type='sint' Position='68' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ang_DegSteering' Type='sint' Position='68' Length='2' Offset='0' Factor='0.0559529583354'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_val_curv' Type='sint' Position='70' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_v_Obj' Type='uint' Position='72' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_v_MphObj' Type='uint' Position='72' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_a_Ego' Type='sint' Position='74' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_a_Obj' Type='sint' Position='75' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_dx' Type='uint' Position='76' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_Ftdx' Type='uint' Position='76' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_dy' Type='sint' Position='78' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_Ftdy' Type='sint' Position='78' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_d_ObjWidth' Type='sint' Position='79' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_d_LaneMarkerLeft' Type='sint' Position='80' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_d_LaneMarkerRight' Type='sint' Position='81' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ang_LaneMark' Type='sint' Position='82' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_val_curvLaneMark' Type='sint' Position='83' Length='1' Offset='0' Factor='0.125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_Data' Type='uint' Position='84' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ABAAvail' Type='bit' Position='84' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ESPAct' Type='bit' Position='84' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_ABSAct' Type='bit' Position='84' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_Data1' Type='uint' Position='85' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_t' Type='sint' Position='86' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_a_Min' Type='sint' Position='88' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_a_Min' Type='sint' Position='89' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_v_Ego' Type='uint' Position='90' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_v_MphEgo' Type='uint' Position='90' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ang_steering' Type='sint' Position='92' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ang_DegSteering' Type='sint' Position='92' Length='2' Offset='0' Factor='0.0559529583354'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_val_curv' Type='sint' Position='94' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_v_Obj' Type='uint' Position='96' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_v_MphObj' Type='uint' Position='96' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_a_Ego' Type='sint' Position='98' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_a_Obj' Type='sint' Position='99' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_dx' Type='uint' Position='100' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_Ftdx' Type='uint' Position='100' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_dy' Type='sint' Position='102' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_Ftdy' Type='sint' Position='102' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_d_ObjWidth' Type='sint' Position='103' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_d_LaneMarkerLeft' Type='sint' Position='104' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_d_LaneMarkerRight' Type='sint' Position='105' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ang_LaneMark' Type='sint' Position='106' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_val_curvLaneMark' Type='sint' Position='107' Length='1' Offset='0' Factor='0.125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_Data' Type='uint' Position='108' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ABAAvail' Type='bit' Position='108' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ESPAct' Type='bit' Position='108' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_ABSAct' Type='bit' Position='108' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_Data1' Type='uint' Position='109' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_t' Type='sint' Position='110' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_v_Ego' Type='uint' Position='112' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_v_MphEgo' Type='uint' Position='112' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_val_curv' Type='sint' Position='114' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_v_Obj' Type='uint' Position='116' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_v_MphObj' Type='uint' Position='116' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_a_Ego' Type='sint' Position='118' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_a_Obj' Type='sint' Position='119' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_dx' Type='uint' Position='120' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_Ftdx' Type='uint' Position='120' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_t' Type='sint' Position='122' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_v_Ego' Type='uint' Position='124' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_v_MphEgo' Type='uint' Position='124' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_val_curv' Type='sint' Position='126' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_v_Obj' Type='uint' Position='128' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_v_MphObj' Type='uint' Position='128' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_a_Ego' Type='sint' Position='130' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_a_Obj' Type='sint' Position='131' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_dx' Type='uint' Position='132' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_Ftdx' Type='uint' Position='132' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_Data' Type='uint' Position='134' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_ABAAvail' Type='bit' Position='134' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_ESPAct' Type='bit' Position='134' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_ABSAct' Type='bit' Position='134' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_bit_Data' Type='uint' Position='135' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_ABAAvail' Type='bit' Position='135' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_ESPAct' Type='bit' Position='135' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_ABSAct' Type='bit' Position='135' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_t' Type='sint' Position='136' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_a_Min' Type='sint' Position='203' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_v_Ego' Type='uint' Position='204' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_v_MphEgo' Type='uint' Position='204' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_val_curv' Type='sint' Position='206' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_v_Obj' Type='uint' Position='208' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_v_MphObj' Type='uint' Position='208' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_a_Ego' Type='sint' Position='210' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_a_Obj' Type='sint' Position='211' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_dx' Type='uint' Position='212' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_Ftdx' Type='uint' Position='212' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_t' Type='sint' Position='214' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_v_Ego' Type='uint' Position='216' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_v_MphEgo' Type='uint' Position='216' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_ang_steering' Type='sint' Position='218' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_ang_DegSteering' Type='sint' Position='218' Length='2' Offset='0' Factor='0.0559529583354'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_v_Obj' Type='uint' Position='220' Length='2' Offset='0' Factor='0.00390625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_v_MphObj' Type='uint' Position='220' Length='2' Offset='0' Factor='0.00242723046875'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_a_Ego' Type='sint' Position='222' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_a_Obj' Type='sint' Position='223' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_dx' Type='uint' Position='224' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_Ftdx' Type='uint' Position='224' Length='2' Offset='0' Factor='0.0256315625'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_bit_Data' Type='uint' Position='226' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_ABAAvail' Type='bit' Position='226' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_ESPAct' Type='bit' Position='226' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_ABSAct' Type='bit' Position='226' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_bit_Data' Type='uint' Position='227' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_ABAAvail' Type='bit' Position='227' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_ESPAct' Type='bit' Position='227' Length='1' Offset='0' Factor='4'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_ABSAct' Type='bit' Position='227' Length='1' Offset='0' Factor='8'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_t' Type='sint' Position='228' Length='2' Offset='0' Factor='0.000976563'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Year' Type='uint' Position='230' Length='1' Offset='1985' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Month' Type='uint' Position='231' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Day' Type='uint' Position='232' Length='1' Offset='0' Factor='0.25'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Hour' Type='uint' Position='233' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Minute' Type='uint' Position='234' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_Second' Type='uint' Position='235' Length='1' Offset='0' Factor='0.25'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_OffHour' Type='uint' Position='236' Length='1' Offset='-125' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_t_OffMinute' Type='uint' Position='237' Length='1' Offset='-125' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='Checksum' Type='uint' Position='238' Length='2' Offset='0' Factor='0'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_AbsOpCycleCnt' Type='uint' Position='240' Length='4' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_TotalVehDistance' Type='uint' Position='244' Length='2' Offset='0' Factor='16'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_MilesTotalVehDistance' Type='uint' Position='244' Length='2' Offset='0' Factor='9.941936'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_val_curv' Type='sint' Position='246' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_Latitude' Type='uint' Position='248' Length='4' Offset='-210' Factor='.0000001' Precision='7'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_Longitude' Type='uint' Position='252' Length='4' Offset='-210' Factor='.0000001' Precision='7'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_dy' Type='sint' Position='256' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_Ftdy' Type='sint' Position='256' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_d_Dev' Type='sint' Position='257' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_d_ObjWidth' Type='sint' Position='258' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_d_Dev' Type='sint' Position='259' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_d_Dev' Type='sint' Position='260' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_d_Dev' Type='sint' Position='261' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_d_Dev' Type='sint' Position='262' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_d_Dev' Type='sint' Position='263' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_dy' Type='sint' Position='264' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_Ftdy' Type='sint' Position='264' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_d_ObjWidth' Type='sint' Position='265' Length='1' Offset='0' Factor='0.05'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_a_Average' Type='sint' Position='266' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_a_Average' Type='sint' Position='267' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_a_Average' Type='sint' Position='268' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_a_Average' Type='sint' Position='269' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_a_Average' Type='sint' Position='270' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_a_Min' Type='sint' Position='271' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[0]' Type='uint' Position='272' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[1]' Type='uint' Position='274' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[2]' Type='uint' Position='276' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[3]' Type='uint' Position='278' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[4]' Type='uint' Position='280' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[5]' Type='uint' Position='282' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[6]' Type='uint' Position='284' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[7]' Type='uint' Position='286' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[8]' Type='uint' Position='288' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[9]' Type='uint' Position='290' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[10]' Type='uint' Position='292' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[11]' Type='uint' Position='294' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[12]' Type='uint' Position='296' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[13]' Type='uint' Position='298' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[14]' Type='uint' Position='300' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[15]' Type='uint' Position='302' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[16]' Type='uint' Position='304' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[17]' Type='uint' Position='306' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[18]' Type='uint' Position='308' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[19]' Type='uint' Position='310' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[20]' Type='uint' Position='312' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[21]' Type='uint' Position='314' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[22]' Type='uint' Position='316' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='WB_data[23]' Type='uint' Position='318' Length='2' Offset='0' Factor='1' Special='Warning'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_vRel_ObjLt' Type='uint' Position='320' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_dx_ObjLt' Type='uint' Position='321' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_vRel_ObjRt' Type='uint' Position='322' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_dx_ObjRt' Type='uint' Position='323' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_bit_ObjTypLtRt' Type='uint' Position='324' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_bit_ObjectID' Type='uint' Position='325' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_bit_ObjectIDLt' Type='uint' Position='326' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_bit_ObjectIDRt' Type='uint' Position='327' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='CW_bit_DrvActOccured' Type='uint' Position='328' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_DrvActOccured' Type='uint' Position='330' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_ObjectID' Type='uint' Position='333' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_ObjectIDLt' Type='uint' Position='334' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_ObjectIDRt' Type='uint' Position='335' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_vRel_ObjLt' Type='uint' Position='336' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_dx_ObjLt' Type='uint' Position='337' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_vRel_ObjRt' Type='uint' Position='338' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_dx_ObjRt' Type='uint' Position='339' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_ObjTypLtRt' Type='uint' Position='340' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_AmbTemp' Type='uint' Position='341' Length='1' Offset='-127' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_EnvData' Type='uint' Position='342' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_vRel_ObjLt' Type='uint' Position='343' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_dx_ObjLt' Type='uint' Position='344' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_ObjTypLtRt' Type='uint' Position='345' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_vRel_ObjRt' Type='uint' Position='346' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_dx_ObjRt' Type='uint' Position='347' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_DrvActOccured' Type='uint' Position='348' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_DrvActOccured' Type='uint' Position='350' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_vRel_ObjLt' Type='uint' Position='352' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_dx_ObjLt' Type='uint' Position='353' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_ObjTypLtRt' Type='uint' Position='354' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_vRel_ObjRt' Type='uint' Position='355' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_dx_ObjRt' Type='uint' Position='356' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_vRel_ObjLt' Type='uint' Position='357' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_dx_ObjLt' Type='uint' Position='358' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_ObjTypLtRt' Type='uint' Position='359' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_vRel_ObjRt' Type='uint' Position='360' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_dx_ObjRt' Type='uint' Position='361' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_vRel_ObjLt' Type='uint' Position='362' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_dx_ObjLt' Type='uint' Position='363' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_ObjectID' Type='uint' Position='364' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_ObjectIDLt' Type='uint' Position='365' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_ObjectIDRt' Type='uint' Position='366' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_ObjTypLtRt' Type='uint' Position='367' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_DrvActOccured' Type='uint' Position='368' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_bit_DrvActOccured' Type='uint' Position='370' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_vRel_ObjRt' Type='uint' Position='372' Length='1' Offset='-200' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_dx_ObjRt' Type='uint' Position='373' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_DrvActOccured' Type='uint' Position='374' Length='2' Offset='0' Factor='1' Special='DrvActOccured'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_val_Stcurv' Type='sint' Position='376' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_val_Stcurv' Type='sint' Position='378' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_val_Stcurv' Type='sint' Position='380' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_val_Stcurv' Type='sint' Position='382' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_val_Stcurv' Type='sint' Position='384' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_val_Stcurv' Type='sint' Position='386' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_val_Stcurv' Type='sint' Position='398' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_val_Stcurv' Type='sint' Position='400' Length='2' Offset='0' Factor='0.0078125'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_vy_Obj' Type='sint' Position='402' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_vy_Obj' Type='sint' Position='403' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_vy_Obj' Type='sint' Position='404' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_vy_Obj' Type='sint' Position='405' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_vy_Obj' Type='sint' Position='406' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_vy_Obj' Type='sint' Position='407' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_vy_Obj' Type='sint' Position='413' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='ObjOcc_vy_Obj' Type='sint' Position='414' Length='1' Offset='0' Factor='0.1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_ObjectID' Type='uint' Position='415' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_ObjectID' Type='uint' Position='416' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_ObjectID' Type='uint' Position='417' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_bit_ObjectID' Type='uint' Position='418' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_bit_ObjectID' Type='uint' Position='424' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_dy' Type='sint' Position='425' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_Ftdy' Type='sint' Position='425' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_dy' Type='sint' Position='431' Length='1' Offset='0' Factor='0.2'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_Ftdy' Type='sint' Position='431' Length='1' Offset='0' Factor='0.656168'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AW_bit_Pedal' Type='uint' Position='432' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='AH_bit_Pedal' Type='uint' Position='433' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EEB_bit_Pedal' Type='uint' Position='434' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='SBE_bit_Pedal' Type='uint' Position='435' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='OL_bit_Pedal' Type='uint' Position='436' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='PW_bit_Pedal' Type='uint' Position='437' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+    &lt;AbaEventDataItem Name='EBE_bit_Pedal' Type='uint' Position='443' Length='1' Offset='0' Factor='1'&gt;&lt;/AbaEventDataItem&gt;
+  &lt;/AbaEvent&gt;
+&lt;/Grammar&gt;</value></data>
+  <data name="StringTable.Message_CouldNotUnlockVRDU" xml:space="preserve"><value>Could not unlock VRDU</value></data>
+  <data name="StringTable.Message_RefreshingData" xml:space="preserve"><value>Refreshing data</value></data>
+  <data name="StringTable.Message_HoldOnThisWillTakeAbout60Seconds" xml:space="preserve"><value>Hold on. This will take about 60 seconds...</value></data>
+  <data name="StringTable.Message_ExtractingVRDUQualifiers" xml:space="preserve"><value>Extracting VRDU qualifiers</value></data>
+  <data name="StringTable.Message_Working" xml:space="preserve"><value>Working...</value></data>
+  <data name="StringTable.Message_DataRefreshed" xml:space="preserve"><value>Data refreshed</value></data>
+  <data name="StringTable.Message_UnlockingVRDU" xml:space="preserve"><value>Unlocking VRDU</value></data>
+  <data name="StringTable.Message_VRDUUnlocked" xml:space="preserve"><value>VRDU Unlocked</value></data>
+  <data name="StringTable.Message_ExtractingABAData" xml:space="preserve"><value>Extracting ABA Data</value></data>
+  </root>

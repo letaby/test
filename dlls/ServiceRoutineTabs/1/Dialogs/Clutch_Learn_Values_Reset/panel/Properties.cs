@@ -1,0 +1,104 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: DetroitDiesel.ServiceRoutineTabs.Dialogs.Clutch_Learn_Values_Reset.panel.Properties
+// Assembly: ServiceRoutineTabs, Version=8.19.5842.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe
+// MVID: D5CFA739-5617-418F-8542-A6885771D80A
+// Assembly location: C:\Users\petra\Downloads\Архив (2)\ServiceRoutineTabs.dll
+
+using DetroitDiesel.Common;
+using DetroitDiesel.Design;
+using DetroitDiesel.Interfaces;
+using System;
+using System.Collections.Generic;
+
+#nullable disable
+namespace DetroitDiesel.ServiceRoutineTabs.Dialogs.Clutch_Learn_Values_Reset.panel;
+
+public class Properties(Type runtimeType) : PanelProperties(runtimeType)
+{
+  public virtual int FileVersion => 57;
+
+  public virtual string FilePath
+  {
+    get
+    {
+      return "C:\\Users\\Public\\Source\\drumroll\\drumroll\\Source\\\\Data\\Service Routine Tabs\\Dialogs\\Clutch Learn Values Reset.panel";
+    }
+  }
+
+  public virtual string Guid => "ce3d9121-5247-4a5b-8d12-014f38978893";
+
+  public virtual string DisplayName => "Clutch Learn Values Reset";
+
+  public virtual IEnumerable<string> SupportedDevices
+  {
+    get => (IEnumerable<string>) new string[1]{ "TCM05T" };
+  }
+
+  public virtual bool AllDevicesRequired => false;
+
+  public virtual bool IsDialog => true;
+
+  public virtual string Category => "Transmission";
+
+  public virtual FilterTypes Filters => (FilterTypes) 4;
+
+  public virtual PanelUseCases UseCases => (PanelUseCases) 15;
+
+  public virtual PanelTargets TargetHosts => (PanelTargets) 1;
+
+  public virtual int MinProductAccessLevel => 0;
+
+  public virtual int MinDynamicAccessLevel => 0;
+
+  public virtual FaultCondition RequiredFaultCondition
+  {
+    get => new FaultCondition((FaultConditionType) 0, (IEnumerable<Qualifier>) new Qualifier[0]);
+  }
+
+  public virtual IEnumerable<Qualifier> DesignerQualifierReferences
+  {
+    get
+    {
+      return (IEnumerable<Qualifier>) new Qualifier[13]
+      {
+        new Qualifier((QualifierTypes) 8, "TCM05T", "DT_STO_2316_Clutch_Minimum_learned_value_Clutch_Minimum_learned_value"),
+        new Qualifier((QualifierTypes) 8, "TCM05T", "DT_STO_2317_Clutch_Maximum_learned_value_Clutch_Maximum_learned_value"),
+        new Qualifier((QualifierTypes) 2, "TCM05T", "RT_0528_Reset_Clutch_learned_values_Start"),
+        new Qualifier((QualifierTypes) 2, "TCM05T", "DL_B101_Clutch_replacement_Actual_clutch_facing_wear"),
+        new Qualifier((QualifierTypes) 2, "TCM05T", "FN_HardReset"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_No_gearshift_active"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_Vehicle_standstill"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_Engine_standstill"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_Park_brake_activated"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_Transmission_in_neutral"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_1F18_Environmental_conditions_Diagnostic_routines_No_learn_procedure_active"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_2651_Clutch_facing_data_Clutch_facing_wear_Actual_value"),
+        new Qualifier((QualifierTypes) 1, "TCM05T", "DT_2651_Clutch_facing_data_Clutch_facing_Remaining_thickness")
+      };
+    }
+  }
+
+  public virtual IEnumerable<ServiceCall> DesignerServiceCallReferences
+  {
+    get
+    {
+      return (IEnumerable<ServiceCall>) new ServiceCall[3]
+      {
+        new ServiceCall("TCM05T", "RT_0528_Reset_Clutch_learned_values_Start", (IEnumerable<string>) new string[1]
+        {
+          "Reset_Clutch_learned_values=4"
+        }),
+        new ServiceCall("TCM05T", "DL_B101_Clutch_replacement_Actual_clutch_facing_wear", (IEnumerable<string>) new string[1]
+        {
+          "Clutch_replacement_Actual_clutch_facing_wear=0"
+        }),
+        new ServiceCall("TCM05T", "FN_HardReset", (IEnumerable<string>) new string[0])
+      };
+    }
+  }
+
+  public virtual IEnumerable<string> UserSourceEcuReferences
+  {
+    get => (IEnumerable<string>) new string[1]{ "TCM05T" };
+  }
+}

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Архив (2)\SAPI.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62B1CBDE-3E77-48DD-8FFC-D3FBDCEF7A0B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>SAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>1.29.837.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>SapiLayer1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="J2534Abstraction">
+      <HintPath>lib\J2534Abstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="McdAbstraction">
+      <HintPath>lib\McdAbstraction.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NamespaceDoc.cs" />
+    <Compile Include="BusMonitor.cs" />
+    <Compile Include="BusMonitorCollection.cs" />
+    <Compile Include="BusMonitorFrameType.cs" />
+    <Compile Include="ChipStates.cs" />
+    <Compile Include="BusMonitorFrameStringFormat.cs" />
+    <Compile Include="BusMonitorFrame.cs" />
+    <Compile Include="BusMonitorFrameCollection.cs" />
+    <Compile Include="ByteMessage.cs" />
+    <Compile Include="CodingStringValue.cs" />
+    <Compile Include="CodingStringValueCollection.cs" />
+    <Compile Include="ComParameter.cs" />
+    <Compile Include="ConnectCompleteEventArgs.cs" />
+    <Compile Include="FlashSecurityCollection.cs" />
+    <Compile Include="FlashSecurity.cs" />
+    <Compile Include="StopReason.cs" />
+    <Compile Include="ChannelOptions.cs" />
+    <Compile Include="CommunicationsStateUpdateEventHandler.cs" />
+    <Compile Include="CommunicationsStateValueUpdateEventHandler.cs" />
+    <Compile Include="InitCompleteEventHandler.cs" />
+    <Compile Include="ByteMessageCompleteEventHandler.cs" />
+    <Compile Include="SynchronousCheckEventHandler.cs" />
+    <Compile Include="SynchronousCheckFailureHandler.cs" />
+    <Compile Include="Channel.cs" />
+    <Compile Include="BackgroundConnect.cs" />
+    <Compile Include="ChannelExtension.cs" />
+    <Compile Include="ConnectSource.cs" />
+    <Compile Include="ChannelCollection.cs" />
+    <Compile Include="ConnectProgressEventHandler.cs" />
+    <Compile Include="ConnectCompleteEventHandler.cs" />
+    <Compile Include="DisconnectCompleteEventHandler.cs" />
+    <Compile Include="ChannelBaseCollection.cs" />
+    <Compile Include="Choice.cs" />
+    <Compile Include="ChoiceCollection.cs" />
+    <Compile Include="CodingChoice.cs" />
+    <Compile Include="CodingChoiceCollection.cs" />
+    <Compile Include="CodingFile.cs" />
+    <Compile Include="CodingFileCollection.cs" />
+    <Compile Include="ICodingItem.cs" />
+    <Compile Include="CodingParameter.cs" />
+    <Compile Include="CodingChoicesForCoding.cs" />
+    <Compile Include="CodingParameterGroup.cs" />
+    <Compile Include="CodingParameterGroupCollection.cs" />
+    <Compile Include="CodingParameterCollection.cs" />
+    <Compile Include="CommunicationsState.cs" />
+    <Compile Include="CommunicationsStateValue.cs" />
+    <Compile Include="CommunicationsStateValueCollection.cs" />
+    <Compile Include="CompoundEnvironmentData.cs" />
+    <Compile Include="ConfigurationItem.cs" />
+    <Compile Include="ConfigurationItemCollection.cs" />
+    <Compile Include="ConnectionResource.cs" />
+    <Compile Include="ConnectionResourceCollection.cs" />
+    <Compile Include="ByteMessageDirection.cs" />
+    <Compile Include="ByteMessageEventArgs.cs" />
+    <Compile Include="CommunicationsStateEventArgs.cs" />
+    <Compile Include="CommunicationsStateValueEventArgs.cs" />
+    <Compile Include="McdCaesarEquivalence.cs" />
+    <Compile Include="ParameterGroup.cs" />
+    <Compile Include="ParameterGroupCollection.cs" />
+    <Compile Include="ParameterValue.cs" />
+    <Compile Include="ParameterValueCollection.cs" />
+    <Compile Include="McdCaesarEquivalenceScaleInfo.cs" />
+    <Compile Include="RollCall.cs" />
+    <Compile Include="RollCallDoIP.cs" />
+    <Compile Include="ServiceExecution.cs" />
+    <Compile Include="ServiceExecutionCollection.cs" />
+    <Compile Include="StateChangedEventArgs.cs" />
+    <Compile Include="DiagnosisProtocol.cs" />
+    <Compile Include="DiagnosisProtocolCollection.cs" />
+    <Compile Include="FlashSegment.cs" />
+    <Compile Include="ScaleEntry.cs" />
+    <Compile Include="ServiceArgumentValue.cs" />
+    <Compile Include="ServiceArgumentValueCollection.cs" />
+    <Compile Include="FaultCodeStatus.cs" />
+    <Compile Include="FaultCodeStatusExtensions.cs" />
+    <Compile Include="FlashFile.cs" />
+    <Compile Include="FlashFileCollection.cs" />
+    <Compile Include="FlashDataBlock.cs" />
+    <Compile Include="FlashDataBlockCollection.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="ConnectionState.cs" />
+    <Compile Include="Protocol.cs" />
+    <Compile Include="IRollCall.cs" />
+    <Compile Include="RollCallSae.cs" />
+    <Compile Include="LateLoadReadOnlyCollection`1.cs" />
+    <Compile Include="LogMetadataType.cs" />
+    <Compile Include="LogMetadataItem.cs" />
+    <Compile Include="DataLinkMonitorImportExtensionMethods.cs" />
+    <Compile Include="RollCallJ1939.cs" />
+    <Compile Include="RollCallJ1708.cs" />
+    <Compile Include="SynchronousCheckEventArgs.cs" />
+    <Compile Include="ResultEventArgs.cs" />
+    <Compile Include="ProgressEventArgs.cs" />
+    <Compile Include="FatalEventArgs.cs" />
+    <Compile Include="DebugInfoEventArgs.cs" />
+    <Compile Include="IDiogenesDataItem.cs" />
+    <Compile Include="Dump.cs" />
+    <Compile Include="DiagnosisSource.cs" />
+    <Compile Include="Ecu.cs" />
+    <Compile Include="EcuAutoConnect.cs" />
+    <Compile Include="EcuInfoUpdateEventHandler.cs" />
+    <Compile Include="EcuInfoType.cs" />
+    <Compile Include="EcuInfo.cs" />
+    <Compile Include="EcuInfoInternalReadType.cs" />
+    <Compile Include="EcuInfosReadCompleteEventHandler.cs" />
+    <Compile Include="EcuInfoCollection.cs" />
+    <Compile Include="EcuInfoValue.cs" />
+    <Compile Include="EcuInfoValueCollection.cs" />
+    <Compile Include="EcuInterface.cs" />
+    <Compile Include="EcuInterfaceCollection.cs" />
+    <Compile Include="EcusUpdateEventHandler.cs" />
+    <Compile Include="EcuCollection.cs" />
+    <Compile Include="EnvironmentData.cs" />
+    <Compile Include="EnvironmentDataCollection.cs" />
+    <Compile Include="CaesarException.cs" />
+    <Compile Include="FaultCode.cs" />
+    <Compile Include="MilStatus.cs" />
+    <Compile Include="StoredStatus.cs" />
+    <Compile Include="ActiveStatus.cs" />
+    <Compile Include="TestNotCompleteStatus.cs" />
+    <Compile Include="PendingStatus.cs" />
+    <Compile Include="TestFailedSinceLastClearStatus.cs" />
+    <Compile Include="ImmediateStatus.cs" />
+    <Compile Include="ReadFunctions.cs" />
+    <Compile Include="FaultCodeIncident.cs" />
+    <Compile Include="FaultCodeIncidentCollection.cs" />
+    <Compile Include="FaultCodesUpdateEventHandler.cs" />
+    <Compile Include="SnapshotUpdateEventHandler.cs" />
+    <Compile Include="FaultCodeCollection.cs" />
+    <Compile Include="FireAndForget.cs" />
+    <Compile Include="FlashArea.cs" />
+    <Compile Include="FlashProgressUpdateEventHandler.cs" />
+    <Compile Include="FlashCompleteEventHandler.cs" />
+    <Compile Include="FlashAreaCollection.cs" />
+    <Compile Include="FlashMeaning.cs" />
+    <Compile Include="FlashMeaningCollection.cs" />
+    <Compile Include="InstrumentUpdateEventHandler.cs" />
+    <Compile Include="Instrument.cs" />
+    <Compile Include="InstrumentCollection.cs" />
+    <Compile Include="InstrumentValue.cs" />
+    <Compile Include="InstrumentValueCollection.cs" />
+    <Compile Include="Label.cs" />
+    <Compile Include="LabelCollection.cs" />
+    <Compile Include="LogFilePlaybackUpdateEventHandler.cs" />
+    <Compile Include="LogFilePlaybackStateUpdateEventHandler.cs" />
+    <Compile Include="LogFile.cs" />
+    <Compile Include="LogFileChannelCollection.cs" />
+    <Compile Include="TagName.cs" />
+    <Compile Include="LogFileFormatTagCollection.cs" />
+    <Compile Include="LogFileConnectEventHandler.cs" />
+    <Compile Include="LogFileDisconnectEventHandler.cs" />
+    <Compile Include="LogFileCollection.cs" />
+    <Compile Include="ParameterUpdateEventHandler.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="ParameterFileFormat.cs" />
+    <Compile Include="CodingStringState.cs" />
+    <Compile Include="CodingStringSource.cs" />
+    <Compile Include="ParametersReadCompleteEventHandler.cs" />
+    <Compile Include="ParametersWriteCompleteEventHandler.cs" />
+    <Compile Include="ParametersProcessVcpCompleteEventHandler.cs" />
+    <Compile Include="ParameterCollection.cs" />
+    <Compile Include="Part.cs" />
+    <Compile Include="DataType.cs" />
+    <Compile Include="TypeSpecifier.cs" />
+    <Compile Include="ConversionType.cs" />
+    <Compile Include="ByteOrder.cs" />
+    <Compile Include="Coding.cs" />
+    <Compile Include="Presentation.cs" />
+    <Compile Include="InitState.cs" />
+    <Compile Include="DebugInfoEventHandler.cs" />
+    <Compile Include="ExceptionEventHandler.cs" />
+    <Compile Include="FatalEventHandler.cs" />
+    <Compile Include="ByteMessageEventHandler.cs" />
+    <Compile Include="Sapi.cs" />
+    <Compile Include="SapiError.cs" />
+    <Compile Include="ServiceTypes.cs" />
+    <Compile Include="ServiceCompleteEventHandler.cs" />
+    <Compile Include="Service.cs" />
+    <Compile Include="ServiceInputValue.cs" />
+    <Compile Include="ServiceInputValueCollection.cs" />
+    <Compile Include="ServiceOutputValue.cs" />
+    <Compile Include="ServiceOutputValueCollection.cs" />
+    <Compile Include="ServiceCollection.cs" />
+    <Compile Include="Session.cs" />
+    <Compile Include="SessionCollection.cs" />
+    <Compile Include="TargetEcuDetails.cs" />
+    <Compile Include="TranslationEntry.cs" />
+    <Compile Include="VarcodeCaesar.cs" />
+    <Compile Include="Varcode.cs" />
+    <Compile Include="VarcodeMcd.cs" />
+    <Compile Include="DiagnosisVariant.cs" />
+    <Compile Include="DiagnosisVariantCollection.cs" />
+    <Compile Include="VcpComponentError.cs" />
+    <Compile Include="VcpParameterError.cs" />
+    <Compile Include="VcpParameterAccess.cs" />
+    <Compile Include="VcpHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConfigurationItems_1.xsd" />
+    <EmbeddedResource Include="Ecu_1.xsd" />
+    <EmbeddedResource Include="Ecu_10.xsd" />
+    <EmbeddedResource Include="Ecu_11.xsd" />
+    <EmbeddedResource Include="Ecu_12.xsd" />
+    <EmbeddedResource Include="Ecu_13.xsd" />
+    <EmbeddedResource Include="Ecu_14.xsd" />
+    <EmbeddedResource Include="Ecu_15.xsd" />
+    <EmbeddedResource Include="Ecu_16.xsd" />
+    <EmbeddedResource Include="Ecu_17.xsd" />
+    <EmbeddedResource Include="Ecu_18.xsd" />
+    <EmbeddedResource Include="Ecu_19.xsd" />
+    <EmbeddedResource Include="Ecu_2.xsd" />
+    <EmbeddedResource Include="Ecu_20.xsd" />
+    <EmbeddedResource Include="Ecu_21.xsd" />
+    <EmbeddedResource Include="Ecu_22.xsd" />
+    <EmbeddedResource Include="Ecu_3.xsd" />
+    <EmbeddedResource Include="Ecu_4.xsd" />
+    <EmbeddedResource Include="Ecu_5.xsd" />
+    <EmbeddedResource Include="Ecu_6.xsd" />
+    <EmbeddedResource Include="Ecu_7.xsd" />
+    <EmbeddedResource Include="Ecu_8.xsd" />
+    <EmbeddedResource Include="Ecu_9.xsd" />
+    <EmbeddedResource Include="Log_1.xsd" />
+    <EmbeddedResource Include="Log_10.xsd" />
+    <EmbeddedResource Include="Log_11.xsd" />
+    <EmbeddedResource Include="Log_12.xsd" />
+    <EmbeddedResource Include="Log_13.xsd" />
+    <EmbeddedResource Include="Log_14.xsd" />
+    <EmbeddedResource Include="Log_15.xsd" />
+    <EmbeddedResource Include="Log_16.xsd" />
+    <EmbeddedResource Include="Log_17.xsd" />
+    <EmbeddedResource Include="Log_2.xsd" />
+    <EmbeddedResource Include="Log_3.xsd" />
+    <EmbeddedResource Include="Log_4.xsd" />
+    <EmbeddedResource Include="Log_5.xsd" />
+    <EmbeddedResource Include="Log_6.xsd" />
+    <EmbeddedResource Include="Log_7.xsd" />
+    <EmbeddedResource Include="Log_8.xsd" />
+    <EmbeddedResource Include="Log_9.xsd" />
+    <EmbeddedResource Include="Manifest_1.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

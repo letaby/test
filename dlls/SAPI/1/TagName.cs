@@ -1,0 +1,66 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: SapiLayer1.TagName
+// Assembly: SAPI, Version=1.29.837.0, Culture=neutral, PublicKeyToken=2f6b11bb555a207b
+// MVID: 18016536-4FB3-411C-A763-231E25A150EB
+// Assembly location: C:\Users\petra\Downloads\Архив (2)\SAPI.dll
+
+#nullable disable
+namespace SapiLayer1;
+
+internal enum TagName
+{
+  Channels,
+  Channel,
+  StartTime,
+  EndTime,
+  EcuName,
+  EcuVariant,
+  Resource,
+  System,
+  Information,
+  Name,
+  Value,
+  Qualifier,
+  EcuInfos,
+  EcuInfo,
+  Instruments,
+  Instrument,
+  FaultCodes,
+  FaultCode,
+  Code,
+  EnvironmentDatas,
+  EnvironmentData,
+  MaintenanceIndicatorLamp,
+  Stored,
+  Active,
+  Labels,
+  Label,
+  Time,
+  LastSampleTime,
+  SampleCount,
+  Type,
+  Precision,
+  Description,
+  TestNotComplete,
+  Pending,
+  RecordIndex,
+  ReadFunctions,
+  TestFailedSinceLastClear,
+  CommunicationsStates,
+  CommunicationsState,
+  Additional,
+  ContiguousSegmentStart,
+  Immediate,
+  Parameter,
+  Parameters,
+  Group,
+  Services,
+  Service,
+  Execution,
+  NegativeResponseCode,
+  Error,
+  Direction,
+  Preprocessed,
+  Fixed,
+  ChannelOptions,
+}

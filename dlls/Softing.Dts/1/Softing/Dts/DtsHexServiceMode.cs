@@ -1,0 +1,15 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Softing.Dts.DtsHexServiceMode
+// Assembly: Softing.Dts, Version=9.5.57994.11, Culture=neutral, PublicKeyToken=27906fee02086bf7
+// MVID: EEF17F7E-0985-487A-B8F1-041534183DBD
+// Assembly location: C:\Users\petra\Downloads\Архив (2)\Softing.Dts.dll
+
+#nullable disable
+namespace Softing.Dts;
+
+public enum DtsHexServiceMode : uint
+{
+  eNONE = 8192, // 0x00002000
+  eASAM_MODE = 8193, // 0x00002001
+  eRAW_MODE = 8194, // 0x00002002
+}

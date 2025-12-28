@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="SapiFile">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Channels">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Channel" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="EcuName" type="xs:string" />
+                    <xs:element name="EcuVariant" type="xs:string" />
+                    <xs:element name="EcuInfos">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="EcuInfo" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Qualifier" form="unqualified" type="xs:string" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Instruments">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Instrument" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Value" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute name="Time" form="unqualified" type="xs:string" />
+                                        <xs:attribute name="LSTime" use="optional" form="unqualified" type="xs:string" />
+                                        <xs:attribute name="SCount" use="optional" form="unqualified" type="xs:string" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Qualifier" form="unqualified" type="xs:string" />
+                              <xs:attribute name="Type" use="optional" form="unqualified" type="xs:string" />
+                              <xs:attribute name="Precision" use="optional" form="unqualified" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="FaultCodes">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FaultCode" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="MIL" type="xs:string" />
+                                <xs:element name="Stored" type="xs:string" />
+                                <xs:element name="Active" type="xs:string" />
+                                <xs:element name="EnvironmentDatas">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="EnvironmentData" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:string">
+                                              <xs:attribute name="Qualifier" form="unqualified" type="xs:string" />
+                                              <xs:attribute name="Units" form="unqualified" type="xs:string" />
+                                              <xs:attribute name="Name" form="unqualified" type="xs:string" />
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Code" form="unqualified" type="xs:string" />
+                              <xs:attribute name="StartTime" form="unqualified" type="xs:string" />
+                              <xs:attribute name="EndTime" form="unqualified" type="xs:string" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="StartTime" form="unqualified" type="xs:string" />
+                  <xs:attribute name="EndTime" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Labels">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Label" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="Time" form="unqualified" type="xs:string" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="Time" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

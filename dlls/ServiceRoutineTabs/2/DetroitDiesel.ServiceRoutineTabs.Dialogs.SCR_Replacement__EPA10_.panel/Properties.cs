@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using DetroitDiesel.Common;
+using DetroitDiesel.Design;
+using DetroitDiesel.Interfaces;
+
+namespace DetroitDiesel.ServiceRoutineTabs.Dialogs.SCR_Replacement__EPA10_.panel;
+
+public class Properties : PanelProperties
+{
+	public override int FileVersion => 83;
+
+	public override string FilePath => "C:\\Users\\Public\\Source\\drumroll\\drumroll\\Source\\\\Data\\Service Routine Tabs\\Dialogs\\SCR Replacement (EPA10).panel";
+
+	public override string Guid => "c57cbaf5-c651-4e76-84a2-4925e6ac6f12";
+
+	public override string DisplayName => "SCR Replacement";
+
+	public override IEnumerable<string> SupportedDevices => new string[2] { "ACM02T", "MCM02T" };
+
+	public override IEnumerable<string> SupportedEquipment => new string[3] { "DDEC10-DD13", "DDEC10-DD15", "DDEC10-DD16" };
+
+	public override bool AllDevicesRequired => true;
+
+	public override bool IsDialog => true;
+
+	public override string Category => "Aftertreatment";
+
+	public override FilterTypes Filters => (FilterTypes)34;
+
+	public override PanelUseCases UseCases => (PanelUseCases)8;
+
+	public override PanelTargets TargetHosts => (PanelTargets)3;
+
+	public override int MinProductAccessLevel => 0;
+
+	public override int MinDynamicAccessLevel => 0;
+
+	public override FaultCondition RequiredFaultCondition => new FaultCondition((FaultConditionType)0, (IEnumerable<Qualifier>)(object)new Qualifier[0]);
+
+	public override IEnumerable<Qualifier> DesignerQualifierReferences => (IEnumerable<Qualifier>)(object)new Qualifier[5]
+	{
+		new Qualifier((QualifierTypes)4, "ACM02T", "Time_Above_SCR_Inlet_Temp_1_Hour"),
+		new Qualifier((QualifierTypes)4, "ACM02T", "Time_Above_SCR_Inlet_Temp_1_Min"),
+		new Qualifier((QualifierTypes)4, "ACM02T", "Time_Above_SCR_Inlet_Temp_1_Sec"),
+		new Qualifier((QualifierTypes)4, "ACM02T", "Time_Above_SCR_Inlet_Temp_2"),
+		new Qualifier((QualifierTypes)4, "ACM02T", "Time_Above_SCR_Outlet_Temp")
+	};
+
+	public override IEnumerable<string> UserSourceEcuReferences => new string[2] { "ACM02T", "MCM02T" };
+
+	public override IEnumerable<string> UserSourceParameterQualifierReferences => new string[1] { "ATD_Hardware_Type" };
+
+	public Properties(Type runtimeType)
+		: base(runtimeType)
+	{
+	}
+}

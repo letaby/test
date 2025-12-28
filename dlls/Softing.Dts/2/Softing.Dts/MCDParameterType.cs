@@ -1,0 +1,18 @@
+namespace Softing.Dts;
+
+public enum MCDParameterType : uint
+{
+	eCODED_CONST = 28675u,
+	eDYNAMIC = 28680u,
+	eGENERATED = 28690u,
+	eLENGTH_KEY = 28677u,
+	eMATCHING_REQUEST_PARAM = 28678u,
+	eNRC_CONST = 28691u,
+	ePHYS_CONST = 28676u,
+	eRESERVED = 28674u,
+	eSYSTEM = 28679u,
+	eTABLE_ENTRY = 28689u,
+	eTABLE_KEY = 28681u,
+	eTABLE_STRUCT = 28688u,
+	eVALUE = 28673u
+}

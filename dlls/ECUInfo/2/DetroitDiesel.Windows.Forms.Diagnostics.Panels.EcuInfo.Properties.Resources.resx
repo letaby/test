@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GroupName_DeviceIdentification" xml:space="preserve"><value>Device Identification</value></data>
+  <data name="PanelDescription" xml:space="preserve"><value>View information about the currently connected engine and vehicle</value></data>
+  <data name="TabPageText_StoredData" xml:space="preserve"><value>Stored Data</value></data>
+  <data name="TabPageText_Common" xml:space="preserve"><value>Common</value></data>
+  <data name="TabPageText_Standard" xml:space="preserve"><value>Standard</value></data>
+  <data name="PanelTitle" xml:space="preserve"><value>Identification</value></data>
+  <data name="PanelImage" mimetype="application/x-microsoft.net.object.binary.base64"><value>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</value></data><data name="EcuInfoViewControl_ShowMore" xml:space="preserve"><value>show more...</value></data>
+  </root>

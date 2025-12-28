@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ProgramDevicePage_ECUSerialNumber" xml:space="preserve"><value>ECU Serial Number</value></data>
+  <data name="CycleIgnition_Title" xml:space="preserve"><value>Cycle Ignition</value></data>
+  <data name="ReprogrammingViewFormat_MissingCBFWarning" xml:space="preserve"><value>The data description is missing for device coding data {0} and that device will not be programmable. It may be possible to resolve the issue by re-downloading data from the server.</value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_TheDeviceWasSuccessfullyProgrammed" xml:space="preserve"><value>Programming was successfully completed</value></data>
+  <data name="UnitPartNumberViewDialog_UploadData" xml:space="preserve"><value>Upload data</value></data>
+  <data name="ProgramDeviceManager_Step_FormatPercentCompleteMultiple" xml:space="preserve"><value>{0:f1}% Complete  ({1}/{2})</value></data>
+  <data name="GatherServerDataPageUnitHeader_Warning" xml:space="preserve"><value>Warning</value></data>
+  <data name="ProgrammingOperation_UpdateDeviceSoftwareAndChangeDataset" xml:space="preserve"><value>Update Device Software and Change Data Set</value></data>
+  <data name="GatherServerDataPage_UploadUnitsSection" xml:space="preserve"><value>Unit data for upload</value></data>
+  <data name="SelectUnitSubPanelItem_MaxProgrammingUsage" xml:space="preserve"><value>Maximum programming attempts reached for downloaded data, please download data again to continue.</value></data>
+  <data name="GatherServerDataPage_Description" xml:space="preserve"><value>Description</value></data>
+  <data name="GatherServerDataPage_Format_Warnings" xml:space="preserve"><value>{0} - not available - retry</value></data>
+  <data name="readwrite" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAbQMAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wIaESYs8fgGOgAAAvxJREFUOE+tkV1o02cUxl8tziaYTFiZyNCKispAZA7Z
+jW7WalG8cIMVOqUi7bQNK5op6nQdCkZi4ybqFLVaFWNtBdMk/RjVNkmb2prYfNW2E2era5tkjUlb
+mimriezn3xBo8FYPPPC+F7/nPOcc8V4qfZdPI761x49cd/DwYS++7j8Tcnm7cNx30dZ+jyZrKxaL
+hZ/PmBF59rjsmzpNEhdi2ra7MbHkd36rsPKmhvwBPF4fXl8Xbo+XTpebB909jI+E+FV/m4xNOpRf
+m2NJXIgPCtoRn5Wjq7AlDOLxOKOjo4yNjREKhfD7/QmNPAtSdrWBOWo7ivU3SeJCTC/oQHxxGd2l
+5oTB475+Wlrt2NvuJvTm7XJ7CP/jp6yijsz9bpRrr08apG+/h1h5jaMX70h4jPHxcSKRCOFwmOHh
+4UT3gYEBQoFBjl2sZd4BN4q1lZMGsu0O0rKr0Vxo5NXL5zzo6aXZYsVqa8HW0irJjvN+J8Ghp1IT
+M/NLvZLBWwlkG29RdqmBeDTIvyN+XowGeT4SZCw0QCTQj/9JL8G+LnTlBhYd8qFcl2IgK3aQkWvi
+c5WZNT8a+UpdQ9YeI6v3SP99JrL215J9sJ6cX+rJOmxhqaYLZc6NSQN5kZNP8huYlf8HH25pJD3v
+DvJ8K8oCOzOL2vlI5eDjnU4W/uThU6n78rJuKUHKDuQqJ5mFjcwuaCb3kAmLrZXqWyaOnzqP5oR0
+3nN6rlTVkJl3kgVFVaw5+xeKdSkJZqg6WVDcxOwdNnaerGdbaR1ig5Gt2gbcHTYG/36SOG/m95VS
+/B5KTH5kqUtUFDtZom5hbkkbP2ir2Fxag0wao6S8g8DTR0xMTEj4BHMK9SzV9qIyBpDnpIwwLbf9
+yqxCK4ul+6q1l/lOexuF2sNBY58E/k8sFuPZ4CMWqg2sONPPXmsEeXblf0lcKt3uqenZtafFqurg
+l3naiMFwM2qob452dLqiPrc7ajabX1Rfu8CUZYfDaSv1wZmr9UNpy8+pk/S7lBCvAaUOHle9buCQ
+AAAAAElFTkSuQmCCCw==</value></data><data name="SelectFirmwareSubPanel_SelectFirmware" xml:space="preserve"><value>Select the firmware to apply to the device</value></data>
+  <data name="ProgramDevicePage_Processing" xml:space="preserve"><value>Processing</value></data>
+  <data name="SelectFirmwareSubPanelToolTip_AdditionalReprogrammingIsRequiredToUseThisSoftware" xml:space="preserve"><value>Additional reprogramming is required to use this software.</value></data>
+  <data name="ConnectedUnit_UploadDataWarning" xml:space="preserve"><value>This will upload the current vehicle parameters to the server, potentially overwriting data stored there. The current server configuration - potentially superseded - will then be re-downloaded.
+    
+You should not use this option if you are intending to replace vehicle parameters with those from the server (for example, if you have just installed new device hardware).
+
+Do you wish to continue?</value></data>
+  <data name="SelectOperationPageFormat_ConnectedDeviceNotAMatch" xml:space="preserve"><value>The connected device is incorrect. The selected unit documents data for {0}.</value></data>
+  <data name="ProgramDevicePage_OperationInformation" xml:space="preserve"><value>Operation Information</value></data>
+  <data name="PanelDescription" xml:space="preserve"><value>Program a device to factory defaults or update to latest software</value></data>
+  <data name="GatherServerDataPage_FileNameNotAvailable" xml:space="preserve"><value>n/a</value></data>
+  <data name="ConnectedUnit_FormatVehicleIdentificationAndEngineSerialNumberInconsistency" xml:space="preserve"><value>The Engine Serial Number and Vehicle Identification Number is inconsistent. The following devices may need to be programmed: {0}.</value></data>
+  <data name="ProgramDevicePage_FormatIncompatibleHardware" xml:space="preserve"><value>Software specified in this operation is incompatible with the currently connected {0} hardware. The following hardware is valid for this software:</value></data>
+  <data name="ConnectedUnit_EngineSerialNumberInconsistency" xml:space="preserve"><value>The Engine Serial Number is inconsistent.</value></data>
+  <data name="SelectOperationPageFormat_NotProgrammableForFamily" xml:space="preserve"><value>This device is not programmable for {0}</value></data>
+  <data name="Unit_FormatRemoteDownloadNeededStatus" xml:space="preserve"><value>Further software download needed for: {0}.</value></data>
+  <data name="MustSelectAnEcu" xml:space="preserve"><value>Must select a device</value></data>
+  <data name="GatherServerDataPage_TabDataset" xml:space="preserve"><value>Datasets</value></data>
+  <data name="ProgramDevicePage_FormatPreconditionNotMet" xml:space="preserve"><value>Programming pre-condition has not been met: {0}.</value></data>
+  <data name="PartNumberErrorDialog_CodingFileVersion" xml:space="preserve"><value>Coding File Version</value></data>
+  <data name="GatherServerDataPage_ForSoftwareVersion" xml:space="preserve"><value>For Software Version</value></data>
+  <data name="MessageMustEnterAValidVehicleIdentificationNumber" xml:space="preserve"><value>You must enter a valid Vehicle Identification Number</value></data>
+  <data name="SelectOperationPage_DeviceWarning_NoServerData" xml:space="preserve"><value>The server did not provide data for this device</value></data>
+  <data name="GatherServerDataPage_PartNumber" xml:space="preserve"><value>Part Number</value></data>
+  <data name="ConnectedUnit_NoDownload" xml:space="preserve"><value>Server data has not been downloaded for this unit.</value></data>
+  <data name="UnitPartNumberViewDialog_FormatCodingFileNotFound" xml:space="preserve"><value>Unable to locate coding file for {0}</value></data>
+  <data name="SelectOperationPage_NewestConnectedPowertrain" xml:space="preserve"><value>Connected Powertrain (newest software)</value></data>
+  <data name="GatherServerDataPage_RemoteFileStatus" xml:space="preserve"><value>Remote file download status</value></data>
+  <data name="GatherServerDataPage_Unknown" xml:space="preserve"><value>unknown</value></data>
+  <data name="SelectUnitSubPanelItemName_Defaults" xml:space="preserve"><value>defaults</value></data>
+  <data name="GatherServerDataPage_MessageRefreshSoftware" xml:space="preserve"><value>Selecting this option will cause all downloaded device software to be removed, and all downloaded unit information to be marked for refresh. You will need to reconnect to the server to download the software and units again. Do you wish to continue?</value></data>
+  <data name="SelectOperationPage_ClickOK" xml:space="preserve"><value>Click OK if you wish to proceed.</value></data>
+  <data name="PartNumberErrorDialog_FormatDomainLength" xml:space="preserve"><value>Domain length in connected variant {0}: {1} bytes</value></data>
+  <data name="Format_ProrgrammingOperationSameDevice" xml:space="preserve"><value>{0} (same device)</value></data>
+  <data name="ConnectedUnit_FormatUnitDataDownloadedToday" xml:space="preserve"><value>Unit data last downloaded today at {0}.</value></data>
+  <data name="SelectOperationPageFormat_PowertrainSoftwareIsNotCompatible_Warning" xml:space="preserve"><value>The selected software {0} is not compatible with other connected devices and the software combination that would allow compatibility for those devices is not available for this unit.
+
+Please contact the Detroit Diesel Customer Support Center before proceeding.</value></data>
+  <data name="ProgramDevicePage_CheckDependentDeviceFeaturesAfterProgramming" xml:space="preserve"><value>Please connect to the following devices and verify the following features:
+
+{0}
+
+Failure to do so, might result in incomplete vehicle functionality. </value></data>
+  <data name="GatherServerDataPage_Format_MissingServerDataForDevices" xml:space="preserve"><value>Missing server data for {0}</value></data>
+  <data name="ProgrammingDataItem_AutomaticOperation" xml:space="preserve"><value>Authorized Operation</value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_IfThisIsCorrectClickTheStartButton" xml:space="preserve"><value>Please review the information shown. If this is correct, click the Start button</value></data>
+  <data name="ProgramDeviceManager_Status_OK" xml:space="preserve"><value>OK</value></data>
+  <data name="SelectOperationPage_Message_ChangingTheDataSetWillRequireTheDataForThisDeviceToNeedToBeRedownloadedFromTheServerIfYourIntentIsToSubsequentlyUpgradeTheSoftwareInThisDevicePleaseUpgradeTheSoftwareFirst" xml:space="preserve"><value>Changing the data set will require the data for this device to be downloaded from the server again. If your intent is to subsequently upgrade the software in this device, please upgrade the software first.</value></data>
+  <data name="ProgramDevicePage_ViewingLogFile" xml:space="preserve"><value>Programming operations are not possible while viewing a log file. The data is provided for information only.</value></data>
+  <data name="ProgrammingDataItemWarning_ResetToDefaultNotRecommended" xml:space="preserve"><value>Reset to default (not recommended)</value></data>
+  <data name="ProgramDeviceManager_Step_NAUsingExistingControlListFirmware" xml:space="preserve"><value>n/a - using existing control list firmware</value></data>
+  <data name="SelectUnitSubPanelItemFormat_MissingFirmwareFlashKey" xml:space="preserve"><value>The server specified a firmware flash key ({0}) which could not be found in a flash file.</value></data>
+  <data name="ConnectedUnit_EnterIdentity" xml:space="preserve"><value>Enter identity information</value></data>
+  <data name="SelectOperationPage_FormatDatasetMeaningCannotBeProgrammed" xml:space="preserve"><value>The required dataset ({0}) is present, but cannot be programmed into the connected device.</value></data>
+  <data name="ProgramDeviceManager_Complete_CouldNotLocateFlashKey" xml:space="preserve"><value>Could not locate flash key</value></data>
+  <data name="SelectUnitSubPanelItemFormat_DatasetFlashKeyRequiresDownload" xml:space="preserve"><value>The server specified a dataset flash key ({0}) which is still to be downloaded.</value></data>
+  <data name="SelectOperationPage_FormatFirmwareFileMissing" xml:space="preserve"><value>The required firmware ({0}) is referenced, but the file {1} is missing.</value></data>
+  <data name="GatherServerDataPage_Version" xml:space="preserve"><value>Version</value></data>
+  <data name="ProgramDeviceManager_Step_Connecting" xml:space="preserve"><value>Connecting...</value></data>
+  <data name="GatherServerDataPage_Device" xml:space="preserve"><value>Device</value></data>
+  <data name="GatherServerDataPage_DataOK" xml:space="preserve"><value>OK</value></data>
+  <data name="ProgramDeviceManager_Step_NAUsingExistingDataset" xml:space="preserve"><value>n/a - using existing dataset</value></data>
+  <data name="ProgramDeviceManager_Complete_DataImplausibleReconnectedInBootMode" xml:space="preserve"><value>Data implausible - reconnected in boot mode</value></data>
+  <data name="ConnectedUnit_UploadUnitData" xml:space="preserve"><value>Connected unit data for upload</value></data>
+  <data name="ProgramDeviceManager_Step_FormatPercentComplete" xml:space="preserve"><value>{0:f1}% Complete</value></data>
+  <data name="GatherServerDataPage_PendingRequestsSection" xml:space="preserve"><value>Pending requests for server data</value></data>
+  <data name="ConnectedUnit_VehicleIdentificationInconsitencyNotEnoughDevicesForCorrectIdentification" xml:space="preserve"><value>The Vehicle Identification Number is inconsistent and there are not enough devices connected to determine if the detected identification information is correct.</value></data>
+  <data name="SelectUnitSubPanelItemFormat_HardwarePartNumberNoMatchesAvailable" xml:space="preserve"><value>Settings are not compatible with the connected device hardware. No compatible hardware could be found.</value></data>
+  <data name="SelectOperationPageFormat_ChassisSoftwareIsNotCompatible_Warning" xml:space="preserve"><value>The selected software {0} is not compatible with other connected devices and the software combination that would allow compatibility for those devices is not available for this unit.
+
+Please contact the Daimler Trucks North America Dealer Help Desk before proceeding.</value></data>
+  <data name="GatherServerDataPage_FileMissing" xml:space="preserve"><value>WARNING: Specified file is missing</value></data>
+  <data name="ProgrammingOperation_ChangeDataset" xml:space="preserve"><value>Change Data Set</value></data>
+  <data name="GatherServerDataPage_TabSoftware" xml:space="preserve"><value>Software</value></data>
+  <data name="GatherServerDataPage_Is64BitCompatible" xml:space="preserve"><value>Universal interpreter</value></data>
+  <data name="SelectUnitSubPanelItem_FactoryDescription" xml:space="preserve"><value>Factory configuration</value></data>
+  <data name="SelectOperationPageFormat_ChassisSoftwareIsNotCompatible_Stop" xml:space="preserve"><value>The selected software {0} is not compatible with other connected devices and does not appear on a compatibility list.
+
+Please contact the Daimler Trucks North America Dealer Help Desk before proceeding.</value></data>
+  <data name="SelectUnitSubPanelItemFormat_FactoryCannotBeProgrammed" xml:space="preserve"><value>Factory settings cannot be programmed after software has been upgraded. Original software: {0}.</value></data>
+  <data name="MenuProxy_FormatRemoteFileDownloadWarning" xml:space="preserve"><value>There are {0} devices that require software to be downloaded. Program Device functionality will not be available for the devices {1} until this content is downloaded. This requires an internet connection and may take a few minutes, but you can continue working while the download is in progress. Click here to download this content now.</value></data>
+  <data name="PartNumberErrorDialog_SoftwareVersion" xml:space="preserve"><value>Software Version</value></data>
+  <data name="ProgramDevicePage_Configuration" xml:space="preserve"><value>Configuration</value></data>
+  <data name="SelectDataSetSubPanelItem_CannotChangeDataSetForDeviceWithDifferentIdentity" xml:space="preserve"><value>Cannot change dataset for the connected device, as the device identity does not match.</value></data>
+  <data name="SelectOperationPage_FormatChangeVIN" xml:space="preserve"><value>The {0} Vehicle Identification Number will be changed from {1} to {2}.</value></data>
+  <data name="SelectOperationPage_FormatChangeESN" xml:space="preserve"><value>The {0} Engine Serial Number will be changed from {1} to {2}.</value></data>
+  <data name="PartNumberErrorDialog_PrefixText" xml:space="preserve"><value>Unrecoverable errors occurred while programming parameters. Please contact the Daimler Trucks North America Customer Assistance Center, providing the information in the table below. </value></data>
+  <data name="SelectOperationPage_FormatFirmwareFileNotAvailableDueToServerStatus" xml:space="preserve"><value>The required firmware {0} is a remote file that is not available due to the server status '{1}'.</value></data>
+  <data name="ProgramDeviceManager_Step_NAAllParametersResetToDefault" xml:space="preserve"><value>n/a - all parameters reset to default</value></data>
+  <data name="ProgramDevicePage_Failed" xml:space="preserve"><value>Failed</value></data>
+  <data name="ProgramDevicePage_OutputValue_ActualData" xml:space="preserve"><value>Actual Data</value></data>
+  <data name="Format_ProrgrammingOperationNewDevice" xml:space="preserve"><value>{0} (new device)</value></data>
+  <data name="ProgrammingDataItem_VehicleIdentificationNumber" xml:space="preserve"><value>Vehicle Identification Number</value></data>
+  <data name="CommandViewStationLog" xml:space="preserve"><value>&amp;View Station Log...</value></data>
+  <data name="GatherServerDataPage_FlashKeyNotFound" xml:space="preserve"><value>WARNING: unable to locate a file containing the specified flash key</value></data>
+  <data name="ConnectedUnit_FormatUnitDataUpdatedYesterday" xml:space="preserve"><value>Data for upload last updated yesterday at {0}.</value></data>
+  <data name="ProgrammingData_FormatCouldNotLocateFirmwareInfo" xml:space="preserve"><value>The required firmware {0} was not provided by the server.</value></data>
+  <data name="SelectFirmwareSubPanelItem_NoSoftwareUpdatesAvailableForSelectedDevice" xml:space="preserve"><value>No software updates available for selected device</value></data>
+  <data name="ProgramDeviceManager_Complete_FlashBlock_not_found_for_connected_hardware" xml:space="preserve"><value>{0} not found for connected hardware</value></data>
+  <data name="SelectOperationPageFormat_RequiredDeviceNotConnected" xml:space="preserve"><value>Required device(s) not connected: {0}</value></data>
+  <data name="SelectUnitSubPanelItemFormat_BootFirmwareFlashKeyRequiresDownload" xml:space="preserve"><value>The server specified a boot firmware flash key ({0}) which is still to be downloaded.</value></data>
+  <data name="ChargeReferenceTypeLabelText_PONUMBER" xml:space="preserve"><value>(P.O / Invoice Number)</value></data>
+  <data name="SelectOperationPageFormat_Unit" xml:space="preserve"><value>All powertrain devices for connected unit {0}</value></data>
+  <data name="SelectUnitSubPanelItem_OverTheAirDescription" xml:space="preserve"><value>Over-the-air inventory configuration</value></data>
+  <data name="SelectSettingsSubPanel_SelectSettings" xml:space="preserve"><value>Select the settings to apply to the device</value></data>
+  <data name="UnitPartNumberViewDialog_Title" xml:space="preserve"><value>Unit Part Number View</value></data>
+  <data name="GatherServerDataPage_FormatMissingDevices" xml:space="preserve"><value>{0} missing devices</value></data>
+  <data name="SelectDataSetSubPanelItem_NoOptionsForThisUnitSoftware" xml:space="preserve"><value>No options are available for the current software version in the device</value></data>
+  <data name="SelectOperationPage_CurrentSoftwareNotFoundForHardware" xml:space="preserve"><value>A complete set of current software from the server could not be found for the connected hardware.</value></data>
+  <data name="CycleIgnition_WaitingForDisconnection" xml:space="preserve"><value>Waiting for device to disconnect...</value></data>
+  <data name="ProgramDeviceManager_Complete_ConnectionResourceForTargetPlatformNotFound" xml:space="preserve"><value>A connection resource for the target diagnostic platform could not be found</value></data>
+  <data name="PartNumberErrorDialog_Meaning" xml:space="preserve"><value>Meaning</value></data>
+  <data name="SelectUnitSubPanelItem_VehiclePlantDescription" xml:space="preserve"><value>Vehicle plant configuration</value></data>
+  <data name="SelectOperationPageFormat_PhysicalCANWillBeNeeded" xml:space="preserve"><value>During the programming operation, it will be necessary to establish a physical CAN connection to {0}. Please ensure that you have the {1} translator device available, prior to starting the operation.</value></data>
+  <data name="SelectOperationPage_SelectDevice" xml:space="preserve"><value>Select the device to program</value></data>
+  <data name="ProgramDeviceManager_Complete_ConnectionResourceIsNotValid" xml:space="preserve"><value>Connection resource is not valid</value></data>
+  <data name="ProgramDeviceManager_Step_Starting_Count_Format" xml:space="preserve"><value>Starting  ({0}/{1})...</value></data>
+  <data name="ProgramDeviceManager_FormatProcessing" xml:space="preserve"><value>Processing "{0}"...</value></data>
+  <data name="PartNumberErrorDialog_DiagnosticVariant" xml:space="preserve"><value>Diagnostic Variant</value></data>
+  <data name="PartNumberErrorDialog_Title" xml:space="preserve"><value>Part Number Error</value></data>
+  <data name="PartNumberErrorDialog_Notes" xml:space="preserve"><value>Notes</value></data>
+  <data name="PartNumberErrorDialog_Error" xml:space="preserve"><value>Error</value></data>
+  <data name="ProgrammingDataItemWarning_NoExistingSettingsResetToDefault" xml:space="preserve"><value>No existing settings - reset to default</value></data>
+  <data name="SelectOperationPageFormat_SettingsForChecConnectedDevices" xml:space="preserve"><value>Settings for all CHEC-managed devices for connected unit {0}.</value></data>
+  <data name="SelectUnitSubPanelItem_LatestDescription" xml:space="preserve"><value>DiagnosticLink upload configuration</value></data>
+  <data name="ProgrammingDataItem_EngineSerialNumber" xml:space="preserve"><value>Engine Serial Number</value></data>
+  <data name="ChargeReferenceTypeLabelText_DESCRIPTION" xml:space="preserve"><value>(Test/Training/DDC Request, etc)</value></data>
+  <data name="SelectOperationPageFormat_UnitInfoNotAvailable" xml:space="preserve"><value>Unit information is not available for connected unit {0} ({1})</value></data>
+  <data name="SelectOperationPageFormat_DevicesIncluded" xml:space="preserve"><value>Devices: {0}</value></data>
+  <data name="ProgrammingDataItem_DataSet_PartNumberFormat" xml:space="preserve"><value>Data Set Part Number {0}</value></data>
+  <data name="Wizard_ButtonRefreshAllSoftware" xml:space="preserve"><value>Refresh all software</value></data>
+  <data name="GatherServerDataPage_MVCIServerMustBeEnabledToLoadFile" xml:space="preserve"><value>The MVCI server must be enabled to load this file. Please check the setting in Tools/Options/Connections.</value></data>
+  <data name="CycleIgnition_TurnIgnitionOff" xml:space="preserve"><value>Turn ignition off!</value></data>
+  <data name="SelectOperationPage_ErrorNoOperation" xml:space="preserve"><value>Error: An operation was not chosen</value></data>
+  <data name="ProgramDevicePage_Error" xml:space="preserve"><value>Error</value></data>
+  <data name="SelectOperationPage_DeviceWarning_FormatNoContentForDataSource" xml:space="preserve"><value>The {0} server did not provide any data for this unit.</value></data>
+  <data name="ProgramDevicePage_Ready" xml:space="preserve"><value>Ready</value></data>
+  <data name="ProgramDevicePage_Compat_CompatibleSetFormat" xml:space="preserve"><value>Compatible Set #{0}</value></data>
+  <data name="SelectOperationPageFormat_ChassisSoftwareIsNotCompatible_WarningWithHint" xml:space="preserve"><value>The selected software {0} is not compatible with other connected devices and the software combination that would allow compatibility for those devices is not available for this unit, because the following software in the unit does not appear in the compatibility table supplied from the server:
+
+{1}
+
+Please contact the Daimler Trucks North America Dealer Help Desk before proceeding.</value></data>
+  <data name="MessageFormat_ResourceCannotBeDetermined" xml:space="preserve"><value>{0} must be connected to determine available resource.</value></data>
+  <data name="ProgrammingOperation_UpdateDeviceSoftware" xml:space="preserve"><value>Update Device Software</value></data>
+  <data name="ProgramDeviceManager_Step_Reconnecting" xml:space="preserve"><value>Reconnecting</value></data>
+  <data name="ConnectedUnit_DownloadedUnitData" xml:space="preserve"><value>Downloaded unit data for connected unit</value></data>
+  <data name="Header_GatherServerData" xml:space="preserve"><value>Gather server data</value></data>
+  <data name="SelectFirmwareSubPanelItem_MustHaveUnitFileToUpdateSoftwareForThisDevice" xml:space="preserve"><value>Must have unit file to update software for this device</value></data>
+  <data name="ProgramDeviceManager_Step_NotApplicable" xml:space="preserve"><value>n/a</value></data>
+  <data name="SelectOperationPageFormat_PhysicalEthernetWillBeNeeded" xml:space="preserve"><value>During the programming operation, it will be necessary to establish a physical Ethernet connection to {0}. Please ensure that you have the necessary USB to Ethernet/J1962 cable available, prior to starting the operation. </value></data>
+  <data name="SelectOperationPage_SoftwareIsNotCompatible_Information" xml:space="preserve"><value>The selected software is not compatible with other connected devices, please update them as necessary after reprogramming is complete.</value></data>
+  <data name="GatherServerDataPage_DownloadUnitsSection" xml:space="preserve"><value>Downloaded unit data</value></data>
+  <data name="GatherServerDataPageUploadData" xml:space="preserve"><value>Upload Data</value></data>
+  <data name="ProgramDevicePageItemName_Device" xml:space="preserve"><value>Device</value></data>
+  <data name="ConnectedUnit_PrimaryConnectedIdentityDescription" xml:space="preserve"><value>the primary connected device identity</value></data>
+  <data name="ConnectedUnit_NotEnoughDevicesForCorrectIdentification" xml:space="preserve"><value>There are not enough devices connected to determine if the detected identification information is correct.</value></data>
+  <data name="GatherServerDataPage_ChassisStatus" xml:space="preserve"><value>Chassis status: </value></data>
+  <data name="ChargeReferenceTypeLabelText_RONUMBER" xml:space="preserve"><value>(R.O. Number)</value></data>
+  <data name="SelectOperationPage_FormatErrorSelectedDataSourceUnknown" xml:space="preserve"><value>Error: data source is unknown for device {0} in unit {1}</value></data>
+  <data name="PartNumberErrorDialog_FormatDefaultStringLength" xml:space="preserve"><value>Default string length in CCF: {0} bytes</value></data>
+  <data name="ProgramDeviceManager_Step_Resetting" xml:space="preserve"><value>Resetting...</value></data>
+  <data name="ProgramDeviceManager_Complete_TargetDiagnosisPlatformNotAvailable" xml:space="preserve"><value>The target diagnostic platform was not available</value></data>
+  <data name="ProgramDevicePage_ProgrammingComplete" xml:space="preserve"><value>Programming Complete</value></data>
+  <data name="ProgrammingDataItem_HardwareRevision" xml:space="preserve"><value>Hardware Revision</value></data>
+  <data name="ProgramDeviceManager_Step_Starting" xml:space="preserve"><value>Starting...</value></data>
+  <data name="ConnectedUnit_VerifyUnitIdentity" xml:space="preserve"><value>Please verify the unit identity:</value></data>
+  <data name="GatherServerDataPage_Warnings_Separator" xml:space="preserve"><value>/</value></data>
+  <data name="ProgrammingDataItem_Software" xml:space="preserve"><value>Software</value></data>
+  <data name="GatherServerDataPage_Status_AutomaticOperationComplete" xml:space="preserve"><value>authorized operation complete</value></data>
+  <data name="ProgramDeviceManager_Complete_FlashAreaCollectionNotAvailable" xml:space="preserve"><value>Flash area collection not available</value></data>
+  <data name="ProgrammingDataItem_Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="ok" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA+QIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wQYECUs/l4C5QAAAohJREFUOE+tkl1Ik2EUx8/euZyYW6YpYfkxTDFDqUBS
+IaRIbxIDRTAoMskitUwhv6YhNdnEdhFaTa0swY+Z1EUFYujCMl3dmBdJuj5oVtqaQWlNi39n+gRh
+eFU/OA8vL8/vnPM8z6H/TwutJj0VSkapb73Jzx7QoJ6UGSQLnaFi/q8Su1bgBiX5N6rtxdZMNL8u
+QdVoFnKHdiPjQRxizcFQGBQfqI6Sxe5lsBzdpvne9rYa+rGDyLFuRfpAJFLuhyHx3kbE3A5AaKca
+ilrJxUlShCXgtv1NKnv75FmUje5FzpMYHBqORcZAFJJ7NUi4uwEhHd7QPS1HeLcvqEw2RSW0RtiM
+jgrzB9NhGMvGYWsMslnOerQFqZZI7OoJhcbsBdunF4ALeO6wQmlUgQqpTNhMLfU1TJRgP0t7ekOQ
++TAKaZYI/tYg4qY3bE6WfwD4CVwcLwXV+YFOyR4Lm2hdg69d++wANrUGQt9vRHiXL5J6ghDZ7Y1X
+M+NsLmEar4B0lUA1QZxA6RQ6kf8F9eS+vkS0D5vhmp7HyJsRbL8VDNsMVxY02Srg6ZYbObRRoJN/
+JKBzkiWtPx6bzaGYfufAV+cs8I2thSW52VYJr2sEqYnleomrx4GO07CwmQoqju0IR1CnEjvvRGP2
+8xzm59yHZvll5WLlRdnEURkGOhEByiWtsBkDqTxrVr0P5KfyuS5DRv8OTH2Z4LbLIb8ixMscurWg
+/ASurnBQDvkJW6CnZA+d5FK2eIBY8mllwX3eSxz1HFXBoLx4ltULVESpwlpGNU+Ye0j0StB5NUjP
+z1UVAiraBirgto95Ouj0SvJvSnnCCnjNkw9SgfIj5Xs56Kh8iI7wTf3V9j9D9Avj/Fv6fEX+GwAA
+AABJRU5ErkJgggs=</value></data><data name="ProgramDevicePage_OutputValue_Result" xml:space="preserve"><value>Result</value></data>
+  <data name="GatherServerDataPage_FormatUploadFor" xml:space="preserve"><value>data for upload for {0}.</value></data>
+  <data name="Unit_FormatRemoteInProgressStatus" xml:space="preserve"><value>Software download in progress for: {0}.</value></data>
+  <data name="ProgramDevicePage_Identification" xml:space="preserve"><value>Identification</value></data>
+  <data name="GatherServerDataPageUnitHeader_Error" xml:space="preserve"><value>Error</value></data>
+  <data name="Wizard_ButtonRemoveData" xml:space="preserve"><value>Remove data</value></data>
+  <data name="SelectOperationPageFormat_ConfigurationDataNotConsistent" xml:space="preserve"><value>Configuration data is not consistent with connected device: {0}</value></data>
+  <data name="ConnectedUnit_ServerReportedErrors" xml:space="preserve"><value>The server reported errors for this unit: </value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_ProgrammingFailedUnableToContinue" xml:space="preserve"><value>The programming operation failed - unable to continue.</value></data>
+  <data name="ProgramDeviceManager_Complete_FirmwareIncompatibleWithHardware" xml:space="preserve"><value>Device hardware part number is not (or is no longer) valid for the selected firmware</value></data>
+  <data name="Messsage_NoConnectionResources" xml:space="preserve"><value>No connection resources available.</value></data>
+  <data name="error" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9wIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wQYEBs3Nf7QdAAAAoZJREFUOE+tkVtIk2EYx/8a07VD1PJQkaXraGZGpiSp
+JCVFakUHCAoqMAlzJEkRCt10kXXjlY6gi1DChMJD5EWRehGaJ6TQ0imWq7npnIc+nW5z+/c6vyCl
+ruoHL9/F9/6e5/8+D/47Dj3UtggUWHcGNI0eCLEMJ+gsA1Fo7NmAm590UMnX/gx34OjUwRCbuziH
+rComS3LJwpOkIZXOzEj26RXD5nVIl68vhdtxTDoV4+bLMrL0Bt05SWSuOJfj6DsTRSYryUMa9kcG
+uL6sXVaEEdCMp4aNst5I161M9uZd4ND1s+TVePJSLOfTw+n+0EIWZJIJAWwOxUgXoJZ1wLwJRe6H
+18iyfM6ej+Zgw2tapRnOHg6lN20VPWNWLuAT/5gAmqLAWg3uyDrwLUbZyvJ7ZF6KOMkcMZzmiIeU
+GuvoMnX7ZZYYyHiQ+0DzFrBGhWZZByxJ4ZN8kC3i7iGz4zmfFETHgImSy0NRh76mF4tyYiDde0WC
+SLBaDYesA0OJYVO8nUGe09OXpuVk4UXaHROUnM7FAqZO8ng453eB0m6wfT34fOVvBT5vDW5nbgp9
+YtLmCiOHpqY5Kjkp2b5zzp9fMCvRazhCqx5s0IHlCryXdaA1FHfnTmwj94MDnW0cnJjhRFMtmRJE
+97taf4oFvPevsE3IdRrwEVAk60CHCqqP+mDHwoRtVUZOF4uNiGKMBd3i7d7aUnry09ktotdrwScr
+MFYJaGV9kf7VyOrZCA/jQI9465yQf8SA49GgZTP8nV8JuUIBTzWQIWtL6dIiq1GHsV4x5a9iVX3i
+2yG6vl0j1qb2d7bX/E3+xRsRrVKJokoFWp4pYX8aBPvjQLQYgcKy5bH/HeAng/eVa99wfegAAAAA
+SUVORK5CYIIL</value></data><data name="flash" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAdgIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wgZCyYEjfk/KQAAAgVJREFUOE+tkUtIlFEYht9xchotLzlaSnnBSDPExszQ
+NGlTYEhUEiQFRi21wFpJRBdBjBaV0A2KEKEkLMNu6sIMyxa1EYKkIiEt0E2Ulpk0T5/TDxZpEfXA
+4Xzn532+83F+/RcaQtTbLPmc49/T5NHVljB135C8zid9Wag5trm+n/7A9XAVP8iMpiNKTZjUI83q
+S3E9fpOiRjt7nNjM3JbcD1PDB4f3ZHM/SnW9Ph18X53L2M4E3qapi2TNc6Iz8yRStWMHchgoSQj0
+r42b4EQe7EtiojKRT37XM/xKdaLTMxirtP718QEqF8HpNVCVBNWpUJNuaykUeYbIV95klnUqZINu
+BcUfeZ3s6qZ6id2cHJQDh62uy4CTWXA+B7bM/chq1VMRO85m9ytHm2I4UbtHdiTA0TQ+FHi/jm+L
+g3qTz2TDRT9czoRTy6AnF0pDXjraFKM+Rbwr8I58Lo0OkK7yQKFngIZ8uGBNGmySpsXQYtO12SWb
+9MLRfoYsXbJVE6xXqJZzq6DR3uCKyc2JcDMe7vpg60wNpFCnFLnazyEbu3U5XDO51eQ2kzsiYbtr
++gaTWBM3hTpO1fwA91aaaPKdBSbGQFcEdHqhXM+d+K/Y6DEU6SzFekRZ6CgVYXAk3B7S9vbZ9ohu
+2KU+J/57gtOUKMP+exkbdYxStbNXQ9bgqRP5F6RvE6kQDS+nNXwAAAAASUVORK5CYIIL</value></data><data name="SelectOperationPage_FormatDatasetFileMissing" xml:space="preserve"><value>The required dataset ({0}) is referenced, but the flash file is missing.</value></data>
+  <data name="add" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAgAIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/
+ZF+RAAAAB3RJTUUH0wkeFgk243t37gAAAg9JREFUOE+1kstrE1EYxaedZCYzkzbRJEXcVa27aklF
+qeKj0FasIEilqJVYJVJd+ERNHNMWY5w0iRmNghKruLJaQv+JolgoXheOD/qwrYxSStWAr+Xx3iEQ
+cKHThd9mFsP5nQeX+y9Xc18mjSNrESzUoWF4NdYN1cKbE5+Xfv/7AvcUUviVw8Nv/cgXL6J/Zj88
+N5YA8Odl8uRnFrkvx5FeCOHcuzZU64J9gO+uRIZ+ZKB/DmNg/iDOvm1FVeYvAP8DifgHZeLLS4SJ
+A3eUr4++p5BZ6EbiUydN0ApPVlysSgnErQlESTiJFHeQkpzjgiN1YJ1ZbObMxINFFdr8AVwxO6DO
+tEMzu3D9Yw+0uRBikx1YmfWgJOe4hsIaOlif1ZnFZs5MHDf3oXduDyLTbTg/0UKrNOOUsQ0nXm5G
+TcpdBqwfXmWtzQZjnVls5szE0fc7cWGyhdZoxunX23Hy1Vb0vGhCIKmUAfWPa5E0u3FpejeiU+2I
+TO2COku/1JmJz7zZQUVbcGy8CUfHNiL0tBG+hFwGeG+7jGW3XIb3pmh4dNHw6q5i/EOnFZs5h6lQ
+ivOLYh9PhBhPnGolcUQryiP+eW66dtoMW51Z7CNjmyD0Vtp/B3LSSRKzh6zBWOfDzzbAGVsCQNIc
+5PLEXmttNljXaBAOtcI+QLzKkxV6NQJpBf4BGcuvSeAjnH2A/eO43xFIKKnXSFhXAAAAAElFTkSu
+QmCCCw==</value></data><data name="ProgramDeviceManager_Step_Writing" xml:space="preserve"><value>Writing...</value></data>
+  <data name="PartNumberErrorDialog_PartNumber" xml:space="preserve"><value>Part Number</value></data>
+  <data name="WarningPanelMessageFormat_TheAutomaticReprogrammingOperation0IsRequiredForTheConnectedVehicleConnectTheDevice1ToProceedStep2Of3" xml:space="preserve"><value>The authorized reprogramming operation {0} is required for the connected vehicle. Connect the device {1} to proceed (step {2} of {3}).</value></data>
+  <data name="ProgramDevicePage_ParameterWarnings" xml:space="preserve"><value>Parameter warnings</value></data>
+  <data name="SelectOperationPage_ErrorSelectedUnitNull" xml:space="preserve"><value>Error Selected Unit is null</value></data>
+  <data name="ConnectedUnit_VinIsNeededToContinueDataDownload" xml:space="preserve"><value>Without a Vehicle Identification Number only powertrain device data will be downloaded.</value></data>
+  <data name="SelectUnitSubPanelItemFormat_HardwarePartNumberMismatch" xml:space="preserve"><value>Settings are not compatible with the connected device hardware. Required: {0}.</value></data>
+  <data name="SelectOperationPageFormat_PowertrainSoftwareIsNotCompatible_Stop" xml:space="preserve"><value>The selected software {0} is not compatible with other connected devices and does not appear on a compatibility list.
+
+Please contact the Detroit Diesel Customer Support Center before proceeding.</value></data>
+  <data name="ProgrammingDataItem_Dataset" xml:space="preserve"><value>Data Set</value></data>
+  <data name="ConnectedUnit_EnterIdentityDescription" xml:space="preserve"><value>manually enter unit identity</value></data>
+  <data name="SelectOperationPage_Compat_CompatibleSetFormat" xml:space="preserve"><value>Compatible Set #{0}</value></data>
+  <data name="ChargeReferenceTypeLabelText_CANUMBER" xml:space="preserve"><value>(Competitive Allowance Number)</value></data>
+  <data name="ProgramDevicePageItem_NoDataToProgram" xml:space="preserve"><value>No data to program</value></data>
+  <data name="Wizard_ButtonAddRequest" xml:space="preserve"><value>Add request</value></data>
+  <data name="SelectDataSetSubPanelItem_NoDataForThisUnit" xml:space="preserve"><value>No data for this unit</value></data>
+  <data name="SelectOperationPageFormat_OEMLatestDataNotAvailable" xml:space="preserve"><value>OEM or Latest data is not available for expected unit: {0}</value></data>
+  <data name="Header_ProgramDevice" xml:space="preserve"><value>Program device</value></data>
+  <data name="GatherServerDataPage_Identifier" xml:space="preserve"><value>Identifier</value></data>
+  <data name="ProgramDevicePage_Compat_TargetDevice" xml:space="preserve"><value>TargetDevice</value></data>
+  <data name="SelectDataSetSubPanel_SelectDataSet" xml:space="preserve"><value>Select the dataset to apply to the device</value></data>
+  <data name="SelectUnitSubPanelItem_MVCIServerRequiredButNotAvailable" xml:space="preserve"><value>This configuration must be programmed via an MVCI server but it is not available. Please check your installation. </value></data>
+  <data name="ProgramDeviceManager_Step_LoadingParameters" xml:space="preserve"><value>Loading parameters...</value></data>
+  <data name="GatherServerDataPage_UnitStatusExpired" xml:space="preserve"><value>Unit data has expired.</value></data>
+  <data name="ProgramDevicePage_Success" xml:space="preserve"><value>Success</value></data>
+  <data name="GatherServerDataPage_Filename" xml:space="preserve"><value>File name</value></data>
+  <data name="UnitPartNumberViewDialog_DownloadData" xml:space="preserve"><value>Download data</value></data>
+  <data name="ProgrammingDataItem_LateBoundConfigurationHexFile" xml:space="preserve"><value>Configuration</value></data>
+  <data name="ProgrammingDataItem_Device" xml:space="preserve"><value>Device</value></data>
+  <data name="SelectOperationPage_DeviceWarning_NoOptionalServerData" xml:space="preserve"><value>The server did not provide data for this optional device</value></data>
+  <data name="SelectOperationPage_ErrorSelectedChannelNull" xml:space="preserve"><value>Error Selected Channel is null</value></data>
+  <data name="SelectOperationPage_DeviceWarning_NotProgrammable" xml:space="preserve"><value>This is not a programmable device</value></data>
+  <data name="PartNumberErrorDialog_Fragment" xml:space="preserve"><value>Fragment</value></data>
+  <data name="PartNumberErrorDialog_NotApplicable" xml:space="preserve"><value>n/a</value></data>
+  <data name="GatherServerDataPage_FormatUploadPending" xml:space="preserve"><value>data upload pending for {0}.</value></data>
+  <data name="SelectFirmwareSubPanelItem_CannotUpdateSoftwareForDeviceWithDifferentIdentity" xml:space="preserve"><value>Cannot update device software for the connected device, as the device identity does not match.</value></data>
+  <data name="ConnectedUnit_EngineSerialNumberInconsistencyWithVehicleIdentification" xml:space="preserve"><value>The Engine Serial Number is not correct for the Vehicle Identification Number, according to downloaded server data.</value></data>
+  <data name="Header_SelectOperation" xml:space="preserve"><value>Select operation</value></data>
+  <data name="ProgramDeviceManager_Step_Complete" xml:space="preserve"><value>Complete</value></data>
+  <data name="ProgramDeviceManager_Step_UsingSettingsFromPreviouslyFailedUpgrade" xml:space="preserve"><value>using settings from previously failed upgrade</value></data>
+  <data name="PartNumberErrorDialog_Domain" xml:space="preserve"><value>Domain</value></data>
+  <data name="GatherServerDataPage_No" xml:space="preserve"><value>no</value></data>
+  <data name="SelectOperationPageItem_ManualConnection" xml:space="preserve"><value>Manual connection required for programming</value></data>
+  <data name="SelectUnitSubPanelItem_HistoryDescription" xml:space="preserve"><value>DiagnosticLink upload configuration (historical)</value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_TheDeviceWasSuccessfullyProgrammedButMayHaveConfigurationErrors" xml:space="preserve"><value>Programming was successfully completed but device(s) may have configuration errors</value></data>
+  <data name="SelectUnitSubPanelItem_ResetConfigurationToDefaultNotRecommended" xml:space="preserve"><value>Reset configuration to default (not recommended)</value></data>
+  <data name="Wizard_ButtonStart" xml:space="preserve"><value>Start</value></data>
+  <data name="ConnectedUnit_FormatUnitDataDownloadedOn" xml:space="preserve"><value>Unit data last downloaded on {0}.</value></data>
+  <data name="ChargeReferenceTypeLabelText_DDCREQUEST" xml:space="preserve"><value>(DDC Requester)</value></data>
+  <data name="SelectUnitSubPanelItemFormat_MissingCodingParameter" xml:space="preserve"><value>The server specified a coding parameter ({0}) which could not be found in a coding file.</value></data>
+  <data name="ProgramDeviceManager_Step_WaitingForOnlineStatus" xml:space="preserve"><value>Waiting for online status..</value></data>
+  <data name="PartNumberErrorDialog_FormatVariantNotInPermittedList" xml:space="preserve"><value>Connected diagnostic variant {0} is not in the permitted list for the coding group</value></data>
+  <data name="Wizard_ButtonUploadData" xml:space="preserve"><value>Upload data to server</value></data>
+  <data name="CycleIgnition_FormatWaitingForRunoff" xml:space="preserve"><value>Waiting for {0} seconds...</value></data>
+  <data name="GatherServerDataPage_FormatDeviceErrors" xml:space="preserve"><value>{0} device errors</value></data>
+  <data name="Wizard_ButtonView" xml:space="preserve"><value>View</value></data>
+  <data name="Wizard_ButtonNext" xml:space="preserve"><value>Next</value></data>
+  <data name="Wizard_ButtonBack" xml:space="preserve"><value>Back</value></data>
+  <data name="SelectUnitSubPanelItemStatus_Default" xml:space="preserve"><value>OK</value></data>
+  <data name="ProgramDeviceManager_Step_Committing" xml:space="preserve"><value>Committing...</value></data>
+  <data name="SelectUnitSubPanelItem_MVCIServerRequiredButNotEnabled" xml:space="preserve"><value>This configuration must be programmed via the MVCI server but it is not enabled. Please check the setting in Tools/Options/Connections.</value></data>
+  <data name="SelectOperationPageFormat_ConnectedHardwareNotAMatch" xml:space="preserve"><value>Connected {0} hardware does not match expected {1}</value></data>
+  <data name="GatherServerDataPage_Message_AllWarning" xml:space="preserve"><value>This will permanently remove the data for ALL units.
+Are sure you want to continue?</value></data>
+  <data name="SelectDataSetPanel_Message_ThisIsEquivalentToTheCurrentDatasetForTheDevice" xml:space="preserve"><value>This is equivalent to the current data set for the device.</value></data>
+  <data name="ProgrammingDataItem_Unit" xml:space="preserve"><value>Unit</value></data>
+  <data name="SelectOperationPage_Chec" xml:space="preserve"><value>CHEC</value></data>
+  <data name="SelectSettingsSubPanel_SelectConfiguration" xml:space="preserve"><value>Select the configuration to apply to the device</value></data>
+  <data name="CommandTools" xml:space="preserve"><value>&amp;Tools</value></data>
+  <data name="MessageMustEnterAValidVehicleNumberOrEngineSerialNumber" xml:space="preserve"><value>You must enter a valid Vehicle Identification Number or Engine Serial Number</value></data>
+  <data name="ProgramDeviceManager_Complete_ConnectionResourceNotAvailable" xml:space="preserve"><value>Connection resource not available</value></data>
+  <data name="ProgramDeviceManager_Step_NAUsingExistingFirmware" xml:space="preserve"><value>n/a - using existing firmware</value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_TheProgrammingOperationFailedToRetryClickTheStartButton" xml:space="preserve"><value>The programming operation failed - to retry, click the Start button</value></data>
+  <data name="WarningUserYesNoQuestion_VinIsNeededToContinueDataDownload" xml:space="preserve"><value>Without a Vehicle Identification Number only powertrain device data will be downloaded.
+Do you want to continue and download powertrain device data only?</value></data>
+  <data name="connecting" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAASgIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsQAAALEAGt
+I711AAAAB3RJTUUH1wMdFRcm618TVQAAAdlJREFUOE+1kV1I02EUh4/hEvIibDW66INNLZZkVPZl
+kEkNSqwhzphhUVLJAsMobBgOLxYaTEWKUAu0DxW3/qRiu4vA0BsvuulDUzIMlzqcfehNBI/zz/8i
+cc6CeuDHe8578Zz38Mp/J81vJP1lMvJY0K7+jtQWE51cJ6PHjHijSBLv6sn0pag5qqRi6dzBEWUX
+9heZtP0so5kisvt3EqMsIUmuM9A966F+8jJNoWs0TLhoDrlom3Fx73sRNbP5qiTvzT6kO4LEVLuW
+ui/nKRk6yJV3VspGLZSPHadiPJtbwRyqpvOo/nFaldh69qDriF0o2VaRwNaadRgr96qnGs9mkioT
+SbptXJRFq4RXEHFMaV10VjSkaNVvrLrxUKuW4YlIvP251mjEOYNsudr7x9HntC98vq40wKn6EWr7
+flHS8Y2L7SHyH01wsnEMy53PpFd/ZLv7AybXAOtvDrLSqkT4SscUB9zvKfXPcK41SG7TOFmNAQ6H
+BWmeT5jdw2wsHyDBOYjuhDeCYJ4LQczO1xR6p7E+CLCp0Ieh4Bn6AoXV9qfE23zEhRN7rHUJwTxn
+R9hQ3Eduy1fWnPEjWV0ill6R3W9FDt0X2R/ul8U2iv7SKwyO/iiT/gkic0KiFUnUWzhcAAAAAElF
+TkSuQmCCCw==</value></data><data name="SelectOperationPage_Compat_TargetDevice" xml:space="preserve"><value>Target Device</value></data>
+  <data name="PartNumberErrorDialog_FormatDomainNotExist" xml:space="preserve"><value>Domain from CCF does not exist in connected variant {0}</value></data>
+  <data name="ConnectedUnit_FormatUnitDataUpdatedOn" xml:space="preserve"><value>Data for upload last updated on {0}.</value></data>
+  <data name="PanelTitle" xml:space="preserve"><value>Program Device</value></data>
+  <data name="ProgramDeviceManager_Complete_UnexpectedSequenceInConnectComplete" xml:space="preserve"><value>Unexpected sequence in ConnectComplete</value></data>
+  <data name="PanelImage" mimetype="application/x-microsoft.net.object.binary.base64"><value>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
+TkSuQmCCCw==</value></data><data name="SelectUnitSubPanelItemFormat_MissingDatasetFlashKey" xml:space="preserve"><value>The server specified a dataset flash key ({0}) which could not be found in a flash file.</value></data>
+  <data name="MessageMustEnterAValidProductIdentificationNumber" xml:space="preserve"><value>You must enter a valid Product Identification Number</value></data>
+  <data name="GatherServerDataPage_TabUnitManagement" xml:space="preserve"><value>Unit data management</value></data>
+  <data name="GatherServerDataPage_TabUnit" xml:space="preserve"><value>Unit</value></data>
+  <data name="MessageFormat_CouldNotSetParameterGroupError" xml:space="preserve"><value>{0}: could not configure parameter group - {1}</value></data>
+  <data name="ProgrammingDataItem_Operation" xml:space="preserve"><value>Operation</value></data>
+  <data name="SelectUnitSubPanelItemFormat_MissingBootFirmwareFlashKey" xml:space="preserve"><value>The server specified a boot firmware flash key ({0}) which could not be found in a flash file.</value></data>
+  <data name="SelectOperationPageFormat_HardwarePartNumberInvalid" xml:space="preserve"><value>{0} Hardware Part Number Invalid</value></data>
+  <data name="SelectOperationPage_CurrentConnectedPowertrain" xml:space="preserve"><value>Connected Powertrain</value></data>
+  <data name="GatherServerDataPage_TabConnectedUnit" xml:space="preserve"><value>Connected unit</value></data>
+  <data name="ProgramDeviceManager_MessagFormatConnectToCAN" xml:space="preserve"><value>To continue, it is necessary to connect to the device {0} via a physical CAN connection. Press OK when you have established that connection.</value></data>
+  <data name="GatherServerDataPage_Devices_Separator" xml:space="preserve"><value>/</value></data>
+  <data name="ProgramDeviceManager_Complete_ChannelUnexpectedlyDisconnected" xml:space="preserve"><value>Channel unexpectedly disconnected</value></data>
+  <data name="Wizard_ButtonRemove" xml:space="preserve"><value>Remove</value></data>
+  <data name="ConnectedUnit_VehicleIdentificationInvalid" xml:space="preserve"><value>The Vehicle Identification Number is not valid.</value></data>
+  <data name="SelectUnitSubPanel_SelectUnit" xml:space="preserve"><value>Select the unit</value></data>
+  <data name="SelectOperationPageItem_NoDevicesAreConnected" xml:space="preserve"><value>No devices are connected</value></data>
+  <data name="Wizard_ButtonRefresh" xml:space="preserve"><value>Refresh</value></data>
+  <data name="GatherServerDataPage_Status_AutomaticOperationRequired" xml:space="preserve"><value>authorized operation required</value></data>
+  <data name="SelectOperationPage_FormatFirmwareFileStillToBeDownloaded" xml:space="preserve"><value>The required firmware {0} is a remote file that is still to be downloaded.</value></data>
+  <data name="ProgramDeviceManager_Step_Reading" xml:space="preserve"><value>Reading...</value></data>
+  <data name="CycleIgnition_TurnIgnitionOn" xml:space="preserve"><value>Turn ignition on!</value></data>
+  <data name="ProgrammingDataItem_HardwarePartNumber" xml:space="preserve"><value>Hardware Part Number</value></data>
+  <data name="SelectUnitSubPanelItemFormat_FirmwareFlashKeyRequiresDownload" xml:space="preserve"><value>The server specified a firmware flash key ({0}) which is still to be downloaded.</value></data>
+  <data name="DuplicatePowertrainEcusNotAllowed" xml:space="preserve"><value>Duplicate powertrain ecus not allowed.</value></data>
+  <data name="HelpToolTip_AddEditEcuHardwarePartNumbers_Overview" xml:space="preserve"><value>Only add or edit this list if programming a device that is different from what is listed.
+For example, when downloading unit data ahead of time for a replacement device with newer hardware.
+
+No changes to this list are necessary if currently connected to the device(s)
+that will be programmed, or if using the latest server data for programming.</value></data>
+  <data name="ProgramDevicePage_Hardware" xml:space="preserve"><value>Hardware</value></data>
+  <data name="ProgrammingOperation_ReplaceDeviceSettingsWithServerConfiguration" xml:space="preserve"><value>Replace Device Settings with Server Configuration</value></data>
+  <data name="SelectOperationPage_NoCompatibleSoftwareForHardware" xml:space="preserve"><value>The set of current software determined for the connected hardware is not a compatible software combination</value></data>
+  <data name="CycleIgnition_WaitingForReconnection" xml:space="preserve"><value>Waiting for device to complete connection...</value></data>
+  <data name="GatherServerDataPage_Message_UnitWarning" xml:space="preserve"><value>This will permanently remove the selected data.
+Are sure you want to continue?</value></data>
+  <data name="WarningPanelMessageFormat_TheAutomaticReprogrammingOperation0IsRequiredForTheConnectedVehicleClickHereToStartTheOperationForTheDevice1Step2Of3" xml:space="preserve"><value>The authorized reprogramming operation {0} is required for the connected vehicle. Click here to start the operation for the device {1} (step {2} of {3}).</value></data>
+  <data name="ConnectedUnit_FormatUnitDataUpdatedToday" xml:space="preserve"><value>Data for upload last updated today at {0}.</value></data>
+  <data name="CaptionStationLog" xml:space="preserve"><value>Station Log</value></data>
+  <data name="Wizard_ButtonRefreshData" xml:space="preserve"><value>Refresh data from server</value></data>
+  <data name="ProgramDevicePageTooltipFormat_ParameterErrors" xml:space="preserve"><value>The following events occurred while setting the configuration for {0}:
+
+{1}</value></data>
+  <data name="ProgramDeviceManager_Step_NAUsingExistingBootFirmware" xml:space="preserve"><value>n/a - using existing boot firmware</value></data>
+  <data name="SelectFirmwareSubPanelItem_UnitFileDoesNotContainInformationForThisDevice" xml:space="preserve"><value>Unit file does not contain information for this device</value></data>
+  <data name="GatherServerDataPage_RemoteFileDownloadPending" xml:space="preserve"><value>Download pending</value></data>
+  <data name="Wizard_ButtonConnect" xml:space="preserve"><value>Connect to server</value></data>
+  <data name="SelectOperationPage_DifferentESNOrVINMessage" xml:space="preserve"><value>The operation that you have selected will cause the configuration of the selected device to be replaced with a configuration that may be from a different unit or vehicle.</value></data>
+  <data name="SelectOperationPage_SelectOperation" xml:space="preserve"><value>Select the reprogramming operation you wish to take place</value></data>
+  <data name="WarningPanelMessageFormat_TheAutomaticReprogrammingOperation0IsRequiredForTheConnectedVehicleConnectTheDevice1ToProceed" xml:space="preserve"><value>The authorized reprogramming operation {0} is required for the connected vehicle. Connect the device {1} to proceed.</value></data>
+  <data name="ConnectedUnit_UnitStatusPending" xml:space="preserve"><value>Unit data download is pending.</value></data>
+  <data name="SelectOperationPage_FormatMeaningCannotBeProgrammed" xml:space="preserve"><value>The required firmware ({0}) is present, but cannot be programmed into the connected device.</value></data>
+  <data name="warning" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAApwIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAArvAAAK7wF9
+dopIAAAAB3RJTUUH0wMFDAw4pa1ANQAAAjZJREFUOE/FkFtIk2EYx58tEmMJJlIk5ZTC0UYXKdkI
+qQUt6a4bJepCvApBCio6CRHWWl003Ca2ooEd0TApylriAWkaSWq2opzOpTvKNrfv033L0/590ptd
+dLyJfvC/eZ/n93/gpX9Gn5kU9qvyQfs11bhdT8Xs+e9xWNO6+KANwsQjdN9Q+t1GWslGf2a0nko8
+L4+A990CP2ZC4N1JtOtIx8a/x9VKqf31crfgt8LxcAsGHigw6zuE17c3C70XKYet/Zr3FqoKOqrB
+DWghTVmF9EwVfK82IOouQZtO2sjWfo6nkbIcTQVTMU8thLdqpGfkIk+hhrM/B/HgLgw2y5OdOipi
+6z/yxkI3Q0N6hEeqgGAxdmzfiK2FO4G59eJ/qCBM5uK+blkviCRM+c7QdSr82LJ3IeoWC5yVELz7
+YbiUhaPHNUjyeZiaWIPPvAzOHinunKIypi0h6auT9XBjtaJ8AuHhcsQ+7UPInw/XyB4kwqvF6ymY
+iRMAwmM9eZvPkIy5RB3n6aDrRQVio5dF+TAiIwcw7dmNp+Y02KwZmI+nYmaakJz/WjDpJdSVUTXT
+idprsoemAncRGT4rFlQgMlqCBU8+NNuyoS7SitIKzM+JBaK8WLCYFgNxTCfqshQEE6F74MYugBuv
+BOcphRDSYJZbi0RCKQqSJfFbms5RgOlEDceotM20yddZp+Q7anP4dvM6vs2UKSaNbzUujz43UtRW
+Q9FnBoo8uULhhtP0wVJOWqb/V4i+ABIbV9TP1voNAAAAAElFTkSuQmCCCw==</value></data><data name="ReprogrammingView_NoTitle" xml:space="preserve"><value>¯\_(ツ)_/¯</value></data>
+  <data name="UnitPartNumberViewDialog_FormatNoSettings" xml:space="preserve"><value>There are no settings part numbers for {0}</value></data>
+  <data name="SelectDataSetPanel_Message_ThisIsTheCurrentDatasetForTheDevice" xml:space="preserve"><value>This is the current data set for the device.</value></data>
+  <data name="ProgrammingDataItem_BootSoftware" xml:space="preserve"><value>Boot Software</value></data>
+  <data name="SelectUnitSubPanelItem_CouldNotReadHardwarePartNumber" xml:space="preserve"><value>Error reading connected hardware part information</value></data>
+  <data name="ProgramDevicePage_IncompatibleHardwareDialogTitle" xml:space="preserve"><value>Incompatible Hardware</value></data>
+  <data name="ProgramDeviceManager_MessagFormatConnectToEthernet" xml:space="preserve"><value>To continue, it is necessary to connect to the device {0} via a physical Ethernet connection. Press OK when you have established that connection.</value></data>
+  <data name="GatherServerDataPage_DataNotApplicable" xml:space="preserve"><value>N/A</value></data>
+  <data name="ConnectedUnit_FormatUnitDataDownloadedYesterday" xml:space="preserve"><value>Unit data last downloaded yesterday at {0}.</value></data>
+  <data name="GatherServerDataPage_Format_FlashKeyMismatch" xml:space="preserve"><value>WARNING: Flash key mismatch - file contains {0}</value></data>
+  <data name="ProgramDevicePage_OutputName_Name" xml:space="preserve"><value>Name</value></data>
+  <data name="ProgramDevicePage_OutputName_Step" xml:space="preserve"><value>Step</value></data>
+  <data name="PartNumberErrorDialog_FormatFragmentNotExist" xml:space="preserve"><value>Fragment from CCF does not exist in connected variant {0}</value></data>
+  <data name="ConnectedUnit_OtherConnectedIdentityDescription" xml:space="preserve"><value>other connected device identity</value></data>
+  <data name="ProgramDevicePage_OfflineDeviceCompatibility_Information" xml:space="preserve"><value>Please ensure that offline devices are compatible with the software that you just programmed.</value></data>
+  <data name="GatherServerDataPage_UnitNotFound" xml:space="preserve"><value>The selected data could not be located.
+    
+Engine Serial Number: {0}
+Vehicle Identification Number: {1}
+</value></data>
+  <data name="GatherServerDataPage_StatusFormat_NoServerSettings" xml:space="preserve"><value>No server settings for {0}</value></data>
+  <data name="MessageFormatReplaceTo0Executing" xml:space="preserve"><value>Replace to {0} - executing</value></data>
+  <data name="ProgrammingData_FormatCouldNotLocateFile" xml:space="preserve"><value>The required file {0} was not provided by the server.</value></data>
+  <data name="GatherServerDataPage_Yes" xml:space="preserve"><value>yes</value></data>
+  <data name="GatherServerDataPage_TabDiagnosticDescriptions" xml:space="preserve"><value>Diagnostic descriptions</value></data>
+  <data name="UnitPartNumberViewDialog_DefaultString" xml:space="preserve"><value>(default string)</value></data>
+  <data name="CaptionError" xml:space="preserve"><value>Error</value></data>
+  <data name="Wizard_ButtonFinish" xml:space="preserve"><value>Finish</value></data>
+  <data name="ProgramDevicePage_PleaseWait" xml:space="preserve"><value>Please Wait</value></data>
+  <data name="HardwarePartNumberIsRequired" xml:space="preserve"><value>Hardware Part Number is required</value></data>
+  <data name="ProgramDevicePageTooltipFormat_NoParameterErrors" xml:space="preserve"><value>The device programmed successfully</value></data>
+  <data name="SelectOperationPage_EdexUpgradeMessage" xml:space="preserve"><value>The server reported that the selected configuration represents a hardware upgrade to the original vehicle configuration. Proceeding with reprogramming will store this device’s hardware part number in the server configuration at the next server connection.  Once this is done, the original device cannot be re-installed.</value></data>
+  <data name="MessageFormatUpgradeFrom0To1Executing" xml:space="preserve"><value>Upgrade from {0} to {1} - executing</value></data>
+  <data name="ProgramDeviceManager_Complete_EcuSoftwareVersionTooNew" xml:space="preserve"><value>Programmed firmware requires a diagnostic description update.</value></data>
+  <data name="UnitPartNumberViewDialog_FromParent" xml:space="preserve"><value>(from parent)</value></data>
+  <data name="GatherServerDataPage_PowertrainStatus" xml:space="preserve"><value>Powertrain status: </value></data>
+  <data name="GatherServerDataPage_ServerStatusSeparator" xml:space="preserve"><value> and </value></data>
+  <data name="Wizard_ButtonDownloadData" xml:space="preserve"><value>Download data from server</value></data>
+  <data name="ProgramDeviceManager_Complete_CycleIgnitionFailed" xml:space="preserve"><value>The ignition cycle was not completed</value></data>
+  <data name="SelectUnitSubPanelItem_NoUnitDataForConnectedHardware" xml:space="preserve"><value>Unit information does not contain firmware for the selected device hardware.</value></data>
+  <data name="GatherServerDataPage_NoInformation" xml:space="preserve"><value>There is no information to display.</value></data>
+  <data name="PartNumberErrorDialog_FormatFragmentBeforeDefaultString" xml:space="preserve"><value>The following fragments were incorrectly set before the default string: {0}</value></data>
+  <data name="ProgramDevicePageOutputInfoLabel_Programming" xml:space="preserve"><value>Programming...</value></data>
+  <data name="WarningPanelMessageFormat_TheAutomaticReprogrammingOperation0IsRequiredForTheConnectedVehicleClickHereToStartTheOperationForTheDevice1" xml:space="preserve"><value>The authorized reprogramming operation {0} is required for the connected vehicle. Click here to start the operation for the device {1}.</value></data>
+  <data name="PartNumberErrorDialog_CodingFileDate" xml:space="preserve"><value>Coding File Internal Date</value></data>
+  <data name="PartNumberErrorDialog_CodingFileName" xml:space="preserve"><value>Coding File Name</value></data>
+  <data name="SelectUnitSubPanelItem_NoUnitDataIsAvailable" xml:space="preserve"><value>No unit data is available</value></data>
+  <data name="remove" mimetype="application/x-microsoft.net.object.binary.base64"><value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0
+ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA2QIAAAKJUE5HDQoaCgAA
+AA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAACXBIWXMAAAsRAAALEQF/
+ZF+RAAAAB3RJTUUH0wkeFTY4XlvOjAAAAmhJREFUOE+tkl1I01EYh3///yzTMWdumU6HIrrMbJjU
+St0KTSdtqG1GlmUXfWNJ3UQXGVQQBBERXhQhdGNfKKJIISb2JWSscnSRhKwPDCwpMCHJLffrqAet
+7NLn5sD7vs95z3nPwYLTD9gfAU2vgBwZmqUX2NepoPsesOUkoMrwHO+AK5+8+eHQuSr6FeWJDE/z
+Aih9YzEGWW3hkFXPTo0iev1DINnwgY215IUqDjtX8SWweyou1lxfkn6MB3JITwoDeUa2A43T0p/4
+gIvBei95dit52s3nBu3IA6Do2bKYL6zdQG5P55jLxI5IdUhcQy+1Od4C2YN2S5hnxAYnShjca+NT
+oy7MOju5K4uTlansNWsnxYxKpTKfPo36mPVu8ngheaSAPJpH7llN7sjggM3A+0CDLP0/D4Gy95sy
+yDoh718rZCu5cwVHnElsUdB/F1giS+cjJp0sOnQNlwvpsE3KmeS2NI444nkH6GkGtLL8L5Q+4GCf
+OW40VOsgD60ja7Jn5Mo0stxMlpn4zRHHFhW+LsAkvRl6AE9gfQp5LF90FWL1SrLKwl/eVLIimZOu
+RAad8QyWGDnm0LM9Wh0Wp9ksdaBVPNVgboKYtOgonmqq63d3Ett1i0KBHD3DrnhOFBs4XhjL8Y0x
+HLVH88b0uCQdGsU/4RGiV5yiwszPxcvZpo342gbktwBXA1YdJ4qW8odDx9ECLbtNEbwJ1EgdEJO9
+NF6cwJ9liXy9JpbNquIXw0yXaUX8uoaBzCgOWKPYYdBQbHpZ5mZoAoxti1Vfa7Tm4y3g1DUgUqZm
+uQ2cvy5+qlizZGghAH4DhyQkNKeH6MMAAAAASUVORK5CYIIL</value></data><data name="MessageFormat_CouldNotSetParameterError" xml:space="preserve"><value>{0}: could not set to '{1}' - {2}</value></data>
+  <data name="ConnectedUnit_FormatVehicleIdentificationInconsistency" xml:space="preserve"><value>The Vehicle Identification Number is inconsistent. The following devices may need to be programmed: {0}.</value></data>
+  </root>

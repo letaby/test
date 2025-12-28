@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>FaultCodeTabs</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Instruments" />
+    <Reference Include="Interfaces" />
+    <Reference Include="CommonCS" />
+    <Reference Include="SAPI">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.Web.WebView2.Core" />
+    <Reference Include="WebView2" />
+    <Reference Include="Help" />
+    <Reference Include="System.Core" />
+    <Reference Include="Net" />
+    <Reference Include="CommonThemedControls" />
+    <Reference Include="Microsoft.Web.WebView2.WinForms" />
+  </ItemGroup>
+</Project>

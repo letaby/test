@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<!-- SapiFile -->
+	<xs:element name="SapiFile">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="CBFVersions">
+				</xs:element>
+				<xs:element maxOccurs="1" ref="Ecu">
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="Time" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- CBFVersions -->
+	<xs:element name="CBFVersions">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="CBF" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- CBF -->
+	<xs:element name="CBF">
+		<xs:complexType mixed="false">
+			<xs:attribute name="ecu" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="version" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Ecu -->
+	<xs:element name="Ecu">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="Properties" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="EcuInfos" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="EnvironmentDatas" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="Instruments" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="Services" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="ServicesAsInstruments" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="ServicesAsParameters" maxOccurs="1"  />
+				<xs:element minOccurs="0" ref="AccumulatorGroups" maxOccurs="1" />
+				<xs:element minOccurs="0" ref="DiagServices" maxOccurs="1"  />
+				<xs:element minOccurs="0" ref="ComParameters" maxOccurs="1"  />
+				<xs:element minOccurs="0" ref="Extension" maxOccurs="1"  />
+			</xs:sequence>
+			<xs:attribute name="Name" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="ConfigurationVersion" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Checksum" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="TargetApplication" form="unqualified" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Properties -->
+	<xs:element name="Properties">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element ref="Property" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Property -->
+	<xs:element name="Property">
+		<xs:complexType mixed="false">
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="Name" type="xs:string" use="required" form="unqualified" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- EcuInfos -->
+	<xs:element name="EcuInfos">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element ref="EcuInfo" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- EcuInfo -->
+	<xs:element name="EcuInfo">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element ref="Reference" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Name" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="GroupQualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="GroupName" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="HideComponents" form="unqualified" type="xs:string" use="optional" default="true" />
+			<xs:attribute name="Description" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="PresentationIndex" form="unqualified" type="xs:integer" use="optional" />
+      <xs:attribute name="FormatString" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Reference -->
+	<xs:element name="Reference">
+		<xs:complexType mixed="false" >
+			<xs:sequence />
+			<xs:attribute name="Qualifier" type="xs:string" use="required" form="unqualified" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- EnvironmentDatas -->
+	<xs:element name="EnvironmentDatas">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="EnvironmentData" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- EnvironmentData -->
+	<xs:element name="EnvironmentData">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Reference" />
+			</xs:sequence>
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Name" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="HideComponents" form="unqualified" type="xs:string" use="optional" default="true" />
+			<xs:attribute name="Units" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="FormatString" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Instruments -->
+	<xs:element name="Instruments">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="Instrument" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Instrument -->
+	<xs:element name="Instrument">
+		<xs:complexType mixed="false" >
+			<xs:sequence />
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="ReplaceQualifier" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="CheckBitLength" form="unqualified" type="xs:string" use="optional" />
+    </xs:complexType>
+	</xs:element>
+
+	<!-- Services -->
+	<xs:element name="Services">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element ref="Service" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Service -->
+	<xs:element name="Service">
+		<xs:complexType mixed="false" >
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Affects" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="PreService" form="unqualified" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ServicesAsInstruments -->
+	<xs:element name="ServicesAsInstruments">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="ServiceAsInstrument" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ServiceAsInstrument -->
+	<xs:element name="ServiceAsInstrument">
+		<xs:complexType mixed="false" >
+			<xs:attribute name="Name" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="ReferenceQualifier" form="unqualified" type="xs:string" use="required" />
+      <xs:attribute name="IsRegex" form="unqualified" type="xs:boolean" use="optional" default="false"/>
+      <xs:attribute name="Marked" form="unqualified" type="xs:boolean" use="optional" default="true" />
+			<xs:attribute name="Hide" form="unqualified" type="xs:boolean" use="optional" default="false" />
+    </xs:complexType>
+	</xs:element>
+
+	<!-- ServicesAsParameters -->
+	<xs:element name="ServicesAsParameters">
+		<xs:complexType mixed="false" >
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="ServiceAsParameter" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ServiceAsParameter-->
+	<xs:element name="ServiceAsParameter">
+		<xs:complexType mixed="false" >
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Name" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="WriteReferenceQualifier" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="WriteReferenceIndex" form="unqualified" type="xs:integer" use="optional" />
+			<xs:attribute name="ReadReferenceQualifier" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="Hide" form="unqualified" type="xs:boolean" use="optional" default="false" />
+      <xs:attribute name="Accumulator" form="unqualified" type="xs:boolean" use="optional" default="false" />
+    </xs:complexType>
+	</xs:element>
+	
+	<!-- AccumulatorGroups -->
+	<xs:element name="AccumulatorGroups">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="AccumulatorGroup" />
+			</xs:sequence>
+		</xs:complexType>
+	 </xs:element>
+	
+	<!-- AccumulatorGroup -->
+	<xs:element name="AccumulatorGroup">
+		<xs:complexType mixed="false">
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- DiagServices -->
+	<xs:element name="DiagServices">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="DiagService" />
+			</xs:sequence>
+			<xs:attribute name="NameSplit" form="unqualified" type="xs:string" use="optional" />
+		</xs:complexType>
+	 </xs:element>
+	
+	<!-- DiagService -->
+	<xs:element name="DiagService">
+		<xs:complexType mixed="false">
+			<xs:attribute name="Qualifier" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Action" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="CacheTime" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="Summary" form="unqualified" type="xs:string" use="optional" />
+			<xs:attribute name="AlternateQualifier" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="ReadAccess" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="WriteAccess" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="LimitedRangeMin" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="LimitedRangeMax" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="ProhibitedChoices" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="IgnoreNegativeResponse" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="Choices" form="unqualified" type="xs:string" use="optional" />
+      <xs:attribute name="SystemRequestLimit" form="unqualified" type="xs:int" use="optional" />
+      <xs:attribute name="SystemRequestLimitResetOn" form="unqualified" type="xs:string" use="optional" />
+    </xs:complexType>
+	</xs:element>
+
+	<!-- ComParameters -->
+	<xs:element name="ComParameters">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="ComParameter" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- ComParameter -->
+	<xs:element name="ComParameter">
+		<xs:complexType mixed="false">
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="Name" type="xs:string" use="required" form="unqualified" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- Extension -->
+	<xs:element name="Extension">
+		<xs:complexType mixed="false">
+			<xs:attribute name="Source" form="unqualified" type="xs:string" use="required" />
+			<xs:attribute name="Version" form="unqualified" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

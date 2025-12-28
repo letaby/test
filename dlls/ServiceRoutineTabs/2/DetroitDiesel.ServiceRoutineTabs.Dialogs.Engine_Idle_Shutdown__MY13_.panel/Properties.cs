@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using DetroitDiesel.Common;
+using DetroitDiesel.Design;
+using DetroitDiesel.Interfaces;
+
+namespace DetroitDiesel.ServiceRoutineTabs.Dialogs.Engine_Idle_Shutdown__MY13_.panel;
+
+public class Properties : PanelProperties
+{
+	public override int FileVersion => 75;
+
+	public override string FilePath => "C:\\Users\\Public\\Source\\drumroll\\drumroll\\Source\\\\Data\\Service Routine Tabs\\Dialogs\\Engine Idle Shutdown (MY13).panel";
+
+	public override string Guid => "2b4946a0-299d-4b4d-b754-d0cdbc510356";
+
+	public override string DisplayName => "Engine Idle Shutdown";
+
+	public override IEnumerable<string> SupportedDevices => new string[1] { "CPC04T" };
+
+	public override bool AllDevicesRequired => true;
+
+	public override bool IsDialog => true;
+
+	public override string Category => "";
+
+	public override FilterTypes Filters => (FilterTypes)2;
+
+	public override PanelUseCases UseCases => (PanelUseCases)8;
+
+	public override PanelTargets TargetHosts => (PanelTargets)1;
+
+	public override int MinProductAccessLevel => 0;
+
+	public override int MinDynamicAccessLevel => 0;
+
+	public override IEnumerable<Qualifier> RequiredQualifiers => (IEnumerable<Qualifier>)(object)new Qualifier[3]
+	{
+		new Qualifier((QualifierTypes)2, "CPC04T", "RT_Prevent_Engine_Shutdown_Start"),
+		new Qualifier((QualifierTypes)2, "CPC04T", "RT_Prevent_Engine_Shutdown_Request_Results_Status"),
+		new Qualifier((QualifierTypes)2, "CPC04T", "RT_Prevent_Engine_Shutdown_Stop")
+	};
+
+	public override FaultCondition RequiredFaultCondition => new FaultCondition((FaultConditionType)0, (IEnumerable<Qualifier>)(object)new Qualifier[0]);
+
+	public override IEnumerable<string> UserSourceEcuReferences => new string[1] { "CPC04T" };
+
+	public override IEnumerable<string> UserSourceInstrumentQualifierReferences => new string[3] { "RT_Prevent_Engine_Shutdown_Start", "RT_Prevent_Engine_Shutdown_Request_Results_Status", "RT_Prevent_Engine_Shutdown_Stop" };
+
+	public Properties(Type runtimeType)
+		: base(runtimeType)
+	{
+	}
+}

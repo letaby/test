@@ -1,0 +1,29 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: DetroitDiesel.Windows.Forms.Diagnostics.Panels.Parameters.ParameterPanels
+// Assembly: Parameters, Version=8.19.5842.0, Culture=neutral, PublicKeyToken=1d4aea3187b835fe
+// MVID: 266306EF-5E5A-4E97-A95E-0BCBE6FD3F76
+// Assembly location: C:\Users\petra\Downloads\Архив (2)\Parameters.dll
+
+using DetroitDiesel.Help;
+using DetroitDiesel.Reflection;
+using DetroitDiesel.Windows.Forms.Diagnostics.Panels.Instruments;
+using System.Windows.Forms;
+
+#nullable disable
+namespace DetroitDiesel.Windows.Forms.Diagnostics.Panels.Parameters;
+
+internal class ParameterPanels : PanelBase
+{
+  public ParameterPanels()
+    : base((PanelIdentifier) 6, Link.Empty)
+  {
+    this.InitializeComponent();
+  }
+
+  private void InitializeComponent()
+  {
+    ((Control) this).SuspendLayout();
+    ((Control) this).Name = nameof (ParameterPanels);
+    ((Control) this).ResumeLayout(false);
+  }
+}

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Reprogramming</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="DetroitDiesel.Windows.Forms.Diagnostics.Panels.Reprogramming.BlankProgramDeviceList.html" />
+    <EmbeddedResource Include="DetroitDiesel.Windows.Forms.Diagnostics.Panels.Reprogramming.BlankProgramDeviceList.html" LogicalName="DetroitDiesel.Windows.Forms.Diagnostics.Panels.Reprogramming.BlankProgramDeviceList.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Interfaces" />
+    <Reference Include="CommonCS" />
+    <Reference Include="SAPI">
+      <HintPath>..\..\Telegram Desktop\Архив (2)\SAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Net" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Help" />
+    <Reference Include="Instruments" />
+    <Reference Include="CrashHandler" />
+  </ItemGroup>
+</Project>
