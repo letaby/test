@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\petra\Downloads\Telegram Desktop\Drumroll.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8405A9B9-23F5-4289-B6D3-9C64D57DAE5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Drumroll</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <ApplicationVersion>8.19.5842.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>DetroitDiesel</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\LogFileInfoDialog.cs" />
+    <Compile Include="Settings\ServerRegistrationDialog.cs" />
+    <Compile Include="Net\NetworkDebugger.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\BusMonitorForm.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\BusMonitorSettingsForm.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\BusMonitorStatisticsForm.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ConnectionDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ConnectionStatusButton.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\FilterDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\LanguageManager.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\MainForm.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\PrintFaultsDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\UninstallDeauthorizeDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\WarningsOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\EcuStatusView.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\FleetInfoOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\FleetInformation.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\FleetTimeZone.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\OpenLogFileForm.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ListViewColumnSorter.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\Program.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\SeekTimeDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ServerOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\CautionDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\CommandLineArguments.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ConnectionOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\OptionsDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\OptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\SupportOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\TabbedView.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\DisplayOptionsPanel.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ConnectionState.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\ConnectionIcon.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\EcuStatusItem.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\FeedbackDialog.cs" />
+    <Compile Include="Windows\Forms\Diagnostics\Container\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="button_click" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\LogFileInfoDialog.resx" />
+    <EmbeddedResource Include="Net\NetworkDebugger.resx" />
+    <EmbeddedResource Include="Settings\ServerRegistrationDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\App.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\BusMonitorForm.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\BusMonitorSettingsForm.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\BusMonitorStatisticsForm.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\CautionDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\ConnectionDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\ConnectionOptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\ConnectionState.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\ConnectionStatusButton.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\DisplayOptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\EcuStatusItem.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\EcuStatusView.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\FeedbackDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\FilterDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\FleetInfoOptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\MainForm.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\OpenLogFileForm.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_connection.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_server.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_support.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_support_history.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_support_panels.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\option_theme.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\OptionsDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\OptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\PrintFaultsDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\Properties\Resources.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\Resources\caution.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\SeekTimeDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\ServerOptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon connected.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon connecting.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon flashing.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon play log file.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon read-write.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon stop.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\small icon warning.ico" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\SupportOptionsPanel.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\TabbedView.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\UninstallDeauthorizeDialog.resx" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\warningshield.png" />
+    <EmbeddedResource Include="Windows\Forms\Diagnostics\Container\WarningsOptionsPanel.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
